@@ -1,4 +1,5 @@
-# RAG over Scanned Books: Project Plan (v3)
+# RAG over Scanned Books: Project Plan 
+
 
 ## 1. Project summary
 
