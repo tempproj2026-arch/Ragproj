@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "rag-technical-books": {
+      "command": "D:\\Ragproj\\.venv\\Scripts\\python.exe",
+      "args": [
+        "D:\\Ragproj\\run_mcp.py"
+      ]
+    }
+  }
+}

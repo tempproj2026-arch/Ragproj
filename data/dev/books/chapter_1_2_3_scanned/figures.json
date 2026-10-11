@@ -1,0 +1,92 @@
+[
+  {
+    "region_id": "r001_figure",
+    "page_number": 2,
+    "book_slug": "chapter_1_2_3_scanned",
+    "caption": "Technical Diagram",
+    "description": "This is **Figure III**, titled \"Simple Carbureter\". The diagram illustrates the basic components of a carburetor used to mix air and fuel for internal combustion engines.\n\nHere's a breakdown of the labeled parts:\n\n- **Air Inlet**: This is the opening where air enters the carburetor.\n- **Needle Valve**: This valve controls the flow of fuel into the air stream.\n- **Fuel Inlet**: This is the point where fuel enters the carburetor.\n- **To Engine**: This indicates the direction the mixture travels after being mixed by the carburetor, ultimately going to the engine.\n\nThe diagram shows the airflow through the carburetor, with arrows indicating the direction of the air as it moves from the inlet towards the engine. The fuel is introduced at the fuel inlet and mixes with the air before being directed to the engine.",
+    "image_path": "books/chapter_1_2_3_scanned/pages/p0002/regions/r001_figure.png",
+    "bbox": [
+      142,
+      173,
+      1379,
+      867
+    ],
+    "figure_id": "chapter_1_2_3_scanned_fig0001"
+  },
+  {
+    "region_id": "r001_figure",
+    "page_number": 7,
+    "book_slug": "chapter_1_2_3_scanned",
+    "caption": "Figure 1** from the referenced source.",
+    "description": "This is **Figure 1** from the referenced source.\n\nThe figure illustrates the **distillation range of petroleum fractions**, specifically detailing the composition of gasoline and its various fractions obtained through fractional distillation.\n\nHere's a breakdown of the labeled components:\n\n- **Gasoline**: The top fraction, representing the lightest and most volatile components.\n- **Naptha C**: A fraction with a lower boiling point than gasoline but higher than Naptha B.\n- **Naptha B**: A fraction with a lower boiling point than Naptha A but higher than Naptha C.\n- **Naptha A**: The heaviest fraction among the naphthas.\n- **Kerosene**: A significant portion of the distillate, with a wide boiling range.\n- **Lubricating Oils**: Fractions that are heavier than kerosene and are used for lubrication purposes.\n- **Tar, Paraffin, etc.**: The heaviest fractions, which are typically not useful as fuel and are often discarded or repurposed.\n\nEach fraction is accompanied by two values:\n- **Amount**: The percentage contribution to the total distillate.\n- **Density**: The temperature range at which the fraction boils, expressed in degrees Fahrenheit.\n\nFor example:\n- **Naptha C**: 10.9%, boiling range 78\u00b0 to 68\u00b0F.\n- **Naptha B**: 2.5%, boiling range 68\u00b0 to 64\u00b0F.\n- **Naptha A**: 2%, boiling range 64\u00b0 to 60\u00b0F.\n- **Kerosene**: 50%, boiling range 56\u00b0 to 32\u00b0F.\n- **Lubricating Oils**: 15%, boiling range 32\u00b0 to 15\u00b0F.\n- **Tar, Paraffin, etc.**: 19%, boiling range 15\u00b0 to 0\u00b0F.\n\nThe figure visually represents the separation of petroleum into different fractions based on their boiling points, which is crucial for understanding the composition of gasoline and other petroleum products.",
+    "image_path": "books/chapter_1_2_3_scanned/pages/p0007/regions/r001_figure.png",
+    "bbox": [
+      242,
+      169,
+      1262,
+      1741
+    ],
+    "figure_id": "chapter_1_2_3_scanned_fig0002"
+  },
+  {
+    "region_id": "r001_figure",
+    "page_number": 13,
+    "book_slug": "chapter_1_2_3_scanned",
+    "caption": "Figure 5**, a detailed technical illustration of a mechanical device, likely a part of a larger machine or apparatus.",
+    "description": "This is **Figure 5**, a detailed technical illustration of a mechanical device, likely a part of a larger machine or apparatus.\n\n### Labeled Components:\n1. **C** - This appears to be a lever or handle, possibly used for manual operation.\n2. **W** - Likely a weight or load attached to the lever C.\n3. **A** - A dimension marked as \"A\" is shown between two points on the device, indicating a measurement.\n4. **2 x 6\"** - This label specifies the dimensions of a wooden beam or support structure.\n5. **Wing Nut** - A fastener used to secure parts together.\n6. **2 x 1/2\"** - Another dimension, possibly referring to another part's size or thickness.\n7. **Wheel** - A large wheel with multiple holes, likely a pulley or gear wheel, which is connected to other parts of the mechanism.\n\n### Inputs and Outputs:\n- **Input**: The lever C and the weight W suggest that this device might be used to apply force or tension to the wheel.\n- **Output**: The wheel itself could be the output, as it appears to be the main component that would rotate due to the applied force.\n\n### Technical Purpose:\nThe purpose of this device seems to be related to mechanical power transmission or force application. The lever and weight combination suggests that it could be used to apply torque or force to the wheel, which could be part of a larger system such as a winch, a press, or a similar mechanical device requiring manual operation.\n\n### Labels and Text:\n- **C** - Lever\n- **W** - Weight\n- **A** - Dimension \"A\"\n- **2 x 6\"** - Dimensions of a wooden beam\n- **Wing Nut** - Fastener\n- **2 x 1/2\"** - Another dimension\n- **Wheel** - Large wheel with multiple holes\n\nThis figure is likely from a technical manual or patent, given its detailed nature and the presence of measurements and labels.",
+    "image_path": "books/chapter_1_2_3_scanned/pages/p0013/regions/r001_figure.png",
+    "bbox": [
+      137,
+      172,
+      1372,
+      1070
+    ],
+    "figure_id": "chapter_1_2_3_scanned_fig0003"
+  },
+  {
+    "region_id": "r005_figure",
+    "page_number": 15,
+    "book_slug": "chapter_1_2_3_scanned",
+    "caption": "Technical Diagram",
+    "description": "The image is titled \"The Farm Power House.\" It depicts a wooden structure with a large open area on one side, likely serving as a workshop or power house for agricultural purposes.\n\n### Labeled Components:\n1. **Left Side:**\n   - A large machine with a vertical cylinder and a horizontal crankshaft, possibly a steam engine.\n   - A smaller machine with a vertical cylinder and a horizontal crankshaft, also likely a steam engine.\n   - A person standing near the larger machine, possibly operating it.\n   - A small table with various tools or equipment.\n\n2. **Center:**\n   - A large vertical cylinder with a horizontal crankshaft, another steam engine.\n   - A person standing near the center of the structure, possibly operating the machinery.\n   - A table with tools or equipment.\n\n3. **Right Side:**\n   - A large wheel and belt system, connected to a smaller wheel and belt system.\n   - A person standing near the right side of the structure, possibly operating the machinery.\n   - A small table with tools or equipment.\n\n4. **Roof:**\n   - Several pipes or conduits running along the roof, likely for ventilation or steam distribution.\n\n5. **Background:**\n   - A small building with a chimney, possibly a boiler house or storage shed.\n\n### Arrows:\n- There are no explicit arrows pointing to specific components within the diagram.\n\n### Inputs and Outputs:\n- The steam engines appear to be the primary input sources for power.\n- The belts and pulleys suggest that the power is distributed to various machines and tools within the structure.\n- The output would be mechanical energy used to operate the various machines and tools within the power house.\n\n### Technical Purpose:\nThe Farm Power House is designed to provide a centralized source of power for various agricultural tasks. The steam engines generate power, which is then distributed through belts and pulleys to operate different machines and tools within the structure. This setup allows for efficient and coordinated operation of multiple farm implements and equipment, reducing the need for manual labor and increasing productivity.",
+    "image_path": "books/chapter_1_2_3_scanned/pages/p0015/regions/r005_figure.png",
+    "bbox": [
+      300,
+      506,
+      1212,
+      987
+    ],
+    "figure_id": "chapter_1_2_3_scanned_fig0004"
+  },
+  {
+    "region_id": "r006_figure",
+    "page_number": 17,
+    "book_slug": "chapter_1_2_3_scanned",
+    "caption": "Technical Diagram",
+    "description": "This is a historical illustration titled \"Reliable Shop Power,\" depicting a workshop scene with various mechanical devices and workers.\n\n### Labeled Components:\n1. **Large Horizontal Wheel**: Positioned on the left side of the image, this wheel appears to be part of a larger machine, possibly a lathe or a similar device used for metalworking.\n2. **Vertical Column with Pulleys**: Attached to the large horizontal wheel, this column supports multiple pulleys connected by belts or chains.\n3. **Small Horizontal Wheel**: Located near the center of the image, this wheel is smaller than the one on the left and seems to be connected to another mechanism.\n4. **Lamp**: Positioned above the central area, this lamp provides illumination for the workshop.\n5. **Motor/Engine**: On the right side of the image, there is a large motor or engine with a flywheel, likely providing power to the various machines in the workshop.\n6. **Worker**: Two individuals are depicted working within the workshop. One appears to be operating the large horizontal wheel, while the other is engaged with a different piece of machinery.\n7. **Workbench**: A workbench is visible in the foreground where the worker on the right is standing.\n8. **Pipes and Valves**: Various pipes and valves are connected to the machinery, indicating a system for water, steam, or air supply.\n9. **Windows**: Two windows are present in the background, allowing natural light into the workshop.\n\n### Arrows, Inputs, Outputs:\n- **Arrows**: There are no explicit arrows pointing to specific inputs or outputs in this illustration. However, the connections between the machinery suggest that the motor/engine is the primary source of power, driving the wheels and other mechanisms.\n- **Inputs**: The inputs appear to be electrical or mechanical energy from the motor/engine, which powers the various machines.\n- **Outputs**: The outputs are the mechanical actions performed by the machines, such as turning the wheels, cutting metal, or performing other tasks necessary for manufacturing.\n\n### Technical Purpose:\nThe illustration represents a workshop setting equipped with various machines powered by a motor/engine. The purpose of this setup is to provide reliable mechanical power for industrial operations, enabling workers to perform tasks such as machining, cutting, and other manufacturing processes efficiently. The presence of multiple machines and the workers indicates a focus on productivity and efficiency in a manufacturing environment.",
+    "image_path": "books/chapter_1_2_3_scanned/pages/p0017/regions/r006_figure.png",
+    "bbox": [
+      298,
+      562,
+      1214,
+      1042
+    ],
+    "figure_id": "chapter_1_2_3_scanned_fig0005"
+  },
+  {
+    "region_id": "r004_figure",
+    "page_number": 18,
+    "book_slug": "chapter_1_2_3_scanned",
+    "caption": "This is a technical illustration of a **Pascal's Barometer**.",
+    "description": "This is a technical illustration of a **Pascal's Barometer**.\n\n### Title:\nThe title of the figure is not explicitly stated within the image itself. However, based on the content, it would likely be something like \"Pascal's Barometer\" or \"Historical Barometric Pressure Measurement Device.\"\n\n### Labeled Components:\n1. **Main Body**: The central part of the barometer where the mercury column is contained.\n2. **Mercury Column**: The vertical tube filled with mercury that measures atmospheric pressure.\n3. **Scale**: The circular scale marked with numbers indicating the pressure levels in millimeters of mercury (mmHg).\n4. **Dial**: The circular dial at the top of the main body, which may have additional markings or indicators.\n5. **Cylinders**: Two small cylinders located above the main body, possibly for storing mercury or as part of the mechanism.\n6. **Base**: The bottom part of the device, which supports the entire structure.\n\n### Arrows, Inputs, Outputs:\nThere are no explicit arrows, inputs, or outputs depicted in this diagram. It is a static representation of the barometer without any indication of movement or interaction.\n\n### Technical Purpose:\nThe primary purpose of this device is to measure atmospheric pressure. By observing the height of the mercury column, one can determine the current atmospheric pressure. Higher atmospheric pressure results in a shorter mercury column, while lower atmospheric pressure leads to a taller mercury column. This principle was famously demonstrated by Blaise Pascal in the 17th century, hence the name \"Pascal's Barometer.\"",
+    "image_path": "books/chapter_1_2_3_scanned/pages/p0018/regions/r004_figure.png",
+    "bbox": [
+      1013,
+      160,
+      1135,
+      458
+    ],
+    "figure_id": "chapter_1_2_3_scanned_fig0006"
+  }
+]

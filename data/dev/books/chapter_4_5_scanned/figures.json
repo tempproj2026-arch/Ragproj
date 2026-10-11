@@ -1,0 +1,302 @@
+[
+  {
+    "region_id": "r003_figure",
+    "page_number": 1,
+    "book_slug": "chapter_4_5_scanned",
+    "caption": "Figure 1**, a schematic diagram illustrating a two-cylinder air-water pump system.",
+    "description": "This is **Figure 1**, a schematic diagram illustrating a two-cylinder air-water pump system.\n\n### Components:\n- **Cylinder A**: The lower cylinder, containing compressed air and water.\n- **Cylinder B**: The upper cylinder, also containing compressed air and water.\n- **Air Valve Open (C)**: Located on Cylinder A.\n- **Air Valve Closed (F)**: Located on Cylinder B.\n- **Exhaust Valve Closed (J)**: Located on Cylinder A.\n- **Exhaust Valve Open (H)**: Located on Cylinder B.\n- **Inlet Valve Open (G)**: Located on Cylinder A.\n- **Inlet Valve Closed (E)**: Located on Cylinder B.\n- **Compressed Air Tank**: Connected to the top of Cylinder B via pipe K.\n- **Water Level Indicators**: Visible within both cylinders.\n- **Arrows**: Indicate the direction of air flow and water displacement.\n\n### Inputs:\n- Compressed air from the tank connected to Cylinder B through pipe K.\n\n### Outputs:\n- Water is expelled from Cylinder A when the exhaust valve is open and the inlet valve is closed.\n- Air is exhausted from Cylinder B when the exhaust valve is open and the inlet valve is closed.\n\n### Technical Purpose:\nThe diagram depicts a basic reciprocating air-water pump mechanism. It shows how the cylinders alternately fill with air and water, compressing the air and expelling water through the exhaust valve. This process repeats, continuously pumping water out of the system. The valves control the flow of air and water between the cylinders and the environment.",
+    "image_path": "books/chapter_4_5_scanned/pages/p0001/regions/r003_figure.png",
+    "bbox": [
+      137,
+      656,
+      725,
+      1329
+    ],
+    "figure_id": "chapter_4_5_scanned_fig0001"
+  },
+  {
+    "region_id": "r001_figure",
+    "page_number": 2,
+    "book_slug": "chapter_4_5_scanned",
+    "caption": "Figure 17** from a technical document detailing the working parts of an autopneumatic pumping system.",
+    "description": "This is **Figure 17** from a technical document detailing the working parts of an autopneumatic pumping system.\n\n### Components and Labels:\n\n- **A. Front and side view:**\n  - **Gate Valve:** Located at the top left of the well casing.\n  - **Elbow:** Positioned below the gate valve.\n  - **Reducer:** Situated between the elbow and the water discharge pipe.\n  - **Water Discharge Pipe:** Extends downward from the reducer.\n  - **Well Casing:** The cylindrical structure surrounding the pump mechanism.\n  - **Low Water Level:** Marked within the well casing.\n  - **Increase:** A component near the bottom of the well casing.\n  - **3/4\" Pipe:** Likely connected to the increase.\n  - **N85 Auto-Pneumatic Pump:** The main pump mechanism located within the well casing.\n  - **Submergence:** The depth of the pump below the water level.\n  - **Manhole:** Access point for maintenance.\n  - **Frost Box:** A protective structure around the well casing.\n  - **Shifting Lever:** A control mechanism above the pump.\n  - **Head:** The upper part of the pump.\n  - **Water Inlet Water Cylinder:** The cylinder that receives water.\n  - **Water Outlet Strainer:** A filter attached to the water outlet pipe.\n  - **3/8\" Air Pipe:** Connected to the air supply pipe.\n  - **3/8\" Exhaust Pipe:** Connected to the exhaust pipe.\n  - **3/8\" Cut-off Union:** A connection point for the air supply pipe.\n  - **3/8\" Tee Union:** Another connection point.\n  - **3/8\" Tee Increaser:** An additional connection point.\n  - **Priming Cock:** A valve used to prime the pump.\n  - **Pressure Reducer:** Reduces pressure in the system.\n  - **Air Supply Pipe:** Connects to the pumps.\n  - **Tank For Air Only:** A separate tank for storing compressed air.\n  - **Air Pipe Line:** The line connecting the tank to the pump.\n  - **Pump:** The mechanical device that moves water.\n  - **3/8\" Cut-off Union:** Another connection point.\n  - **3/8\" Tee Union:** Another connection point.\n  - **3/8\" Tee Increaser:** Another connection point.\n  - **3/8\" Cut-off Union:** Another connection point.\n  -",
+    "image_path": "books/chapter_4_5_scanned/pages/p0002/regions/r001_figure.png",
+    "bbox": [
+      186,
+      164,
+      1288,
+      1673
+    ],
+    "figure_id": "chapter_4_5_scanned_fig0002"
+  },
+  {
+    "region_id": "r003_figure",
+    "page_number": 3,
+    "book_slug": "chapter_4_5_scanned",
+    "caption": "Figure 1**, a detailed illustration of a farm water system utilizing compressed air for various household tasks.",
+    "description": "This is **Figure 1**, a detailed illustration of a farm water system utilizing compressed air for various household tasks.\n\n### Labeled Components:\n- **Air Compressor**: Located on the left side of the diagram, depicted as a large tank with a motor and fan.\n- **Autopneumatic Pump**: Two identical pumps shown on the right side of the diagram, labeled \"AUTOPNEUMATIC PUMP.\"\n- **Well Water Pipe**: A pipe connecting the well to the autopneumatic pump.\n- **Cistern Water**: A storage tank for water collected from the cistern.\n- **Compressed Air Pipe**: A pipe connecting the air compressor to the autopneumatic pump.\n- **Farmhouse**: The main structure where the household activities take place.\n- **Bathroom**: A room within the farmhouse.\n- **Kitchen**: Another room within the farmhouse.\n- **Laundry**: A separate room within the farmhouse.\n\n### Inputs and Outputs:\n- **Inputs**:\n  - **Well Water**: Water drawn from the well through the well water pipe.\n  - **Compressed Air**: Air supplied by the air compressor.\n- **Outputs**:\n  - **Water for Various Uses**: Water distributed throughout the farmhouse for different purposes such as bathing, cooking, and laundry.\n\n### Technical Purpose:\nThe figure illustrates how compressed air is used to operate autopneumatic pumps, which in turn supply water to various parts of the farmhouse. This system likely serves multiple functions including:\n- **Water Distribution**: Providing water for daily household needs.\n- **Irrigation**: Possibly used for watering crops or livestock.\n- **Other Agricultural Needs**: Although not explicitly stated, the presence of the air compressor suggests it could be used for other agricultural purposes like powering tools or machinery.\n\n### Table Data:\nThe table at the top of the figure provides data on the total pressure in the air tank at start, measured in pounds per square inch (psi) and gallons of water produced at different pressures:\n\n| Work Pressure on Pump Gauge | 40 pounds | 50 pounds | 60 pounds | 70 pounds | 80 pounds | 90 pounds | 100 pounds |\n|------------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-------------|\n| Pounds                       | 375       | 259       | 833       | 1,075     | 1,310     | 1,548      | 1,78",
+    "image_path": "books/chapter_4_5_scanned/pages/p0003/regions/r003_figure.png",
+    "bbox": [
+      256,
+      499,
+      1276,
+      1538
+    ],
+    "figure_id": "chapter_4_5_scanned_fig0003"
+  },
+  {
+    "region_id": "r001_figure",
+    "page_number": 4,
+    "book_slug": "chapter_4_5_scanned",
+    "caption": "Technical Diagram",
+    "description": "This is a cross-sectional diagram of a hand-operated water pump, specifically a suction pump used for raising water from a well.\n\n**Title/Label:**\nThe diagram does not have a specific title or figure number. However, it clearly illustrates a \"Suction Pump.\"\n\n**Labeled Components:**\n- **Handle:** The lever at the top that is manually operated to pump water.\n- **Force Cylinder:** The main cylindrical chamber where the plunger moves up and down.\n- **Plunger or Force Piston:** The rod that moves up and down within the force cylinder.\n- **Suction Cylinder:** The smaller cylinder below the force cylinder where the water is drawn into the pump.\n- **Suction Valve:** A valve located at the bottom of the suction cylinder that opens to allow water to enter when the pump is lifted.\n- **Suction Wire:** The pipe that connects the suction cylinder to the surface of the water in the well.\n\n**Arrows:**\nThere are no directional arrows explicitly shown in the diagram itself. However, the movement of the plunger upwards is implied by the position of the handle above the force cylinder.\n\n**Inputs and Outputs:**\n- **Input:** Water from the well enters through the suction wire into the suction cylinder.\n- **Output:** Water is pumped out of the pump and into the force cylinder as the plunger moves upwards.\n\n**Technical Purpose:**\nThe purpose of this pump is to lift water from a well using manual effort. When the handle is pulled upwards, the plunger moves down, creating a vacuum in the suction cylinder which draws water up through the suction wire. As the handle is pushed back down, the plunger rises, pushing the water up through the force cylinder and out of the pump.\n\n**Text/Labels:**\n- \"HANDLE\"\n- \"FORCE CYLINDER\"\n- \"PLUNGER OR FORCE PISTON\"\n- \"SUCTION CYLINDER\"\n- \"SUCTION VALVE\"\n- \"SUCTION WIRE\"\n\nThis detailed description should help in accurately identifying and understanding the function of the depicted pump.",
+    "image_path": "books/chapter_4_5_scanned/pages/p0004/regions/r001_figure.png",
+    "bbox": [
+      159,
+      161,
+      722,
+      1450
+    ],
+    "figure_id": "chapter_4_5_scanned_fig0004"
+  },
+  {
+    "region_id": "r002_figure",
+    "page_number": 7,
+    "book_slug": "chapter_4_5_scanned",
+    "caption": "Technical Diagram",
+    "description": "This technical illustration depicts two different types of hand-operated water pumps, labeled as \"A\" and \"B\". \n\n**Figure A:**\n- **Title:** Not explicitly stated.\n- **Components:**\n  - A vertical handle at the top with a crank mechanism.\n  - A long, curved pipe extending downward from the handle.\n  - A faucet or spigot at the bottom for dispensing water.\n  - A cylindrical chamber below the faucet, likely the water storage tank.\n  - A smaller cylinder attached to the main body, possibly a valve or pressure regulator.\n  - A base plate at the bottom for stability.\n\n**Figure B:**\n- **Title:** Not explicitly stated.\n- **Components:**\n  - A vertical handle at the top with a crank mechanism.\n  - A long, curved pipe extending downward from the handle.\n  - A faucet or spigot at the bottom for dispensing water.\n  - A cylindrical chamber below the faucet, likely the water storage tank.\n  - A smaller cylinder attached to the main body, possibly a valve or pressure regulator.\n  - A base plate at the bottom for stability.\n  - A lever or handle on the side of the pump, likely used for additional control or to adjust the flow.\n\n**Technical Purpose:**\nBoth figures illustrate hand-operated water pumps designed to draw water from a source and dispense it through a faucet. The pumps use a manual crank mechanism to lift water from a well or other source into a storage tank, which is then gravity-fed through the faucet when the pump is not in operation. The additional components like the smaller cylinder and the lever suggest modifications for improved functionality or safety.\n\n**Labels:**\nNo specific labels are provided within the image itself. However, the figures are clearly marked as \"A\" and \"B\", indicating they are two different designs of the same type of pump.",
+    "image_path": "books/chapter_4_5_scanned/pages/p0007/regions/r002_figure.png",
+    "bbox": [
+      138,
+      565,
+      730,
+      1393
+    ],
+    "figure_id": "chapter_4_5_scanned_fig0005"
+  },
+  {
+    "region_id": "r003_figure",
+    "page_number": 7,
+    "book_slug": "chapter_4_5_scanned",
+    "caption": "Technical Diagram",
+    "description": "This is a detailed technical illustration of a mechanical device, likely a type of pump or engine. Here's a breakdown of the components:\n\n**Title/Label:**\nThe image does not have a specific title or figure number printed within it.\n\n**Labeled Components:**\n1. **Main Cylinder:** A vertical cylinder with a piston at the bottom.\n2. **Piston:** A rod connected to the main cylinder, which moves up and down.\n3. **Piston Rod:** The rod that connects the piston to the crankshaft.\n4. **Crankshaft:** A horizontal shaft that rotates, converting linear motion into rotational motion.\n5. **Crank Arm:** A component attached to the crankshaft that converts the circular motion of the crankshaft into the up-and-down motion of the piston.\n6. **Governor:** A mechanism located near the top of the cylinder, likely used to regulate the speed of the crankshaft.\n7. **Valve Mechanism:** Located on the side of the cylinder, possibly for controlling the flow of fluid or gas.\n8. **Water Tank:** A container at the top left, connected to the main cylinder by a pipe, suggesting the device might be a steam engine or a similar apparatus requiring water as part of its operation.\n9. **Steam Pipe:** A pipe leading from the water tank to the cylinder, indicating the source of steam or pressure.\n10. **Crank Handle:** A hand-operated lever attached to the crankshaft, allowing manual operation of the device.\n11. **Base:** The stand supporting the entire assembly.\n\n**Arrows:**\n- Arrows indicate the direction of movement or flow:\n  - From the water tank to the cylinder, suggesting the direction of steam or pressure flow.\n  - From the cylinder to the crankshaft, showing the direction of the piston's movement.\n  - From the crankshaft to the base, indicating the rotation of the crankshaft.\n\n**Inputs and Outputs:**\n- **Input:** Steam or pressure from the water tank.\n- **Output:** Mechanical energy through the crankshaft, which could be used to drive machinery or perform work.\n\n**Technical Purpose:**\nThe device appears to be a steam engine or a similar mechanical device designed to convert thermal energy into mechanical work. The governor and valve mechanism suggest it is intended to control the flow of steam and maintain a consistent operational speed. The crank handle allows for manual operation, which could be useful for starting or stopping the device manually.",
+    "image_path": "books/chapter_4_5_scanned/pages/p0007/regions/r003_figure.png",
+    "bbox": [
+      912,
+      162,
+      1240,
+      1133
+    ],
+    "figure_id": "chapter_4_5_scanned_fig0006"
+  },
+  {
+    "region_id": "r003_figure",
+    "page_number": 8,
+    "book_slug": "chapter_4_5_scanned",
+    "caption": "Technical Diagram",
+    "description": "This is a detailed cross-sectional illustration of a mechanical device, likely a part of a larger machine or system. The diagram is labeled with letters A through H to identify various components.\n\n**Title/Label:**\nThe diagram does not have a specific title or figure number mentioned within the image itself. However, it appears to be a detailed cross-section of a component, possibly related to fluid control or flow measurement given the presence of pipes and valves.\n\n**Labeled Components:**\n\n- **A:** This appears to be the main body or casing of the device.\n- **B:** A valve or control mechanism, possibly for controlling the flow of a substance.\n- **C:** Another valve or control mechanism, similar to B but positioned lower.\n- **D:** A small component that might be a sensor or a small valve.\n- **E:** A large cylindrical component at the top, possibly a tank or reservoir.\n- **F:** A pipe or conduit leading from the left side of the diagram.\n- **H:** A smaller pipe or conduit connected to the main body near the bottom right.\n\n**Arrows, Inputs, Outputs:**\nThere are no explicit arrows indicating direction of flow or inputs/outputs. However, the arrangement suggests that fluid or material could enter from the left via pipe F and exit through the pipe connected to the main body near the bottom right.\n\n**Technical Purpose:**\nBased on the presence of multiple valves and conduits, this device is likely designed to control the flow of a substance, such as water, oil, or another liquid. It may be part of a larger system where precise control over the flow rate or direction is necessary. The cylindrical component E could serve as a storage tank or reservoir, while the valves (B and C) would allow for regulation of the flow entering and exiting the system.\n\n**Text/Labels:**\nThe only text visible in the image is the letter labels A through H, which correspond to the components described above. There are no additional labels or text providing further context or explanation about the function of each part.",
+    "image_path": "books/chapter_4_5_scanned/pages/p0008/regions/r003_figure.png",
+    "bbox": [
+      247,
+      464,
+      1266,
+      1115
+    ],
+    "figure_id": "chapter_4_5_scanned_fig0007"
+  },
+  {
+    "region_id": "r002_figure",
+    "page_number": 9,
+    "book_slug": "chapter_4_5_scanned",
+    "caption": "Technical Diagram",
+    "description": "This is a schematic diagram illustrating a water lift system, likely for a residential or small commercial application.\n\n### Title:\nThe diagram is not explicitly titled within the image itself. However, it appears to be part of a larger document discussing water lift systems, as indicated by the reference to \"ELEVATION OF HOUSE\" and other related components.\n\n### Labeled Components:\n1. **Drive Tank**: A cylindrical tank connected to a spring mechanism.\n2. **Spring**: A coiled spring attached to the drive tank.\n3. **Drive Pipe**: A horizontal pipe extending from the drive tank.\n4. **Ram Pit**: A rectangular pit at the end of the drive pipe where the ram is located.\n5. **Ram**: A piston-like component within the ram pit.\n6. **Delivery Pipe**: A vertical pipe that extends upwards from the ram pit.\n7. **Relief Valve**: Located on the delivery pipe, near the top of the house elevation.\n8. **Air-Water Separator**: Positioned above the relief valve, likely used to separate air from water.\n9. **Basement**: The area where the drive tank and associated components are housed.\n10. **House Elevation**: The vertical line indicating the height of the house relative to the ground level.\n\n### Arrows:\n- An arrow points from the drive tank towards the spring, indicating the direction of force applied by the spring.\n- Another arrow points from the drive pipe into the ram pit, showing the path of the ram.\n- Arrows also indicate the flow of water through the delivery pipe and the direction of the relief valve's operation.\n\n### Inputs and Outputs:\n- **Input**: The spring provides the force necessary to move the ram.\n- **Output**: Water is lifted from the ground level to the house elevation through the delivery pipe.\n\n### Technical Purpose:\nThe diagram illustrates how a mechanical water lift system works. The spring compresses the ram, which then lifts water up the delivery pipe to the desired elevation within the house. The relief valve ensures that excess pressure does not build up in the system, preventing damage to the pipes and components. The air-water separator helps maintain the quality of the water by removing air bubbles before it reaches the household plumbing.\n\n### Additional Notes:\n- The text states: \"LIFT 'N' WILL VARY WITH READING ON PRESSURE GAUGE. ONE POUND OF PRESSURE IS EQUAL TO 2.3 FEET OF HEAD.\" This indicates that the lift capacity of the system can vary based on the pressure gauge reading, and the",
+    "image_path": "books/chapter_4_5_scanned/pages/p0009/regions/r002_figure.png",
+    "bbox": [
+      261,
+      514,
+      1251,
+      1039
+    ],
+    "figure_id": "chapter_4_5_scanned_fig0008"
+  },
+  {
+    "region_id": "r003_figure",
+    "page_number": 10,
+    "book_slug": "chapter_4_5_scanned",
+    "caption": "Technical Diagram",
+    "description": "This is a schematic diagram illustrating a water supply system, specifically a gravity-fed water distribution system used for both turbid water supply and pure water supply.\n\n### Title:\nThe diagram does not have a specific title but is labeled as \"TURBID WATER SUPPLY\" on the left side and \"PURE WATER SUPPLY\" on the right side.\n\n### Components:\n1. **Power Water Level**: The highest point of the water source.\n2. **Turbid Water Supply**: A pipe leading from the power water level to the gravity pipe.\n3. **Gravity Pipe**: A horizontal pipe that carries turbid water from the power water level to the delivery valve.\n4. **Delivery Valve**: A valve controlling the flow of turbid water into the body pipe.\n5. **Body Pipe**: A vertical pipe that transports turbid water from the delivery valve to the check valve.\n6. **Check Valve**: A valve that prevents backflow of turbid water.\n7. **Gate Valve**: A valve used to control the flow of water through the delivery pipe.\n8. **Spring Water Level**: The lowest point of the water source.\n9. **Spring Pipe**: A pipe that carries water from the spring water level to the supply pipe.\n10. **Supply Pipe**: A horizontal pipe that carries water from the spring pipe to the pure water supply outlet.\n11. **Pure Water Supply**: The outlet where the pure water is distributed.\n\n### Arrows:\n- Arrows indicate the direction of water flow:\n  - From the power water level to the gravity pipe.\n  - From the gravity pipe to the delivery valve.\n  - From the delivery valve to the body pipe.\n  - From the body pipe to the check valve.\n  - From the check valve to the gate valve.\n  - From the gate valve to the supply pipe.\n  - From the supply pipe to the pure water supply outlet.\n\n### Inputs and Outputs:\n- **Input**:\n  - Power Water Level: Turbid water supply.\n  - Spring Water Level: Pure water supply.\n- **Output**:\n  - Pure Water Supply Outlet: Pure water supply.\n\n### Technical Purpose:\nThe diagram illustrates how turbid water is separated from pure water using a gravity-fed system. The turbid water flows from the higher power water level to the lower spring water level through a series of pipes and valves, ensuring that the pure water remains undisturbed at the spring water level. This system is designed to maintain the quality of the pure water supply by preventing turbid water",
+    "image_path": "books/chapter_4_5_scanned/pages/p0010/regions/r003_figure.png",
+    "bbox": [
+      241,
+      357,
+      1263,
+      696
+    ],
+    "figure_id": "chapter_4_5_scanned_fig0009"
+  },
+  {
+    "region_id": "r008_figure",
+    "page_number": 12,
+    "book_slug": "chapter_4_5_scanned",
+    "caption": "Technical Diagram",
+    "description": "This technical diagram illustrates two different configurations of a water supply system, specifically a ram pump system used for raising water from a lower level to a higher level.\n\n### Title:\nThe diagram is not explicitly titled but appears to be part of a larger document discussing ram pumps.\n\n### Components:\n1. **Supply Tank**: A reservoir where water is stored before it enters the system.\n2. **Drive Tank**: A tank that stores water at a higher level than the supply tank, which is used to drive the ram pump mechanism.\n3. **Ram Pit**: The area where the ram pump mechanism operates to lift water from the lower level to the higher level.\n4. **Supply Pipe**: A pipe connecting the supply tank to the drive tank.\n5. **Drive Pipe**: A pipe connecting the drive tank to the ram pit.\n6. **Delivery Pipe**: A pipe connecting the ram pit to the point where the water is delivered to its destination.\n7. **Intermediate Tank**: An additional tank introduced in the second configuration to further increase the height difference between the supply and delivery points.\n\n### Inputs and Outputs:\n- **Inputs**:\n  - Water from the spring or natural source enters the supply tank.\n- **Outputs**:\n  - Water is delivered through the delivery pipe to its final destination.\n\n### Arrows:\n- Arrows indicate the direction of water flow within the system.\n  - From the supply tank to the drive tank via the supply pipe.\n  - From the drive tank to the ram pit via the drive pipe.\n  - From the ram pit to the delivery pipe.\n\n### Technical Purpose:\nThe diagram demonstrates how a ram pump system works to lift water from a lower level to a higher level without the use of external power sources like motors. The system relies on the energy of falling water to drive the ram pump mechanism, which then lifts water from the lower level to the higher level. The second configuration with the intermediate tank shows a more complex setup designed to achieve a greater height difference between the supply and delivery points.\n\n### Labels:\n- **WATER LEVEL**: Indicates the water level in the tanks and the ram pit.\n- **RAM PIT**: The area where the ram pump mechanism operates.\n- **DRIVE TANK**: The tank storing water at a higher level than the supply tank.\n- **SUPPLY TANK**: The tank storing water before it enters the system.\n- **INTERMEDIATE TANK**: An additional tank in the second configuration.\n- **DELIVERY PIPE**: The pipe connecting the ram pit to the delivery point.\n- **",
+    "image_path": "books/chapter_4_5_scanned/pages/p0012/regions/r008_figure.png",
+    "bbox": [
+      217,
+      598,
+      1263,
+      1183
+    ],
+    "figure_id": "chapter_4_5_scanned_fig0010"
+  },
+  {
+    "region_id": "r004_figure",
+    "page_number": 14,
+    "book_slug": "chapter_4_5_scanned",
+    "caption": "Technical Diagram",
+    "description": "This is a cross-sectional diagram of a house drain system, specifically illustrating the main trap and its connection to the sewer and fresh air inlet.\n\n**Title/Label:**\n- **Fresh Air Inlet:** Located at the top left, connected to the main pipe.\n- **Sewer:** The large horizontal pipe on the left side of the diagram.\n- **House Drain:** The vertical pipe that connects the main trap to the sewer.\n- **Main Trap:** The curved U-shaped section at the bottom center of the diagram, which is the focus of the illustration.\n\n**Components:**\n- The **Fresh Air Inlet** is shown as a pipe entering from the top left, curving downward before connecting to the main pipe.\n- The **Sewer** is depicted as a large horizontal pipe extending horizontally across the diagram.\n- The **House Drain** is a vertical pipe that connects the main trap to the sewer.\n- The **Main Trap** is the U-shaped section at the bottom center, designed to prevent sewer gases from entering the house while allowing water to flow through.\n\n**Arrows:**\nThere are no directional arrows explicitly pointing to specific components within the diagram itself. However, the orientation of the pipes suggests the direction of water flow and gas movement.\n\n**Inputs and Outputs:**\n- **Input:** Fresh air enters the system through the Fresh Air Inlet.\n- **Output:** Water flows into the sewer through the House Drain.\n\n**Technical Purpose:**\nThe diagram illustrates the function of a main trap in a house drain system. The main trap is crucial for preventing sewer gases from entering the house while allowing water to flow freely. The fresh air inlet ensures that there is always a supply of fresh air to maintain a positive pressure in the drain system, which helps to prevent backflow of sewer gases into the house.",
+    "image_path": "books/chapter_4_5_scanned/pages/p0014/regions/r004_figure.png",
+    "bbox": [
+      788,
+      165,
+      1374,
+      452
+    ],
+    "figure_id": "chapter_4_5_scanned_fig0011"
+  },
+  {
+    "region_id": "r003_figure",
+    "page_number": 16,
+    "book_slug": "chapter_4_5_scanned",
+    "caption": "Technical Diagram",
+    "description": "This is a detailed diagram illustrating a domestic plumbing system for a multi-story house. The title of the figure is not explicitly stated within the image itself but appears to be part of the larger document it belongs to.\n\n### Labeled Components:\n- **Ventilation**: A pipe extending upwards from the soil pipe, likely for air exchange.\n- **Soil Pipe**: A large vertical pipe running through the house, marked as \"4\" inches in diameter.\n- **2nd Story**: Indicates the second floor level of the house.\n- **Bath Room**: Includes a water closet and a bath tub.\n- **Water Closet**: A toilet.\n- **Bath Tub**: A bathtub.\n- **1st Story**: Indicates the first floor level of the house.\n- **Kitchen**: Includes a sink.\n- **Basement**: Indicates the basement level of the house.\n- **Laundry**: Includes a laundry tray.\n- **Sink**: A kitchen sink.\n- **Laundry Tray**: Likely a drain or collection area for laundry water.\n- **70 Sower**: Likely refers to a connection point to the sewer system, marked as \"4\" inches in diameter.\n\n### Arrows:\nThere are no directional arrows pointing to specific components or indicating flow direction in this diagram.\n\n### Inputs and Outputs:\nThe diagram does not explicitly show inputs or outputs, but the presence of the soil pipe suggests that the system outputs waste water to the sewer system. The ventilation pipe indicates an input for air exchange.\n\n### Technical Purpose:\nThe purpose of this diagram is to illustrate the layout and connections of a domestic plumbing system, specifically the drainage and ventilation systems for a multi-story house. It shows how the pipes connect different areas of the house, including bathrooms, kitchens, and a laundry area, and how they lead to the sewer system. The inclusion of the ventilation pipe highlights the importance of proper air circulation in the plumbing system to prevent odors and ensure proper functioning of the fixtures.",
+    "image_path": "books/chapter_4_5_scanned/pages/p0016/regions/r003_figure.png",
+    "bbox": [
+      140,
+      570,
+      722,
+      1759
+    ],
+    "figure_id": "chapter_4_5_scanned_fig0012"
+  },
+  {
+    "region_id": "r006_figure",
+    "page_number": 18,
+    "book_slug": "chapter_4_5_scanned",
+    "caption": "This is a technical diagram illustrating a septic tank system layout.",
+    "description": "This is a technical diagram illustrating a septic tank system layout.\n\n**Title/Label:** The diagram is titled \"PLAN\" at the top and \"ELEVATION\" at the bottom, indicating it shows both a plan view and an elevation of the septic tank system.\n\n**Labeled Components:**\n\n- **Concrete 8\" thick:** This refers to the thickness of the concrete slab that forms the base of the septic tank structure.\n- **Wooden manhole cover:** A circular cover for accessing the septic tank.\n- **Flush tank:** Likely part of the plumbing system connected to the septic tank.\n- **Inlet from house:** The point where household wastewater enters the system.\n- **Settling tank A:** The first compartment of the septic tank where solid waste settles.\n- **Settling tank B:** The second compartment of the septic tank where further settling occurs.\n- **Overflow:** A pipe that allows excess liquid to flow out of the septic tank.\n- **Discharge pipe:** A pipe that carries treated effluent away from the septic tank.\n- **Automatic siphon A pipe:** A pipe that helps maintain a proper water level in the septic tank.\n- **Drain pipe:** A pipe that allows sludge to drain into the ground.\n- **Sludge:** The settled organic matter at the bottom of the septic tank.\n- **Discharge pipe:** Another pipe that carries the treated effluent away from the system.\n\n**Arrows:**\n\n- There are no directional arrows explicitly shown in the diagram itself. However, the flow direction can be inferred based on the placement of the components.\n\n**Inputs and Outputs:**\n\n- **Input:** Wastewater enters the system through the \"Inlet from house.\"\n- **Output:** Treated effluent exits the system through the \"Discharge pipe.\"\n\n**Technical Purpose:**\n\nThe diagram illustrates the basic components and layout of a septic tank system designed to treat household wastewater. It shows how the system separates solids from liquids, allowing the solids to settle and decompose while the liquids are treated and eventually discharged into the environment. The automatic siphon and overflow mechanisms help manage the water levels within the tanks to ensure proper functioning.",
+    "image_path": "books/chapter_4_5_scanned/pages/p0018/regions/r006_figure.png",
+    "bbox": [
+      785,
+      884,
+      1373,
+      1312
+    ],
+    "figure_id": "chapter_4_5_scanned_fig0013"
+  },
+  {
+    "region_id": "r004_figure",
+    "page_number": 19,
+    "book_slug": "chapter_4_5_scanned",
+    "caption": "This is a sectional view of a septic tank system.",
+    "description": "This is a sectional view of a septic tank system.\n\n**Title/Label:** SECTIONAL VIEW\n\n**Labeled Components:**\n- **C.I. MANHOLE:** Two manholes are indicated on either end of the tank.\n- **1/4\" RODS:** These rods are likely used for inspection and cleaning purposes.\n- **WATER LINE:** The water line is shown running through the tank.\n- **OVERFLOW:** An overflow pipe is depicted on the right side of the tank.\n- **INLET:** The inlet pipe is shown on the left side of the tank.\n- **SLOPE SLIGHTLY TOWARD INLET:** This indicates the direction of flow within the tank.\n\n**Arrows:**\n- There are no directional arrows explicitly pointing to specific components.\n\n**Inputs:**\n- **INLET:** Water enters the tank through this pipe.\n\n**Outputs:**\n- **OVERFLOW:** If the tank becomes full, water will flow out through this pipe.\n\n**Technical Purpose:**\nThe diagram illustrates the cross-sectional view of a septic tank system. It shows how water flows into the tank through the inlet pipe, moves along the water line, and eventually exits the tank through the overflow pipe if necessary. The presence of manholes allows for maintenance and inspection of the system. The 1/4\" rods are likely used for cleaning and checking the condition of the tank's interior.",
+    "image_path": "books/chapter_4_5_scanned/pages/p0019/regions/r004_figure.png",
+    "bbox": [
+      256,
+      359,
+      1275,
+      1168
+    ],
+    "figure_id": "chapter_4_5_scanned_fig0014"
+  },
+  {
+    "region_id": "r004_figure",
+    "page_number": 20,
+    "book_slug": "chapter_4_5_scanned",
+    "caption": "Technical Diagram",
+    "description": "This technical diagram appears to illustrate a water storage system, likely for a house. Here's a detailed breakdown:\n\n**Title/Figure Number:** Not explicitly stated within the image itself.\n\n**Labeled Components:**\n- **A:** This section shows two tanks with capacities labeled:\n  - Tank on the left: \"Capacity 400 gal.\"\n  - Tank on the right: \"Capacity 320 gal.\"\n- **B:** This is a cross-sectional view of the water storage system.\n  - **a:** Likely represents the main water inlet pipe from the house.\n  - **b:** A valve or control mechanism.\n  - **c:** The water line level indicator, marked as \"Water line 7\" and \"8:0\".\n  - **d:** Another valve or outlet.\n  - **e:** A smaller tank or chamber, possibly for pressure regulation or additional storage.\n  - **f:** An outlet or drain pipe leading to the \"file\" (likely a waste disposal area).\n- **C:** A close-up view of the valve mechanism at point \"b\" in B.\n\n**Arrows:**\n- There is no directional arrow indicating flow direction within the diagram itself. However, the layout suggests that water flows from the house into the main tank (\"a\") and then through the valves (\"b\") before being directed to the file (\"f\").\n\n**Inputs and Outputs:**\n- **Input:** Water enters the system from the house via pipe \"a\".\n- **Output:** Water exits the system through pipe \"f\" and is directed to the \"file\".\n\n**Technical Purpose:**\nThe diagram illustrates a water storage system designed to manage water supply for a household. It includes two tanks with different capacities to ensure a consistent water supply even when one tank is being filled. The cross-sectional view provides insight into the internal workings of the system, including the water level indicators and the valve mechanisms used to control the flow of water. The smaller tank (\"e\") could serve a secondary function such as pressure regulation or additional storage.\n\n**Text/Labels:**\n- Capacity 400 gal.\n- Capacity 320 gal.\n- Water line 7\n- Water line 8:0\n- From house\n- To file\n\nThis description should help in accurately identifying and searching for this specific technical diagram.",
+    "image_path": "books/chapter_4_5_scanned/pages/p0020/regions/r004_figure.png",
+    "bbox": [
+      222,
+      406,
+      1286,
+      1092
+    ],
+    "figure_id": "chapter_4_5_scanned_fig0015"
+  },
+  {
+    "region_id": "r001_figure",
+    "page_number": 21,
+    "book_slug": "chapter_4_5_scanned",
+    "caption": "Technical Diagram",
+    "description": "This is a cross-sectional diagram of a **Siphon Overflow Valve** used in water management systems.\n\n### Title:\nThe title of the figure is not explicitly provided within the image itself. However, based on the context and the components depicted, it can be inferred that this is a siphon overflow valve.\n\n### Labeled Components:\n1. **A** - The main body of the valve.\n2. **B** - The outlet pipe.\n3. **C** - The inlet pipe.\n4. **D** - The siphon tube.\n5. **E** - The overflow pipe.\n6. **F** - The base or foundation of the valve structure.\n7. **G** - The air chamber or reservoir.\n8. **H** - The water level line (H.W.L.).\n9. **I** - The lower water level line (L.W.L.).\n\n### Arrows:\n- **U** - Indicates the direction of water flow through the siphon tube.\n- **V** - Indicates the direction of water flow through the outlet pipe.\n- **W** - Indicates the direction of water flow through the inlet pipe.\n\n### Inputs and Outputs:\n- **Input:** Water enters through the **inlet pipe (C)**.\n- **Output:** Water exits through the **outlet pipe (B)** and the **overflow pipe (E)** if the water level exceeds the **H.W.L.**.\n\n### Technical Purpose:\nThe siphon overflow valve is designed to prevent the water level from rising above a certain point (H.W.L.). When the water level rises to H.W.L., the siphon action causes water to flow through the siphon tube (D) into the overflow pipe (E), thereby preventing flooding and ensuring that the water level does not exceed the desired limit. The air chamber (G) helps maintain the siphon action by providing a continuous flow of air to the siphon tube.\n\n### Labels and Text:\n- **H.W.L.**: High Water Level\n- **L.W.L.**: Low Water Level\n\nThis diagram effectively illustrates how a siphon overflow valve functions to manage water levels in a controlled manner.",
+    "image_path": "books/chapter_4_5_scanned/pages/p0021/regions/r001_figure.png",
+    "bbox": [
+      139,
+      382,
+      725,
+      1051
+    ],
+    "figure_id": "chapter_4_5_scanned_fig0016"
+  },
+  {
+    "region_id": "r003_figure",
+    "page_number": 22,
+    "book_slug": "chapter_4_5_scanned",
+    "caption": "Figure 32** titled \"Ground plans of tile sewage disposal systems.",
+    "description": "This is **Figure 32** titled \"Ground plans of tile sewage disposal systems.\"\n\nThe diagram illustrates two different configurations of tile sewage disposal systems:\n\n1. **Top Section: Open Jointed Tile**\n   - **Gate Chamber:** This is the starting point where the sewage enters the system.\n   - **Open Jointed Tile:** The main body of the system consists of open-jointed tiles laid out in a grid pattern. These tiles allow for the passage of water while preventing larger debris from entering the underground pipes.\n\n2. **Bottom Section: 4\" Tile**\n   - **From tank:** This indicates the point where the sewage enters the system from a tank.\n   - **50'** and **15'**: These measurements likely refer to the dimensions of the pipe sections or the distance between certain points within the system.\n   - **4\" Tile:** This refers to the size of the tiles used in the system. The diagram shows a cross-section of the tile, indicating its thickness and the open joints that allow water to flow through but prevent solid waste from entering the pipes below.\n\nThe purpose of these diagrams is to provide a visual representation of how tile sewage disposal systems are designed and laid out. The top section demonstrates a more traditional method using open-jointed tiles, while the bottom section shows a specific configuration with a 4-inch tile. Both aim to manage and dispose of sewage effectively while minimizing the risk of clogs and contamination.",
+    "image_path": "books/chapter_4_5_scanned/pages/p0022/regions/r003_figure.png",
+    "bbox": [
+      249,
+      381,
+      1235,
+      1339
+    ],
+    "figure_id": "chapter_4_5_scanned_fig0017"
+  },
+  {
+    "region_id": "r003_figure",
+    "page_number": 23,
+    "book_slug": "chapter_4_5_scanned",
+    "caption": "Figure 1\" at the top.",
+    "description": "This is a cross-sectional diagram of a well construction, specifically a well casing installation. The diagram is labeled as \"Figure 1\" at the top.\n\nThe well casing is shown as a circular structure with a diameter of 4 inches. It is surrounded by gravel, which is labeled as \"Gravel\" and has a thickness of 8 inches. The gravel layer is placed above the well casing.\n\nAbove the gravel layer, there is a layer of soil, labeled simply as \"SOIL,\" with a thickness of 12 inches. This soil layer is surrounded by sandy loam on both sides, labeled as \"SANDY LOAM.\"\n\nThe total depth of the well construction from the surface to the bottom of the gravel layer is indicated as 14 inches.\n\nThere are no inputs or outputs depicted in this diagram; it solely illustrates the cross-section of the well construction materials and their arrangement.",
+    "image_path": "books/chapter_4_5_scanned/pages/p0023/regions/r003_figure.png",
+    "bbox": [
+      161,
+      1006,
+      722,
+      1768
+    ],
+    "figure_id": "chapter_4_5_scanned_fig0018"
+  },
+  {
+    "region_id": "r001_figure",
+    "page_number": 24,
+    "book_slug": "chapter_4_5_scanned",
+    "caption": "Technical Diagram",
+    "description": "This is a cross-sectional diagram of a soil profile, likely used for agricultural or landscaping purposes. Here's a detailed breakdown:\n\n**Title/Label:**\n- The diagram does not have a specific title or figure number mentioned within the image itself.\n\n**Labeled Components:**\n1. **Sandy Loam:** This layer is depicted as a lighter-colored area with diagonal lines indicating its texture.\n2. **Gravel:** This layer is shown below the sandy loam and is represented by a darker area with irregular shapes to denote gravel particles.\n3. **Soil:** Located at the top of the diagram, this layer is marked with \"12\" SOIL\" written inside it. It appears to be a mix of the sandy loam and gravel layers above it.\n\n**Arrows:**\n- There are no arrows present in this diagram.\n\n**Inputs and Outputs:**\n- There are no inputs or outputs indicated in this diagram. It is purely a cross-section showing the layers of the soil profile.\n\n**Technical Purpose:**\nThe purpose of this diagram is to illustrate the composition of a soil profile, specifically the arrangement of sandy loam and gravel layers. It could be used for educational purposes, such as teaching about soil types and their characteristics, or for planning agricultural activities where understanding the soil structure is crucial.\n\n**Text/Labels:**\n- \"SANDY LOAM\"\n- \"GRAVEL\"\n- \"12\" SOIL\"\n\nThis diagram provides a clear visual representation of the different soil layers and their respective textures, which is essential for understanding the physical properties of the soil and how they might affect plant growth, water infiltration, and other environmental factors.",
+    "image_path": "books/chapter_4_5_scanned/pages/p0024/regions/r001_figure.png",
+    "bbox": [
+      172,
+      344,
+      812,
+      1502
+    ],
+    "figure_id": "chapter_4_5_scanned_fig0019"
+  },
+  {
+    "region_id": "r002_figure",
+    "page_number": 25,
+    "book_slug": "chapter_4_5_scanned",
+    "caption": "Fig. 35.",
+    "description": "This is a detailed technical illustration of a sand filter designed for eight people. The diagram includes three views: a sectional view, a top view, and a partial cross-section of the sand filter.\n\n### Title:\n**Fig. 35. - Sand filter for eight people.**\n\n### Labeled Components:\n1. **Diverting Manhole:** Located on the left side of the main structure.\n2. **Settling Tank:** Positioned below the main structure.\n3. **Siphon Chamber:** A component within the main structure, likely part of the filtration process.\n4. **Underdrains:** Visible at the bottom of the main structure, indicating the area where water collects after passing through the sand filter.\n5. **Distributing Trough:** A channel that distributes water evenly across the sand filter.\n6. **Inlet:** An entry point for water into the system.\n7. **Outlet:** An exit point for filtered water.\n8. **Valve for Cleaning Out Sludge:** Located within the siphon chamber, used to remove accumulated sediment.\n9. **C.I. Manhole:** Likely a maintenance access point for the manhole cover.\n\n### Arrows:\n- Arrows indicate the direction of water flow through the system.\n- One arrow points from the inlet towards the settling tank, suggesting the path of water entering the system.\n- Another arrow points from the outlet, indicating the direction of the filtered water leaving the system.\n\n### Inputs and Outputs:\n- **Input:** Water enters the system through the inlet.\n- **Output:** Filtered water exits the system through the outlet.\n\n### Technical Purpose:\nThe sand filter is designed to purify water by allowing it to pass through layers of sand, which trap impurities. The settling tank and siphon chamber help in the separation of solids and gases from the water. The underdrains collect the filtered water, which then exits the system through the outlet. The diverting manhole allows for the diversion of water away from the main structure if necessary, possibly for maintenance or emergency purposes. The valve for cleaning out sludge is crucial for maintaining the efficiency of the filter over time.\n\n### Additional Notes:\n- The sectional view provides a clear look at the internal components of the sand filter.\n- The top view offers a perspective of the overall layout without the internal details.\n- The partial cross-section of the sand filter at the top left corner gives insight into the construction and placement of the filter within a larger system, possibly a water treatment facility.\n\nThis diagram is",
+    "image_path": "books/chapter_4_5_scanned/pages/p0025/regions/r002_figure.png",
+    "bbox": [
+      244,
+      325,
+      1265,
+      1842
+    ],
+    "figure_id": "chapter_4_5_scanned_fig0020"
+  }
+]

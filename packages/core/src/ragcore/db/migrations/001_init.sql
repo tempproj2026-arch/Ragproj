@@ -38,7 +38,7 @@ CREATE TABLE regions (
     page_id INT REFERENCES pages(id) ON DELETE CASCADE,
     kind TEXT NOT NULL,
     bbox JSONB NOT NULL,
-    image_path TEXT NOT NULL,
+    image_path TEXT,
     reading_order INT NOT NULL,
     flags JSONB,
     created_at TIMESTAMPTZ DEFAULT NOW()
