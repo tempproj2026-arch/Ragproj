@@ -6,20 +6,22 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "extracted",
+  "status": "vlm_extracted",
   "regions": [
     {
-      "id": "r001_formula",
-      "kind": "formula",
-      "label": "formula",
+      "id": "r001_text",
+      "kind": "text",
+      "label": "text",
       "bbox": [
-        138,
-        354,
-        725,
-        446
+        129,
+        150,
+        733,
+        331
       ],
-      "image_path": "books/chapter_4_5_scanned/pages/p0011/regions/r001_formula.png",
+      "image_path": null,
       "reading_order": 1,
+      "needs_vlm": false,
+      "extracted_text": "Example 1. It is desired to find the quantity of drive water in the spring necessary to raise 8 gallons per minute to a height of 60 feet, when the head of drive water on the ram is 8 feet. Substituting in the equation",
       "flags": {}
     },
     {
@@ -27,17 +29,147 @@
       "kind": "formula",
       "label": "formula",
       "bbox": [
-        838,
-        274,
-        1318,
-        388
+        137,
+        348,
+        724,
+        445
       ],
       "image_path": "books/chapter_4_5_scanned/pages/p0011/regions/r002_formula.png",
       "reading_order": 2,
+      "needs_vlm": true,
+      "extracted_text": "Here is the LaTeX code for the given equation:\n\n```latex\n\\[\nQ = \\frac{h \\times q}{H} = \\frac{8 \\times 60}{8} = 60 \\text{ gallons per minute}.\n\\]\n```\n\nIn this equation:\n- \\( Q \\) represents the flow rate in gallons per minute.\n- \\( h \\) represents some height or head pressure.\n- \\( q \\) represents the quantity or volume.\n- \\( H \\) represents another height or head pressure.\n\nThe calculation shows that when \\( h \\times q = 8 \\times 60 \\), and dividing by \\( H = 8 \\), the result is \\( Q = 60 \\) gallons per minute.",
+      "flags": {
+        "number_check": {
+          "has_discrepancy": false,
+          "agreement_rate": 1.0,
+          "vlm_number_count": 2,
+          "ocr_number_count": 2,
+          "matched_count": 2,
+          "vlm_only": [],
+          "ocr_only": [],
+          "matched": [
+            "60",
+            "8"
+          ]
+        }
+      },
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
+    },
+    {
+      "id": "r003_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        129,
+        477,
+        733,
+        621
+      ],
+      "image_path": null,
+      "reading_order": 3,
+      "needs_vlm": false,
+      "extracted_text": "In this case about one-third of the result should be added to allow for friction in pipes, valves, etc., making the necessary drive water supply 80 gallons.",
       "flags": {}
     },
     {
-      "id": "r003_table",
+      "id": "r004_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        129,
+        629,
+        734,
+        739
+      ],
+      "image_path": null,
+      "reading_order": 4,
+      "needs_vlm": false,
+      "extracted_text": "Example 2. It is desired to find the necessary fall from the spring to the ram in order to supply the storage tank with 2 gallons per minute, when the drive water supply in the spring is 10 gallons per minute and the height to which the water is to be pumped is 40 feet. Substituting in the equation",
+      "flags": {}
+    },
+    {
+      "id": "r005_formula",
+      "kind": "formula",
+      "label": "formula",
+      "bbox": [
+        832,
+        266,
+        1321,
+        394
+      ],
+      "image_path": "books/chapter_4_5_scanned/pages/p0011/regions/r005_formula.png",
+      "reading_order": 5,
+      "needs_vlm": true,
+      "extracted_text": "Here is the LaTeX code for the given equation:\n\n```latex\nH = \\frac{h \\times q}{Q} = \\frac{2 \\times 40}{10} = 8 \\text{ feet}.\n```\n\nIn this equation:\n- \\( H \\) represents the height.\n- \\( h \\) represents the height factor.\n- \\( q \\) represents the quantity factor.\n- \\( Q \\) represents the total quantity.\n\nThe equation calculates the value of \\( H \\) by dividing the product of \\( h \\) and \\( q \\) by \\( Q \\), resulting in 8 feet.",
+      "flags": {
+        "number_check": {
+          "has_discrepancy": false,
+          "agreement_rate": 1.0,
+          "vlm_number_count": 4,
+          "ocr_number_count": 4,
+          "matched_count": 4,
+          "vlm_only": [],
+          "ocr_only": [],
+          "matched": [
+            "10",
+            "2",
+            "40",
+            "8"
+          ]
+        }
+      },
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
+    },
+    {
+      "id": "r006_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        776,
+        411,
+        1378,
+        484
+      ],
+      "image_path": null,
+      "reading_order": 6,
+      "needs_vlm": false,
+      "extracted_text": "Add one-third to allow for friction, making the total fall necessary 10.66 feet.",
+      "flags": {}
+    },
+    {
+      "id": "r007_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        777,
+        492,
+        1379,
+        599
+      ],
+      "image_path": null,
+      "reading_order": 7,
+      "needs_vlm": false,
+      "extracted_text": "The following table gives commercial estimates of the quantities of water delivered in 24 hours under certain conditions:",
+      "flags": {}
+    },
+    {
+      "id": "r008_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        903,
+        620,
+        1254,
+        659
+      ],
+      "image_path": null,
+      "reading_order": 8,
+      "needs_vlm": false,
+      "extracted_text": "Capacity of hydraulic rams.",
+      "flags": {}
+    },
+    {
+      "id": "r009_table",
       "kind": "table",
       "label": "table",
       "bbox": [
@@ -46,15 +178,251 @@
         1260,
         1318
       ],
-      "image_path": "books/chapter_4_5_scanned/pages/p0011/regions/r003_table.png",
-      "reading_order": 3,
+      "image_path": "books/chapter_4_5_scanned/pages/p0011/regions/r009_table.png",
+      "reading_order": 9,
+      "needs_vlm": true,
+      "extracted_text": "```markdown\n| Power head in feet. | 4 | 10 | 15 | 20 | 30 | 40 | 50 | 60 | 70 | 80 | 90 | 100 | 120 | 1-0 | 160 | 180 | 200 |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| 2 | 540 | 192 | 128 | 96 | 64 | 43 | 29 | 24 | 37 | 27 | 24 | --- | --- | --- | --- | --- |\n| 3 | 301 | 192 | 144 | 96 | 72 | 58 | 43 | 37 | 64 | 55 | 43 | 38 | 29 | 24 | --- | --- |\n| 4 | 432 | 256 | 192 | 128 | 96 | 72 | 57 | 43 | 60 | 50 | 36 | 26 | --- | --- | --- | --- |\n| 5 | 540 | 345 | 240 | 160 | 120 | 96 | 82 | 72 | 64 | 57 | 43 | 31 | 27 | 24 | --- | --- |\n| 6 | --- | 432 | 302 | 212 | 144 | 115 | 96 | 82 | 72 | 64 | 57 | 43 | 31 | 28 | 31 | 25 |\n| 7 | --- | --- | 378 | 235 | 168 | 134 | 112 | 96 | 84 | 77 | 64 | 57 | 43 | 38",
+      "flags": {
+        "number_check": {
+          "has_discrepancy": true,
+          "agreement_rate": 0.367,
+          "vlm_number_count": 60,
+          "ocr_number_count": 130,
+          "matched_count": 51,
+          "vlm_only": [
+            "-0",
+            "1",
+            "2",
+            "3",
+            "378",
+            "40",
+            "5",
+            "6",
+            "7"
+          ],
+          "ocr_only": [
+            "0",
+            "105",
+            "107",
+            "108",
+            "110",
+            "118",
+            "12",
+            "124",
+            "125",
+            "1252",
+            "132",
+            "135",
+            "137",
+            "139",
+            "14",
+            "140",
+            "149",
+            "150",
+            "151",
+            "154",
+            "156",
+            "16",
+            "164",
+            "165",
+            "171",
+            "173",
+            "176",
+            "178",
+            "18",
+            "206",
+            "208",
+            "214",
+            "216",
+            "22",
+            "220",
+            "224",
+            "230",
+            "23456789",
+            "247",
+            "250",
+            "257",
+            "264",
+            "269",
+            "270",
+            "278",
+            "288",
+            "300",
+            "303",
+            "323",
+            "328",
+            "336",
+            "346",
+            "353",
+            "354",
+            "360",
+            "370",
+            "375",
+            "390",
+            "405",
+            "430",
+            "465",
+            "470",
+            "475",
+            "485",
+            "486",
+            "505",
+            "510",
+            "520",
+            "53",
+            "54",
+            "62",
+            "67",
+            "68",
+            "69",
+            "75",
+            "85",
+            "86",
+            "878",
+            "9"
+          ],
+          "matched": [
+            "10",
+            "100",
+            "112",
+            "115",
+            "120",
+            "128",
+            "134",
+            "144",
+            "15",
+            "160",
+            "168",
+            "180",
+            "192",
+            "20",
+            "200",
+            "212",
+            "235",
+            "24",
+            "240",
+            "25",
+            "256",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "301",
+            "302",
+            "31",
+            "345",
+            "36",
+            "37",
+            "38",
+            "4",
+            "43",
+            "432",
+            "50",
+            "540",
+            "55",
+            "57",
+            "58",
+            "60",
+            "64",
+            "70",
+            "72",
+            "77",
+            "80",
+            "82",
+            "84",
+            "90",
+            "96"
+          ]
+        },
+        "discrepancy": true
+      },
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
+    },
+    {
+      "id": "r010_text",
+      "kind": "text",
+      "label": "caption",
+      "bbox": [
+        212,
+        1317,
+        1281,
+        1404
+      ],
+      "image_path": null,
+      "reading_order": 10,
+      "needs_vlm": false,
+      "extracted_text": "Multiply factor opposite \"power head\" and under \"pumping head\" by the number of gallons per minute used by the cngine and the result will be the number of gallons delivered per day: Example: With a supply of 6 gallons per minute, 10 feet fall, 40 feet elevation, No. 10 or 15 engine will deliver 1,512 galluns ner dav: 6\u00d7252=1.512.",
+      "flags": {}
+    },
+    {
+      "id": "r011_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        131,
+        1421,
+        735,
+        1566
+      ],
+      "image_path": null,
+      "reading_order": 11,
+      "needs_vlm": false,
+      "extracted_text": "This table will give only approximate quantities since the results will vary with tho length of delivery pipe. Due consideration of pipe friction will give more correct results.",
+      "flags": {}
+    },
+    {
+      "id": "r012_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        130,
+        1575,
+        735,
+        1683
+      ],
+      "image_path": null,
+      "reading_order": 12,
+      "needs_vlm": false,
+      "extracted_text": "'Tho efficiency developed is governed by the ratio of fall to pumping head, being greatest for a ratio of I to 2} or 1 to 3, and the ram will not usually work well when the ratio is over 1 to 26, friction in the delivery pipe being duly considered.",
+      "flags": {}
+    },
+    {
+      "id": "r013_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        777,
+        1505,
+        1382,
+        1613
+      ],
+      "image_path": null,
+      "reading_order": 13,
+      "needs_vlm": false,
+      "extracted_text": "Example 3. It is desired to find how much water will be delivered into the storage tank if the drive water supply is 6 gallons per minute, the fall is 10",
       "flags": {}
     }
   ],
   "reading_order": [
-    "r001_formula",
+    "r001_text",
     "r002_formula",
-    "r003_table"
+    "r003_text",
+    "r004_text",
+    "r005_formula",
+    "r006_text",
+    "r007_text",
+    "r008_text",
+    "r009_table",
+    "r010_text",
+    "r011_text",
+    "r012_text",
+    "r013_text"
   ],
-  "flags": {}
+  "flags": {
+    "has_number_discrepancies": true,
+    "discrepancy_count": 1
+  },
+  "special_crops_count": 3,
+  "vlm_model": "Qwen2.5-VL-7B-Instruct"
 }

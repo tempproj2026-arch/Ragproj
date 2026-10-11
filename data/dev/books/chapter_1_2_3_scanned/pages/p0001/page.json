@@ -6,27 +6,201 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "extracted",
+  "status": "vlm_extracted",
   "regions": [
     {
       "id": "r001_text",
       "kind": "text",
-      "label": "full_page",
+      "label": "text",
       "bbox": [
-        0,
-        0,
-        1512,
-        2225
+        128,
+        172,
+        730,
+        383
       ],
-      "image_path": "books/chapter_1_2_3_scanned/pages/p0001/regions/r001_text.png",
+      "image_path": null,
       "reading_order": 1,
-      "flags": {
-        "fallback_full_page": true
-      }
+      "needs_vlm": false,
+      "extracted_text": "that the other ports are, so that when the piston is at the upper end of the compression stroke the valve is opened and the first gas enters the crank case in the same manner as in position A, Figure 2. Aside from this the operations are exactly the same as in the two-port cycle.",
+      "flags": {}
+    },
+    {
+      "id": "r002_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        128,
+        395,
+        732,
+        715
+      ],
+      "image_path": null,
+      "reading_order": 2,
+      "needs_vlm": false,
+      "extracted_text": "These engines may be reversed by changing the time of ignition. Other advantages are simplicity, light weight, and cheapness. Some of its disadvantages are that it never has a clean mixture: always some of the burned gases are mixed in with the fresh charge. But in well designed engines the amount of this mixture is not serious. The explosions being more frequent, the cooling and lubricating problems are necessarily harder.",
+      "flags": {}
+    },
+    {
+      "id": "r003_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        130,
+        727,
+        732,
+        834
+      ],
+      "image_path": null,
+      "reading_order": 3,
+      "needs_vlm": false,
+      "extracted_text": "For general farm use the four-cycle is to be recommended as being more reliable and more economical in the long run.",
+      "flags": {}
+    },
+    {
+      "id": "r004_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        253,
+        856,
+        608,
+        889
+      ],
+      "image_path": null,
+      "reading_order": 4,
+      "needs_vlm": false,
+      "extracted_text": "The Details of a Gas Engine.",
+      "flags": {}
+    },
+    {
+      "id": "r005_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        131,
+        902,
+        734,
+        1079
+      ],
+      "image_path": null,
+      "reading_order": 5,
+      "needs_vlm": false,
+      "extracted_text": "The elements and principal events of gas engine operation have already been cited, and it will be unnecessary to repeat them here. A study in detail of the parts and process that make the gas engine a success will be taken up.",
+      "flags": {}
+    },
+    {
+      "id": "r006_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        771,
+        168,
+        1378,
+        309
+      ],
+      "image_path": null,
+      "reading_order": 6,
+      "needs_vlm": false,
+      "extracted_text": "the gas, or gasoline or other liquid fuel vaporizing and mixing the vapor with air. A carburetor is a mixer of fuel with air. On many engines the carburetor is called a mixer. See Figure 3.",
+      "flags": {}
+    },
+    {
+      "id": "r007_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        773,
+        323,
+        1377,
+        462
+      ],
+      "image_path": null,
+      "reading_order": 7,
+      "needs_vlm": false,
+      "extracted_text": "When using a liquid fuel it must be broken up into fine particles or vaporized. Secondly, it must be thoroughly mixed. Thirdly, the proper amount of air must be added.",
+      "flags": {}
+    },
+    {
+      "id": "r008_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        775,
+        475,
+        1378,
+        903
+      ],
+      "image_path": null,
+      "reading_order": 8,
+      "needs_vlm": false,
+      "extracted_text": "The operation. mixing is a simple process. The accompanying illustration will show one way in which it is done. The large pipe is the air inlet, and the small one meeting it at right angles is the fuel supply. When the air is drawn into the cylinder the fuel is drawn into the passageway by the same suction, and as it passes the needle valve it is divided into a thin spray. The air picks it up and carries it into the cylinder. The needle valve not only breaks up the fuel into a spray, but by its adjustment regulates the amount of fuel mixed with the air to make a perfect combustion.",
+      "flags": {}
+    },
+    {
+      "id": "r009_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        777,
+        913,
+        1379,
+        1055
+      ],
+      "image_path": null,
+      "reading_order": 9,
+      "needs_vlm": false,
+      "extracted_text": "Most of the air passageway is obstructed at the part where the fuel enters, in order to increase the velocity of the air as it passes the fuel inlet, which helps to break it up into a finer spray or vapor.",
+      "flags": {}
+    },
+    {
+      "id": "r010_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        349,
+        1100,
+        516,
+        1134
+      ],
+      "image_path": null,
+      "reading_order": 10,
+      "needs_vlm": false,
+      "extracted_text": "Carburetion.",
+      "flags": {}
+    },
+    {
+      "id": "r011_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        131,
+        1147,
+        735,
+        1357
+      ],
+      "image_path": null,
+      "reading_order": 11,
+      "needs_vlm": false,
+      "extracted_text": "As previously mentioned, whether gas or liquids are burned in the cylinder, it must be properly prepared first. The liquid must be vaporized and the proper amount of air added to support the combustion. In the gas fuel only the mixture of air need be added. There are numerous devices for receiving The liquid fuels which are on the market today do not completely vaporize by the above proces Many methods to accomplish this have been invented and put on the market. Since gasoline has become so high priced, because of its scarcity, the manufacturers, in order to get more of the product have decreased its quality. This lower grade of gasoline is harder to vaporize than the original gasoline used when automobiles and gas engines first came into use.",
+      "flags": {}
     }
   ],
   "reading_order": [
-    "r001_text"
+    "r001_text",
+    "r002_text",
+    "r003_text",
+    "r004_text",
+    "r005_text",
+    "r006_text",
+    "r007_text",
+    "r008_text",
+    "r009_text",
+    "r010_text",
+    "r011_text"
   ],
-  "flags": {}
+  "flags": {
+    "has_number_discrepancies": false
+  },
+  "special_crops_count": 0,
+  "vlm_model": "Qwen2.5-VL-7B-Instruct"
 }

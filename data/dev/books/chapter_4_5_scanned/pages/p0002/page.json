@@ -6,7 +6,7 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "extracted",
+  "status": "vlm_extracted",
   "regions": [
     {
       "id": "r001_figure",
@@ -20,11 +20,52 @@
       ],
       "image_path": "books/chapter_4_5_scanned/pages/p0002/regions/r001_figure.png",
       "reading_order": 1,
+      "needs_vlm": true,
+      "extracted_text": "This is **Figure 17** from a technical document detailing the working parts of an autopneumatic pumping system.\n\n### Components and Labels:\n\n- **A. Front and side view:**\n  - **Gate Valve:** Located at the top left of the well casing.\n  - **Elbow:** Positioned below the gate valve.\n  - **Reducer:** Situated between the elbow and the water discharge pipe.\n  - **Water Discharge Pipe:** Extends downward from the reducer.\n  - **Well Casing:** The cylindrical structure surrounding the pump mechanism.\n  - **Low Water Level:** Marked within the well casing.\n  - **Increase:** A component near the bottom of the well casing.\n  - **3/4\" Pipe:** Likely connected to the increase.\n  - **N85 Auto-Pneumatic Pump:** The main pump mechanism located within the well casing.\n  - **Submergence:** The depth of the pump below the water level.\n  - **Manhole:** Access point for maintenance.\n  - **Frost Box:** A protective structure around the well casing.\n  - **Shifting Lever:** A control mechanism above the pump.\n  - **Head:** The upper part of the pump.\n  - **Water Inlet Water Cylinder:** The cylinder that receives water.\n  - **Water Outlet Strainer:** A filter attached to the water outlet pipe.\n  - **3/8\" Air Pipe:** Connected to the air supply pipe.\n  - **3/8\" Exhaust Pipe:** Connected to the exhaust pipe.\n  - **3/8\" Cut-off Union:** A connection point for the air supply pipe.\n  - **3/8\" Tee Union:** Another connection point.\n  - **3/8\" Tee Increaser:** An additional connection point.\n  - **Priming Cock:** A valve used to prime the pump.\n  - **Pressure Reducer:** Reduces pressure in the system.\n  - **Air Supply Pipe:** Connects to the pumps.\n  - **Tank For Air Only:** A separate tank for storing compressed air.\n  - **Air Pipe Line:** The line connecting the tank to the pump.\n  - **Pump:** The mechanical device that moves water.\n  - **3/8\" Cut-off Union:** Another connection point.\n  - **3/8\" Tee Union:** Another connection point.\n  - **3/8\" Tee Increaser:** Another connection point.\n  - **3/8\" Cut-off Union:** Another connection point.\n  -",
+      "flags": {},
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
+    },
+    {
+      "id": "r002_text",
+      "kind": "text",
+      "label": "caption",
+      "bbox": [
+        234,
+        1641,
+        1293,
+        1686
+      ],
+      "image_path": null,
+      "reading_order": 2,
+      "needs_vlm": false,
+      "extracted_text": "Fic. 17.-Working parts of an autopneumatic pumping system: A, Front and side view: B,entire working",
+      "flags": {}
+    },
+    {
+      "id": "r003_text",
+      "kind": "text",
+      "label": "caption",
+      "bbox": [
+        158,
+        1705,
+        620,
+        1744
+      ],
+      "image_path": null,
+      "reading_order": 3,
+      "needs_vlm": false,
+      "extracted_text": "system as used in bored or cased wells.",
       "flags": {}
     }
   ],
   "reading_order": [
-    "r001_figure"
+    "r001_figure",
+    "r002_text",
+    "r003_text"
   ],
-  "flags": {}
+  "flags": {
+    "has_number_discrepancies": false
+  },
+  "special_crops_count": 1,
+  "vlm_model": "Qwen2.5-VL-7B-Instruct"
 }

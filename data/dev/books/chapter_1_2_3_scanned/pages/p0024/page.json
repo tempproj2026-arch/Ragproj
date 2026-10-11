@@ -6,27 +6,167 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "extracted",
+  "status": "vlm_extracted",
   "regions": [
     {
       "id": "r001_text",
       "kind": "text",
-      "label": "full_page",
+      "label": "text",
       "bbox": [
-        0,
-        0,
-        1512,
-        2225
+        127,
+        237,
+        728,
+        376
       ],
-      "image_path": "books/chapter_1_2_3_scanned/pages/p0024/regions/r001_text.png",
+      "image_path": null,
       "reading_order": 1,
-      "flags": {
-        "fallback_full_page": true
-      }
+      "needs_vlm": false,
+      "extracted_text": "Make a thorough inspection of electrical connections for loose piping. Look under discussion for pre-ignition for remedies to prevent this. Inspect commutator or timer for poor adjustment.",
+      "flags": {}
+    },
+    {
+      "id": "r002_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        127,
+        389,
+        730,
+        565
+      ],
+      "image_path": null,
+      "reading_order": 2,
+      "needs_vlm": false,
+      "extracted_text": "Speed Variation\u2014Speed may vary due to misfiring, water in the fuel, irregular supply of gas, magneto slipping, defective fuel pump, defective governor, wear on valve gear, defective times, loose electrical connections, and a poor mixture.",
+      "flags": {}
+    },
+    {
+      "id": "r003_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        129,
+        579,
+        732,
+        932
+      ],
+      "image_path": null,
+      "reading_order": 3,
+      "needs_vlm": false,
+      "extracted_text": "To remedy this read the paragraph on misfiring. Inspect engine for that cause. Empty the fuel tank and put in a fresh supply of clean fuel which is sure not to have water. Note the supply of gas, see if it is regular. See if the magneto belt is slipping. Inspect the fuel pump and governor, wear on valve gears, and make a thorough inspection of the timer. See if some electrical connection is not loose, which would part of the time be in contact and part of the time away. Enrich the mixture.",
+      "flags": {}
+    },
+    {
+      "id": "r004_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        131,
+        946,
+        733,
+        1156
+      ],
+      "image_path": null,
+      "reading_order": 4,
+      "needs_vlm": false,
+      "extracted_text": "The above discussion on gasengine troubles is quite complete and if properly followed will give a clue to most any trouble that has any chance whatever to happen. In cases where these do not cover, the engine should be taken to an engine works for treatment.",
+      "flags": {}
+    },
+    {
+      "id": "r005_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        187,
+        1181,
+        677,
+        1214
+      ],
+      "image_path": null,
+      "reading_order": 5,
+      "needs_vlm": false,
+      "extracted_text": "Miscellaneous Upkeep of a Gas Engine.",
+      "flags": {}
+    },
+    {
+      "id": "r006_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        132,
+        1227,
+        733,
+        1330
+      ],
+      "image_path": null,
+      "reading_order": 6,
+      "needs_vlm": false,
+      "extracted_text": "There are c\u00e9rtain operations in the care of an engine which have been referred to under \"Gas Engine Troubles\" but need a little further explanation.",
+      "flags": {}
+    },
+    {
+      "id": "r007_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        773,
+        151,
+        1373,
+        293
+      ],
+      "image_path": null,
+      "reading_order": 7,
+      "needs_vlm": false,
+      "extracted_text": "These will include the repair of worn parts, repair of cracked or broken parts, repair of warped parts, use of lubricating oil, general care of the engine, and starting and stopping the engine.",
+      "flags": {}
+    },
+    {
+      "id": "r008_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        774,
+        304,
+        1377,
+        695
+      ],
+      "image_path": null,
+      "reading_order": 8,
+      "needs_vlm": false,
+      "extracted_text": "Worn Parts.\u2014The principal wearing parts of an engine are the piston rings, the valves and the bearings. If the piston rings are wor they may be replaced with new ones. Disconnect the connecting rods at the crank end and remove the piston by drawing out of the cylinder from below. Remove the old piston rings by springing them open with a screw-driver, put on the new ones and insert the piston, one ring at a time until all the rings are in. Sometimes the piston becomes badly worn. In this case it must be replaced entirely.",
+      "flags": {}
+    },
+    {
+      "id": "r009_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        776,
+        707,
+        1380,
+        1279
+      ],
+      "image_path": null,
+      "reading_order": 9,
+      "needs_vlm": false,
+      "extracted_text": "When valves are worn and leaking they can be repaired by grinding. If the valve does not show a bright bearing all the way around, it is in need of grinding. On the top of the valve will usually be found a slot which will receive a screw-driver. To grind the valve proceed as follows: oil both seat of palate and seat of the valve. Sprinkle in some floured emery. Then with brace and screw-driven turn the valve backward and forward, occasionally lifting and supplying a new charge of oil and emery. When the valve becomes smooth and bright and turns without apparant grating friction, wipe it clean, examine it andproceed to grind more if necessary. When the grinding is done, wipe all the parts clean and replace the valve. If the spring is toa strong to allow placing the valve by the hand, compress the spring in a vise and tie it down with wires. When the valve is then put in position, cut the wires, replace the locknut and the valve is ready.",
+      "flags": {}
     }
   ],
   "reading_order": [
-    "r001_text"
+    "r001_text",
+    "r002_text",
+    "r003_text",
+    "r004_text",
+    "r005_text",
+    "r006_text",
+    "r007_text",
+    "r008_text",
+    "r009_text"
   ],
-  "flags": {}
+  "flags": {
+    "has_number_discrepancies": false
+  },
+  "special_crops_count": 0,
+  "vlm_model": "Qwen2.5-VL-7B-Instruct"
 }

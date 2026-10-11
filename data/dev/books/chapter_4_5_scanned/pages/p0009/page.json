@@ -6,10 +6,26 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "extracted",
+  "status": "vlm_extracted",
   "regions": [
     {
-      "id": "r001_figure",
+      "id": "r001_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        778,
+        268,
+        1383,
+        450
+      ],
+      "image_path": null,
+      "reading_order": 1,
+      "needs_vlm": false,
+      "extracted_text": "The length of drive pipe is most important and is governed by the ratio of the fall to the elevation. If too long or too short the automatic supply of air is interfered with and the efficiency impaired. The length of drive pipe is usually",
+      "flags": {}
+    },
+    {
+      "id": "r002_figure",
       "kind": "figure",
       "label": "picture",
       "bbox": [
@@ -18,13 +34,123 @@
         1251,
         1039
       ],
-      "image_path": "books/chapter_4_5_scanned/pages/p0009/regions/r001_figure.png",
-      "reading_order": 1,
+      "image_path": "books/chapter_4_5_scanned/pages/p0009/regions/r002_figure.png",
+      "reading_order": 2,
+      "needs_vlm": true,
+      "extracted_text": "This is a schematic diagram illustrating a water lift system, likely for a residential or small commercial application.\n\n### Title:\nThe diagram is not explicitly titled within the image itself. However, it appears to be part of a larger document discussing water lift systems, as indicated by the reference to \"ELEVATION OF HOUSE\" and other related components.\n\n### Labeled Components:\n1. **Drive Tank**: A cylindrical tank connected to a spring mechanism.\n2. **Spring**: A coiled spring attached to the drive tank.\n3. **Drive Pipe**: A horizontal pipe extending from the drive tank.\n4. **Ram Pit**: A rectangular pit at the end of the drive pipe where the ram is located.\n5. **Ram**: A piston-like component within the ram pit.\n6. **Delivery Pipe**: A vertical pipe that extends upwards from the ram pit.\n7. **Relief Valve**: Located on the delivery pipe, near the top of the house elevation.\n8. **Air-Water Separator**: Positioned above the relief valve, likely used to separate air from water.\n9. **Basement**: The area where the drive tank and associated components are housed.\n10. **House Elevation**: The vertical line indicating the height of the house relative to the ground level.\n\n### Arrows:\n- An arrow points from the drive tank towards the spring, indicating the direction of force applied by the spring.\n- Another arrow points from the drive pipe into the ram pit, showing the path of the ram.\n- Arrows also indicate the flow of water through the delivery pipe and the direction of the relief valve's operation.\n\n### Inputs and Outputs:\n- **Input**: The spring provides the force necessary to move the ram.\n- **Output**: Water is lifted from the ground level to the house elevation through the delivery pipe.\n\n### Technical Purpose:\nThe diagram illustrates how a mechanical water lift system works. The spring compresses the ram, which then lifts water up the delivery pipe to the desired elevation within the house. The relief valve ensures that excess pressure does not build up in the system, preventing damage to the pipes and components. The air-water separator helps maintain the quality of the water by removing air bubbles before it reaches the household plumbing.\n\n### Additional Notes:\n- The text states: \"LIFT 'N' WILL VARY WITH READING ON PRESSURE GAUGE. ONE POUND OF PRESSURE IS EQUAL TO 2.3 FEET OF HEAD.\" This indicates that the lift capacity of the system can vary based on the pressure gauge reading, and the",
+      "flags": {},
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
+    },
+    {
+      "id": "r003_text",
+      "kind": "text",
+      "label": "caption",
+      "bbox": [
+        128,
+        1067,
+        734,
+        1177
+      ],
+      "image_path": null,
+      "reading_order": 3,
+      "needs_vlm": false,
+      "extracted_text": "Fig. 23.\u2014Hydraulic ram pumping to a pneumatic tank supply system, showing usual relative position",
+      "flags": {}
+    },
+    {
+      "id": "r004_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        163,
+        1187,
+        544,
+        1223
+      ],
+      "image_path": null,
+      "reading_order": 4,
+      "needs_vlm": false,
+      "extracted_text": "of spring, ram, and storage tank.",
+      "flags": {}
+    },
+    {
+      "id": "r005_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        129,
+        1230,
+        734,
+        1414
+      ],
+      "image_path": null,
+      "reading_order": 5,
+      "needs_vlm": false,
+      "extracted_text": "about 7 times the height of fall, although this may vary between 5 and 10, depending on the height and distance to which water is to be delivered. The diameter of the drive pipe is usually twice that of the discharge pipe.",
+      "flags": {}
+    },
+    {
+      "id": "r006_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        128,
+        1420,
+        734,
+        1674
+      ],
+      "image_path": null,
+      "reading_order": 6,
+      "needs_vlm": false,
+      "extracted_text": "The proper size of ram to suit certain conditions depends on the following: (1) The flow of water from the source of supply, determined by the time necessary to fill a vessel of known capacity or by weir measurement; (2) the difference between the level of the supply and the lowest point within a reasonable distance for the location of the ram; (3)",
+      "flags": {}
+    },
+    {
+      "id": "r007_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        775,
+        1068,
+        1380,
+        1320
+      ],
+      "image_path": null,
+      "reading_order": 7,
+      "needs_vlm": false,
+      "extracted_text": "the distance between the source of supply and the proposed location of the ram; (4) the difference in level between the ram location and the highest point to which water is to be delivered; (5) length of pipe necessary to conduct the water to the point of delivery. In purchasing a ram this information should be sent to manufacturers.",
+      "flags": {}
+    },
+    {
+      "id": "r008_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        775,
+        1329,
+        1380,
+        1619
+      ],
+      "image_path": null,
+      "reading_order": 8,
+      "needs_vlm": false,
+      "extracted_text": "Sometimes a double-acting ram is installed where there is a spring too small to operate a single-acting ram but located near a brook from which an ample supply and fall can be obtained to operate the ram. These are so constructed that if properly installed under a fall of at least 2 feet below the spring and 3 feet below the brook, it is impossible to deliver anything but the spring water.",
       "flags": {}
     }
   ],
   "reading_order": [
-    "r001_figure"
+    "r001_text",
+    "r002_figure",
+    "r003_text",
+    "r004_text",
+    "r005_text",
+    "r006_text",
+    "r007_text",
+    "r008_text"
   ],
-  "flags": {}
+  "flags": {
+    "has_number_discrepancies": false
+  },
+  "special_crops_count": 1,
+  "vlm_model": "Qwen2.5-VL-7B-Instruct"
 }

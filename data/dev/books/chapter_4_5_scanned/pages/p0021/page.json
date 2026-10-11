@@ -6,7 +6,7 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "extracted",
+  "status": "vlm_extracted",
   "regions": [
     {
       "id": "r001_figure",
@@ -20,10 +20,61 @@
       ],
       "image_path": "books/chapter_4_5_scanned/pages/p0021/regions/r001_figure.png",
       "reading_order": 1,
+      "needs_vlm": true,
+      "extracted_text": "This is a cross-sectional diagram of a **Siphon Overflow Valve** used in water management systems.\n\n### Title:\nThe title of the figure is not explicitly provided within the image itself. However, based on the context and the components depicted, it can be inferred that this is a siphon overflow valve.\n\n### Labeled Components:\n1. **A** - The main body of the valve.\n2. **B** - The outlet pipe.\n3. **C** - The inlet pipe.\n4. **D** - The siphon tube.\n5. **E** - The overflow pipe.\n6. **F** - The base or foundation of the valve structure.\n7. **G** - The air chamber or reservoir.\n8. **H** - The water level line (H.W.L.).\n9. **I** - The lower water level line (L.W.L.).\n\n### Arrows:\n- **U** - Indicates the direction of water flow through the siphon tube.\n- **V** - Indicates the direction of water flow through the outlet pipe.\n- **W** - Indicates the direction of water flow through the inlet pipe.\n\n### Inputs and Outputs:\n- **Input:** Water enters through the **inlet pipe (C)**.\n- **Output:** Water exits through the **outlet pipe (B)** and the **overflow pipe (E)** if the water level exceeds the **H.W.L.**.\n\n### Technical Purpose:\nThe siphon overflow valve is designed to prevent the water level from rising above a certain point (H.W.L.). When the water level rises to H.W.L., the siphon action causes water to flow through the siphon tube (D) into the overflow pipe (E), thereby preventing flooding and ensuring that the water level does not exceed the desired limit. The air chamber (G) helps maintain the siphon action by providing a continuous flow of air to the siphon tube.\n\n### Labels and Text:\n- **H.W.L.**: High Water Level\n- **L.W.L.**: Low Water Level\n\nThis diagram effectively illustrates how a siphon overflow valve functions to manage water levels in a controlled manner.",
+      "flags": {},
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
+    },
+    {
+      "id": "r002_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        772,
+        149,
+        1374,
+        223
+      ],
+      "image_path": null,
+      "reading_order": 2,
+      "needs_vlm": false,
+      "extracted_text": "Fic. 31.\u2014Three-inch or four-inch automatic siphon installed.",
       "flags": {}
     },
     {
-      "id": "r002_table",
+      "id": "r003_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        772,
+        232,
+        1376,
+        448
+      ],
+      "image_path": null,
+      "reading_order": 3,
+      "needs_vlm": false,
+      "extracted_text": "The following table gives working data and dimensions, as shown in figure 31, to be used in-installing 38, 4, and 5 inch siphons. Sizes of 5 inches and over are constructed a little differently from the 3 and 4 inch sizes, although the working principles are the same.",
+      "flags": {}
+    },
+    {
+      "id": "r004_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        393,
+        1099,
+        1098,
+        1132
+      ],
+      "image_path": null,
+      "reading_order": 4,
+      "needs_vlm": false,
+      "extracted_text": "DIMENSIONS FOR AUTOMATIC SIPHONS",
+      "flags": {}
+    },
+    {
+      "id": "r005_table",
       "kind": "table",
       "label": "table",
       "bbox": [
@@ -32,14 +83,61 @@
         1346,
         1583
       ],
-      "image_path": "books/chapter_4_5_scanned/pages/p0021/regions/r002_table.png",
-      "reading_order": 2,
-      "flags": {}
+      "image_path": "books/chapter_4_5_scanned/pages/p0021/regions/r005_table.png",
+      "reading_order": 5,
+      "needs_vlm": true,
+      "extracted_text": "```markdown\n| Dimension | Reference Letter | Inches | Inches | Inches |\n|-----------|-----------------|--------|--------|--------|\n| Diameter of siphon | A | 3 | 4 | 5 |\n| Diameter of bell | B | 10 | 12 | 15 |\n| Diameter of discharge head | C | 4 | 4 | 6 |\n| Drawing depth | D | 13 | 14 | 23 |\n| Depth of trap | F | 12 | 13 | 22 |\n| Width of trap | G | 10 | 12 | 14 |\n| Height above floor | H | 7\u2153 | 8\u2154 | 9\u00bd |\n| Clearance under bell | K | 2 | 2 | 3 |\n| Diameter of carrier | S | 4 | 4\u20136 | 6\u20138 |\n| Invert to discharge line | J | 20\u00bd | 22\u00be | 33\u00bd |\n| Average discharge per second | cubic feet | 0.16 | 0.35 | 0.73 |\n```",
+      "flags": {
+        "number_check": {
+          "has_discrepancy": true,
+          "agreement_rate": 0.714,
+          "vlm_number_count": 16,
+          "ocr_number_count": 20,
+          "matched_count": 15,
+          "vlm_only": [
+            "8"
+          ],
+          "ocr_only": [
+            "-6",
+            "-8",
+            "4 331/2",
+            "71/4",
+            "88 91/2"
+          ],
+          "matched": [
+            "0.16",
+            "0.35",
+            "0.73",
+            "10",
+            "12",
+            "13",
+            "14",
+            "15",
+            "2",
+            "22",
+            "23",
+            "3",
+            "4",
+            "5",
+            "6"
+          ]
+        },
+        "discrepancy": true
+      },
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
     }
   ],
   "reading_order": [
     "r001_figure",
-    "r002_table"
+    "r002_text",
+    "r003_text",
+    "r004_text",
+    "r005_table"
   ],
-  "flags": {}
+  "flags": {
+    "has_number_discrepancies": true,
+    "discrepancy_count": 1
+  },
+  "special_crops_count": 2,
+  "vlm_model": "Qwen2.5-VL-7B-Instruct"
 }

@@ -6,10 +6,42 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "extracted",
+  "status": "vlm_extracted",
   "regions": [
     {
-      "id": "r001_figure",
+      "id": "r001_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        131,
+        266,
+        737,
+        450
+      ],
+      "image_path": null,
+      "reading_order": 1,
+      "needs_vlm": false,
+      "extracted_text": "Where a supply of pure water may be obtained in the immediate neighborhood, which is so situated that a considerable fall may be obtained within a reasonable distance, a hydraulic ram may be used for pumping.",
+      "flags": {}
+    },
+    {
+      "id": "r002_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        776,
+        150,
+        1385,
+        401
+      ],
+      "image_path": null,
+      "reading_order": 2,
+      "needs_vlm": false,
+      "extracted_text": "Hydraulic Ram\u2014Hints on Installation and Operation\u2014The hydraulic ram is a simple though wasteful machine, which utilizes the momentum of a stream of water falling a small height to elevate a portion of that water to a greater height. A complete installation consists of a drive pipe, ram, and deliv-",
+      "flags": {}
+    },
+    {
+      "id": "r003_figure",
       "kind": "figure",
       "label": "picture",
       "bbox": [
@@ -18,13 +50,124 @@
         1266,
         1115
       ],
-      "image_path": "books/chapter_4_5_scanned/pages/p0008/regions/r001_figure.png",
-      "reading_order": 1,
+      "image_path": "books/chapter_4_5_scanned/pages/p0008/regions/r003_figure.png",
+      "reading_order": 3,
+      "needs_vlm": true,
+      "extracted_text": "This is a detailed cross-sectional illustration of a mechanical device, likely a part of a larger machine or system. The diagram is labeled with letters A through H to identify various components.\n\n**Title/Label:**\nThe diagram does not have a specific title or figure number mentioned within the image itself. However, it appears to be a detailed cross-section of a component, possibly related to fluid control or flow measurement given the presence of pipes and valves.\n\n**Labeled Components:**\n\n- **A:** This appears to be the main body or casing of the device.\n- **B:** A valve or control mechanism, possibly for controlling the flow of a substance.\n- **C:** Another valve or control mechanism, similar to B but positioned lower.\n- **D:** A small component that might be a sensor or a small valve.\n- **E:** A large cylindrical component at the top, possibly a tank or reservoir.\n- **F:** A pipe or conduit leading from the left side of the diagram.\n- **H:** A smaller pipe or conduit connected to the main body near the bottom right.\n\n**Arrows, Inputs, Outputs:**\nThere are no explicit arrows indicating direction of flow or inputs/outputs. However, the arrangement suggests that fluid or material could enter from the left via pipe F and exit through the pipe connected to the main body near the bottom right.\n\n**Technical Purpose:**\nBased on the presence of multiple valves and conduits, this device is likely designed to control the flow of a substance, such as water, oil, or another liquid. It may be part of a larger system where precise control over the flow rate or direction is necessary. The cylindrical component E could serve as a storage tank or reservoir, while the valves (B and C) would allow for regulation of the flow entering and exiting the system.\n\n**Text/Labels:**\nThe only text visible in the image is the letter labels A through H, which correspond to the components described above. There are no additional labels or text providing further context or explanation about the function of each part.",
+      "flags": {},
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
+    },
+    {
+      "id": "r004_text",
+      "kind": "text",
+      "label": "caption",
+      "bbox": [
+        458,
+        1123,
+        1009,
+        1161
+      ],
+      "image_path": null,
+      "reading_order": 4,
+      "needs_vlm": false,
+      "extracted_text": "Fio. 22.-Gross section of simple type of hydraulic ram.",
+      "flags": {}
+    },
+    {
+      "id": "r005_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        128,
+        1198,
+        734,
+        1309
+      ],
+      "image_path": null,
+      "reading_order": 5,
+      "needs_vlm": false,
+      "extracted_text": "ery pipe, and the ram itself consists of an air chamber, dash valve, delivery valve, and body pipe.",
+      "flags": {}
+    },
+    {
+      "id": "r006_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        128,
+        1312,
+        734,
+        1674
+      ],
+      "image_path": null,
+      "reading_order": 6,
+      "needs_vlm": false,
+      "extracted_text": "The hydraulic ram is often used to elevate water from a pure spring. Water may be elevated from streams to stock tanks, but this water should not be used for household purposes. The flow of the spring should not be less than one-half gallon per minute. It is necessary that there be considerable difference in elevation between the level of the supply and a convenient location for the ram within a reasonable distance. Figure 22 shows a cross section of a simple type of hydraulic ram. Figure",
+      "flags": {}
+    },
+    {
+      "id": "r007_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        777,
+        1196,
+        1377,
+        1235
+      ],
+      "image_path": null,
+      "reading_order": 7,
+      "needs_vlm": false,
+      "extracted_text": "23 shows the usual relative positions of spring,",
+      "flags": {}
+    },
+    {
+      "id": "r008_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        777,
+        1236,
+        1041,
+        1269
+      ],
+      "image_path": null,
+      "reading_order": 8,
+      "needs_vlm": false,
+      "extracted_text": "ram, and storage tank.",
+      "flags": {}
+    },
+    {
+      "id": "r009_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        775,
+        1278,
+        1379,
+        1635
+      ],
+      "image_path": null,
+      "reading_order": 9,
+      "needs_vlm": false,
+      "extracted_text": "The operation of a ram may be briefly explained as follows: the water flowing down the drive pipe acquires a certain energy due to its weight and velocity and, upon entering the body pipe of the ram, strikes the open dash valve with considerable force, which is sufficient to close it. The result is, that the water piles up and exerts an interior pressure, which causes the delivery valve to open, admitting water into the air chamber. (See Fig. 22). The water then rebounds back up the drive pipe until forced down again by the weight of the water in the drive pipe, and the operation is repeated. During each momentary reflow a small quantity of water is forced into the air chamber, compressing the air. The resulting air pressure forces water up the delivery pipe to the point of delivery. The operation of a ram is continuous, once started, until the valves become worn. The ordinary small ram completes its cycle about 60 times a minute, the length of stroke of the dash valve governingthe number of pulsations per minute.",
       "flags": {}
     }
   ],
   "reading_order": [
-    "r001_figure"
+    "r001_text",
+    "r002_text",
+    "r003_figure",
+    "r004_text",
+    "r005_text",
+    "r006_text",
+    "r007_text",
+    "r008_text",
+    "r009_text"
   ],
-  "flags": {}
+  "flags": {
+    "has_number_discrepancies": false
+  },
+  "special_crops_count": 1,
+  "vlm_model": "Qwen2.5-VL-7B-Instruct"
 }

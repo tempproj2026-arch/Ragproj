@@ -6,10 +6,74 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "extracted",
+  "status": "vlm_extracted",
   "regions": [
     {
-      "id": "r001_table",
+      "id": "r001_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        128,
+        151,
+        733,
+        297
+      ],
+      "image_path": null,
+      "reading_order": 1,
+      "needs_vlm": false,
+      "extracted_text": "The discharge per stroke as shown by the above table may be multiplied by the number of strokes per minute to find the discharge in gallons per minute.",
+      "flags": {}
+    },
+    {
+      "id": "r002_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        129,
+        305,
+        733,
+        413
+      ],
+      "image_path": null,
+      "reading_order": 2,
+      "needs_vlm": false,
+      "extracted_text": "The power required for pumping will depend on the number of gallons per minute one wishes to pump and the total lift.",
+      "flags": {}
+    },
+    {
+      "id": "r003_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        132,
+        422,
+        731,
+        493
+      ],
+      "image_path": null,
+      "reading_order": 3,
+      "needs_vlm": false,
+      "extracted_text": "The total lift is the vertical distance from the surface of the water in the well to the highest faucet or to the storage tank plus the friction loss in the pipes. If the length of the distribution pipe is over 100 feet the loss by frictional resistance in feet of lift should be determined and included in the total lift. The following table gives the frictional loss in feet of lift per 100 feet in pipes from 3% to 4 inches in diameter, discharging from 5 to 40 gallons per minute.",
+      "flags": {}
+    },
+    {
+      "id": "r004_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        163,
+        516,
+        1342,
+        552
+      ],
+      "image_path": null,
+      "reading_order": 4,
+      "needs_vlm": false,
+      "extracted_text": "FRACTIONAL LOSS IN FEET FOR 100 FEET CLEAN IRON PIPES",
+      "flags": {}
+    },
+    {
+      "id": "r005_table",
       "kind": "table",
       "label": "table",
       "bbox": [
@@ -18,13 +82,231 @@
         1343,
         910
       ],
-      "image_path": "books/chapter_4_5_scanned/pages/p0006/regions/r001_table.png",
-      "reading_order": 1,
+      "image_path": "books/chapter_4_5_scanned/pages/p0006/regions/r005_table.png",
+      "reading_order": 5,
+      "needs_vlm": true,
+      "extracted_text": "```markdown\n| Gallons per minute | \u215c inch | 1 inch | 1\u00bc inches | 1\u00bd inches | 2 inches | 2\u00bd inches | 3 inches | 3\u00bd inches | 4 inches |\n|--------------------|---------|--------|------------|------------|----------|-----------|----------|------------|----------|\n| 5                 | 7.6     | 1.9    | 0.71       | 0.27       | 0.09     | 0.05      | 0.01     | 0.01       | ...      |\n| 10                | 29.9    | 7.3    | 1.4        | 1.0        | 0.28     | 0.09      | 0.05     | 0.01       | 0.02     |\n| 15                | 66.0    | 16.1   | 5.5        | 2.2        | 0.57     | 0.18      | 0.09     | 0.05       | 0.02     |\n| 20                | 115.0   | 28.0   | 9.5        | 4.8        | 0.96     | 0.32      | 0.13     | 0.07       | 0.03     |\n| 25                | 179.0   | 43.7   | 14.7       | 6.0        | 1.7      | 0.48      | 0.23     | 0.09       | 0.05     |\n| 30                | 264.0   | 63.2   | 21.0       | 8.6        | 2.1      | 0.69      | 0.30     | 0.14       | 0.07     |\n| 35                | 372.0   | 85.1   | 28.9       | 11.6       | 2.7      |",
+      "flags": {
+        "number_check": {
+          "has_discrepancy": true,
+          "agreement_rate": 0.483,
+          "vlm_number_count": 59,
+          "ocr_number_count": 73,
+          "matched_count": 43,
+          "vlm_only": [
+            "0.03",
+            "0.07",
+            "0.13",
+            "0.14",
+            "0.18",
+            "0.23",
+            "0.28",
+            "0.30",
+            "0.32",
+            "0.48",
+            "0.57",
+            "0.69",
+            "0.96",
+            "1",
+            "2",
+            "3"
+          ],
+          "ocr_only": [
+            "03",
+            "05",
+            "07",
+            "09",
+            "1 1/4",
+            "1.2",
+            "11",
+            "11/2",
+            "110.0",
+            "13",
+            "14",
+            "14.9",
+            "18",
+            "2 21/2",
+            "23",
+            "28",
+            "3 31/2",
+            "3.7",
+            "3/4",
+            "32",
+            "37.0",
+            "39",
+            "40",
+            "461.0",
+            "48",
+            "53",
+            "57",
+            "69",
+            "92",
+            "96"
+          ],
+          "matched": [
+            "0.01",
+            "0.02",
+            "0.05",
+            "0.09",
+            "0.27",
+            "0.71",
+            "1.0",
+            "1.4",
+            "1.7",
+            "1.9",
+            "10",
+            "11.6",
+            "115.0",
+            "14.7",
+            "15",
+            "16.1",
+            "179.0",
+            "2.1",
+            "2.2",
+            "2.7",
+            "20",
+            "21.0",
+            "25",
+            "264.0",
+            "28.0",
+            "28.9",
+            "29.9",
+            "30",
+            "35",
+            "372.0",
+            "4",
+            "4.8",
+            "43.7",
+            "5",
+            "5.5",
+            "6.0",
+            "63.2",
+            "66.0",
+            "7.3",
+            "7.6",
+            "8.6",
+            "85.1",
+            "9.5"
+          ]
+        },
+        "discrepancy": true
+      },
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
+    },
+    {
+      "id": "r006_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        163,
+        939,
+        559,
+        977
+      ],
+      "image_path": null,
+      "reading_order": 6,
+      "needs_vlm": false,
+      "extracted_text": "Ellis and Howland's experiments.",
+      "flags": {}
+    },
+    {
+      "id": "r007_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        130,
+        986,
+        733,
+        1167
+      ],
+      "image_path": null,
+      "reading_order": 7,
+      "needs_vlm": false,
+      "extracted_text": "Water weighs 62.5 pounds per cubic foot and there are 7.48 gallons in a cubic foot. Divide the number of gallons pumped per minute by 7.48 to get the cubic feet pumped per minute. Multiply the cubic feet by 62.5 pounds to get the weight",
+      "flags": {}
+    },
+    {
+      "id": "r008_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        130,
+        1175,
+        734,
+        1641
+      ],
+      "image_path": null,
+      "reading_order": 8,
+      "needs_vlm": false,
+      "extracted_text": "of water pumped per minute. Multiply the weight by the total lift, which will give the footpounds of work per minute; 33,000 foot-pounds per minute equal 1 horsepower. Divide the footpounds per minute by 33,000 and the result will be horsepower. The horsepower as computed from the quantity pumped per minute and the total lift should be doubled, as a pumping outfit usually has an efficiency of about 50 per cent. In general, from 1 to 3 horsepower is all that is required for ordinary farm pumping. In cases where water for the house only is wanted, %4 to 34 of a horsepower is sufficient.",
+      "flags": {}
+    },
+    {
+      "id": "r009_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        776,
+        938,
+        1381,
+        1299
+      ],
+      "image_path": null,
+      "reading_order": 9,
+      "needs_vlm": false,
+      "extracted_text": "Types of Pumps.\u2014There are several types of pumps which may be used in farm pumping. The most common are the ordinary lift pumps which simply raise the water to the ground surface from a shallow well. For elevated tanksystems and pneumatic tank systems the combination lift and force pump is necessary. If a special air pump or compressor is not employed it is necessary that a combination air and water pump be used for pneumatic tanks, especially in pumping from deep wells.",
+      "flags": {}
+    },
+    {
+      "id": "r010_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        777,
+        1308,
+        1380,
+        1450
+      ],
+      "image_path": null,
+      "reading_order": 10,
+      "needs_vlm": false,
+      "extracted_text": "There are many types of hand force pumps for shallow and deep well pumping which may be applied to either elevated tank or pneumatic tank systems.",
+      "flags": {}
+    },
+    {
+      "id": "r011_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        775,
+        1460,
+        1380,
+        1607
+      ],
+      "image_path": null,
+      "reading_order": 11,
+      "needs_vlm": false,
+      "extracted_text": "Figure 15 shows a deep-well windmill pumping outfit applied to a pneumatic tank system, and figure 13 shows a shallow well windmill pumping outfit supplying water to a tank on the windmill tower. Figure 20 is a pumping jack which may be connected with a deep or shallow well pumping outfit applied to either system. This jack may be operated by gas engine or electric motor. Figure 21 shows two other types of windmill force pumps, A for shallow wells, and B for deep wells.",
       "flags": {}
     }
   ],
   "reading_order": [
-    "r001_table"
+    "r001_text",
+    "r002_text",
+    "r003_text",
+    "r004_text",
+    "r005_table",
+    "r006_text",
+    "r007_text",
+    "r008_text",
+    "r009_text",
+    "r010_text",
+    "r011_text"
   ],
-  "flags": {}
+  "flags": {
+    "has_number_discrepancies": true,
+    "discrepancy_count": 1
+  },
+  "special_crops_count": 1,
+  "vlm_model": "Qwen2.5-VL-7B-Instruct"
 }

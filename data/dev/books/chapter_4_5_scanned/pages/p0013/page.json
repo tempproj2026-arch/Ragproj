@@ -6,10 +6,106 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "extracted",
+  "status": "vlm_extracted",
   "regions": [
     {
-      "id": "r001_table",
+      "id": "r001_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        131,
+        706,
+        733,
+        849
+      ],
+      "image_path": null,
+      "reading_order": 1,
+      "needs_vlm": false,
+      "extracted_text": "Manufacturers of hydraulic rams should supply directions for the proper installation, operation, and care of their particular rams, and these directions should be carefully followed.",
+      "flags": {}
+    },
+    {
+      "id": "r002_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        361,
+        867,
+        500,
+        910
+      ],
+      "image_path": null,
+      "reading_order": 2,
+      "needs_vlm": false,
+      "extracted_text": "Plumbing.",
+      "flags": {}
+    },
+    {
+      "id": "r003_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        131,
+        915,
+        735,
+        1096
+      ],
+      "image_path": null,
+      "reading_order": 3,
+      "needs_vlm": false,
+      "extracted_text": "Important Points to be ConsideredThe important points to be considered in the arrangement of a plumbing system are (1) durability of material and construction, and (2) simplicity. Avoid any complication of pipes and arrange the water pipes so as to carry the water to the point of discharge in as nearly a straight line as possible. The use of lead pipe or lead-lined receptacles for drinking water should be avoided in small private systems.",
+      "flags": {}
+    },
+    {
+      "id": "r004_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        775,
+        303,
+        1382,
+        912
+      ],
+      "image_path": null,
+      "reading_order": 4,
+      "needs_vlm": false,
+      "extracted_text": "Water Plumbing.\u2014The main pipe from the supply tank should be about 1% inches in diameter and never less than 1 inch. It leads to the kitchen range and then branches. One branch conveys cold water to the fixtures and the other conveys water through the heater, through the hot-water tank, and thence to the hot-water fixtures. The hot-water pipe should parallel the coldwater pipe but should not be so close that the temperature of either will affect that of the other. The arrangment of water pipes, hot-water tank, etc., is shown in figure 14. The hot-water pipes are shown in black. All water pipes should be put in with red lead and all fittings should be screwed tight. The natural direction of travel of hot water is upward, and this should be aided, in arranging the hotwater pipes, as much as possible.",
+      "flags": {}
+    },
+    {
+      "id": "r005_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        776,
+        921,
+        1379,
+        1030
+      ],
+      "image_path": null,
+      "reading_order": 5,
+      "needs_vlm": false,
+      "extracted_text": "The sizes of pipes generally used for supplying water to the various fixtures are given in the following table:",
+      "flags": {}
+    },
+    {
+      "id": "r006_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        403,
+        1115,
+        1083,
+        1150
+      ],
+      "image_path": null,
+      "reading_order": 6,
+      "needs_vlm": false,
+      "extracted_text": "SIZES OE WATER PIPES IN BUILDINGS",
+      "flags": {}
+    },
+    {
+      "id": "r007_table",
       "kind": "table",
       "label": "table",
       "bbox": [
@@ -18,13 +114,57 @@
         1328,
         1467
       ],
-      "image_path": "books/chapter_4_5_scanned/pages/p0013/regions/r001_table.png",
-      "reading_order": 1,
-      "flags": {}
+      "image_path": "books/chapter_4_5_scanned/pages/p0013/regions/r007_table.png",
+      "reading_order": 7,
+      "needs_vlm": true,
+      "extracted_text": "```markdown\n| Supply Branches | Low Pressure | High Pressure | Supply Branches | Low Pressure | High Pressure |\n|-----------------|--------------|---------------|-----------------|--------------|---------------|\n| To bath cocks... | 3/4\u20131        | 1/2           | To water-closet flush pipes. | 11/4\u201311/6    | 1/2\u20135/8       |\n| To basin cocks...| 1/2          | 3/8\u20131/2       | To kitchen sinks.. | 5/8\u20133/4      | 1/2           |\n| To water-closet flush tank.| 1/2         | 1/2          | To pantry sinks.. | 5/8\u20133/4      | 1/2           |\n| To water-closet flush valve.| 1           | \u201311/4        | To slop sinks... | 3/8\u201311/2     | 1/2\u20135/8       |\n```",
+      "flags": {
+        "number_check": {
+          "has_discrepancy": true,
+          "agreement_rate": 0.333,
+          "vlm_number_count": 8,
+          "ocr_number_count": 12,
+          "matched_count": 5,
+          "vlm_only": [
+            "11/2",
+            "11/6",
+            "3/8"
+          ],
+          "ocr_only": [
+            "-1",
+            "-11",
+            "2",
+            "3",
+            "4",
+            "5",
+            "8"
+          ],
+          "matched": [
+            "1",
+            "1/2",
+            "11/4",
+            "3/4",
+            "5/8"
+          ]
+        },
+        "discrepancy": true
+      },
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
     }
   ],
   "reading_order": [
-    "r001_table"
+    "r001_text",
+    "r002_text",
+    "r003_text",
+    "r004_text",
+    "r005_text",
+    "r006_text",
+    "r007_table"
   ],
-  "flags": {}
+  "flags": {
+    "has_number_discrepancies": true,
+    "discrepancy_count": 1
+  },
+  "special_crops_count": 1,
+  "vlm_model": "Qwen2.5-VL-7B-Instruct"
 }

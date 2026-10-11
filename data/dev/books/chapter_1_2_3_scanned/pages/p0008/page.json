@@ -6,25 +6,165 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "extracted",
+  "status": "vlm_extracted",
   "regions": [
     {
-      "id": "r001_formula",
+      "id": "r001_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        218,
+        316,
+        648,
+        348
+      ],
+      "image_path": null,
+      "reading_order": 1,
+      "needs_vlm": false,
+      "extracted_text": "Separation of Petroleum Products.",
+      "flags": {}
+    },
+    {
+      "id": "r002_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        131,
+        358,
+        735,
+        1107
+      ],
+      "image_path": null,
+      "reading_order": 2,
+      "needs_vlm": false,
+      "extracted_text": "It will be interesting to know how these products are separated. The process is known as \"fractional distillation.\" Crude oil as it comes from the earth is a thick, heavy black liquid. This liquid is put into large vessels and heat is applied to the exterior, the temperature being maintained constant at various points along the line. That is, the whole mass will be heated up to the temperature at which the gasoline vaporizes, and will be held at that temperature until all of the gasoline has passed off as a gas. It is led through a series of tubes and cooled and condensed until it will flow into another vessel. Then the mass is heated again to a higher temperature, at which kerosene will vaporize, and kept at the temperature for some time, and the kerosene is taken off in the same way as the gasoline, and so on for the lubricating oils. The paraffin base of the residue is used directly in many commercial fields, or it may be further distilled, and produce vaseline and a number of other well known petroleum products.",
+      "flags": {}
+    },
+    {
+      "id": "r003_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        130,
+        1118,
+        734,
+        1333
+      ],
+      "image_path": null,
+      "reading_order": 3,
+      "needs_vlm": false,
+      "extracted_text": "The original gasoline of a few years ago was 3 percent. The demand has become so great for fuel that some of the higher grades of kerosene have been added to the gasoline, thus decreasing the quality of gasoline, but increasing the amount available. Recent inventions have brought in new methods of \"cracking\" some of the lower distillates and producing gasoline. This will help to save the gasoline as a fuel of the future. Perhaps further progress will soon be made along that line and this most wonder-fuel will be saved for us through many years to come.",
+      "flags": {}
+    },
+    {
+      "id": "r004_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        886,
+        387,
+        1272,
+        420
+      ],
+      "image_path": null,
+      "reading_order": 4,
+      "needs_vlm": false,
+      "extracted_text": "Petroleum Products Classified.",
+      "flags": {}
+    },
+    {
+      "id": "r005_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        777,
+        432,
+        1381,
+        680
+      ],
+      "image_path": null,
+      "reading_order": 5,
+      "needs_vlm": false,
+      "extracted_text": "Petroleum products can not be classified by the temperatures at which they are distilled. On the market they are known by their weight or specific gravity. The following diagram will show the correct approximate weight of petroleum products and the various distillates, and will explain what is meant on the market by tests of 70 or 80, etc.:",
+      "flags": {}
+    },
+    {
+      "id": "r006_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        965,
+        702,
+        1192,
+        738
+      ],
+      "image_path": null,
+      "reading_order": 6,
+      "needs_vlm": false,
+      "extracted_text": "The Baume Scale.",
+      "flags": {}
+    },
+    {
+      "id": "r007_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        777,
+        745,
+        1381,
+        1032
+      ],
+      "image_path": null,
+      "reading_order": 7,
+      "needs_vlm": false,
+      "extracted_text": "The Baume Scale is of French origin and was invented to make a more convenient form. As an example, suppose that a gasoline had a specific gravity of.9 and also has a Baume reading of 75 degrees or 75 degrees Baume. The terms Baume gravity and degrees Baume are the same. To convert Baume to specific gravity or specific gravity to Baume the two following formulas may be used:",
+      "flags": {}
+    },
+    {
+      "id": "r008_formula",
       "kind": "formula",
       "label": "formula",
       "bbox": [
-        787,
-        1049,
-        1370,
+        786,
+        1043,
+        1376,
         1263
       ],
-      "image_path": "books/chapter_1_2_3_scanned/pages/p0008/regions/r001_formula.png",
-      "reading_order": 1,
-      "flags": {}
+      "image_path": "books/chapter_1_2_3_scanned/pages/p0008/regions/r008_formula.png",
+      "reading_order": 8,
+      "needs_vlm": true,
+      "extracted_text": "Here is the LaTeX code for the equations shown in the image:\n\n```latex\n\\documentclass{article}\n\\usepackage{amsmath}\n\n\\begin{document}\n\nBaume gravity = $\\dfrac{140}{130}$ Specific gravity\n\nSpecific gravity = $\\dfrac{140}{Baume \\ gravity + 130}$\n\n\\end{document}\n```\n\nThis LaTeX code will produce the equations as shown in the image. The `\\dfrac` command is used to create a fraction with a numerator and denominator that are displayed on separate lines, which is suitable for the fractions shown here.",
+      "flags": {
+        "number_check": {
+          "has_discrepancy": false,
+          "agreement_rate": 1.0,
+          "vlm_number_count": 2,
+          "ocr_number_count": 2,
+          "matched_count": 2,
+          "vlm_only": [],
+          "ocr_only": [],
+          "matched": [
+            "130",
+            "140"
+          ]
+        }
+      },
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
     }
   ],
   "reading_order": [
-    "r001_formula"
+    "r001_text",
+    "r002_text",
+    "r003_text",
+    "r004_text",
+    "r005_text",
+    "r006_text",
+    "r007_text",
+    "r008_formula"
   ],
-  "flags": {}
+  "flags": {
+    "has_number_discrepancies": false
+  },
+  "special_crops_count": 1,
+  "vlm_model": "Qwen2.5-VL-7B-Instruct"
 }

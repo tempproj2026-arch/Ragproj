@@ -6,7 +6,7 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "extracted",
+  "status": "vlm_extracted",
   "regions": [
     {
       "id": "r001_figure",
@@ -20,11 +20,188 @@
       ],
       "image_path": "books/chapter_4_5_scanned/pages/p0024/regions/r001_figure.png",
       "reading_order": 1,
+      "needs_vlm": true,
+      "extracted_text": "This is a cross-sectional diagram of a soil profile, likely used for agricultural or landscaping purposes. Here's a detailed breakdown:\n\n**Title/Label:**\n- The diagram does not have a specific title or figure number mentioned within the image itself.\n\n**Labeled Components:**\n1. **Sandy Loam:** This layer is depicted as a lighter-colored area with diagonal lines indicating its texture.\n2. **Gravel:** This layer is shown below the sandy loam and is represented by a darker area with irregular shapes to denote gravel particles.\n3. **Soil:** Located at the top of the diagram, this layer is marked with \"12\" SOIL\" written inside it. It appears to be a mix of the sandy loam and gravel layers above it.\n\n**Arrows:**\n- There are no arrows present in this diagram.\n\n**Inputs and Outputs:**\n- There are no inputs or outputs indicated in this diagram. It is purely a cross-section showing the layers of the soil profile.\n\n**Technical Purpose:**\nThe purpose of this diagram is to illustrate the composition of a soil profile, specifically the arrangement of sandy loam and gravel layers. It could be used for educational purposes, such as teaching about soil types and their characteristics, or for planning agricultural activities where understanding the soil structure is crucial.\n\n**Text/Labels:**\n- \"SANDY LOAM\"\n- \"GRAVEL\"\n- \"12\" SOIL\"\n\nThis diagram provides a clear visual representation of the different soil layers and their respective textures, which is essential for understanding the physical properties of the soil and how they might affect plant growth, water infiltration, and other environmental factors.",
+      "flags": {},
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
+    },
+    {
+      "id": "r002_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        851,
+        340,
+        1236,
+        375
+      ],
+      "image_path": null,
+      "reading_order": 2,
+      "needs_vlm": false,
+      "extracted_text": "50 gallons of sewage flow.",
+      "flags": {}
+    },
+    {
+      "id": "r003_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        867,
+        376,
+        1341,
+        410
+      ],
+      "image_path": null,
+      "reading_order": 3,
+      "needs_vlm": false,
+      "extracted_text": "Single-Chamber Tank Systems.",
+      "flags": {}
+    },
+    {
+      "id": "r004_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        850,
+        413,
+        1362,
+        667
+      ],
+      "image_path": null,
+      "reading_order": 4,
+      "needs_vlm": false,
+      "extracted_text": "Single - chamber septic - tank systems may be made to give g\u00f2od satisfaction if properly designed and operated. In such a system the sewage is received, settled, partially purified, and discharged by one chamber.",
+      "flags": {}
+    },
+    {
+      "id": "r005_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        854,
+        664,
+        1368,
+        1172
+      ],
+      "image_path": null,
+      "reading_order": 5,
+      "needs_vlm": false,
+      "extracted_text": "There is necessarily considerable disturbance of the sewage in the tank, and, in addition, the discharge is continuous. This makes necessary two disposal systems, with a diverting gate to allow an occasional breathing spell for each system. If such an arrangement is not used the disposal system must be of much larger capacity than-for the double-chamber tank system. This is necessary to prevent the continuous discharge from waterlogging the system.",
+      "flags": {}
+    },
+    {
+      "id": "r006_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        861,
+        1171,
+        1372,
+        1461
+      ],
+      "image_path": null,
+      "reading_order": 6,
+      "needs_vlm": false,
+      "extracted_text": "If a single-chamber tank is used it should be designed and constructed on the same basis as the settling chamber of a doubiechamber tank, with the elbows at inlet and outlet and baffle boards before these openings to break up the current.",
+      "flags": {}
+    },
+    {
+      "id": "r007_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        929,
+        1457,
+        1373,
+        1496
+      ],
+      "image_path": null,
+      "reading_order": 7,
+      "needs_vlm": false,
+      "extracted_text": "Figure 36 shows a single-",
+      "flags": {}
+    },
+    {
+      "id": "r008_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        778,
+        1525,
+        1382,
+        1600
+      ],
+      "image_path": null,
+      "reading_order": 8,
+      "needs_vlm": false,
+      "extracted_text": "diverted from one part of the disposal system to another.",
+      "flags": {}
+    },
+    {
+      "id": "r009_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        134,
+        1612,
+        737,
+        1682
+      ],
+      "image_path": null,
+      "reading_order": 9,
+      "needs_vlm": false,
+      "extracted_text": "Siete cecunal tlle belowetoceradediatiara!: This tank has a continuous dis-",
+      "flags": {}
+    },
+    {
+      "id": "r010_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        167,
+        1695,
+        553,
+        1731
+      ],
+      "image_path": null,
+      "reading_order": 10,
+      "needs_vlm": false,
+      "extracted_text": "charge, and it is necessary to use",
+      "flags": {}
+    },
+    {
+      "id": "r011_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        133,
+        1741,
+        737,
+        1813
+      ],
+      "image_path": null,
+      "reading_order": 11,
+      "needs_vlm": false,
+      "extracted_text": "a switch or diverting gate, as shown in figure 37, so that the liquid sewage may be intermittently The disposal system should be divided into at least two divisions for intermittent application, and the capacity of the system should be 10 to 15 per cent larger than for a double-chamber tank system.",
       "flags": {}
     }
   ],
   "reading_order": [
-    "r001_figure"
+    "r001_figure",
+    "r002_text",
+    "r003_text",
+    "r004_text",
+    "r005_text",
+    "r006_text",
+    "r007_text",
+    "r008_text",
+    "r009_text",
+    "r010_text",
+    "r011_text"
   ],
-  "flags": {}
+  "flags": {
+    "has_number_discrepancies": false
+  },
+  "special_crops_count": 1,
+  "vlm_model": "Qwen2.5-VL-7B-Instruct"
 }

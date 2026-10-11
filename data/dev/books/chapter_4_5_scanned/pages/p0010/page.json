@@ -6,10 +6,42 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "extracted",
+  "status": "vlm_extracted",
   "regions": [
     {
-      "id": "r001_figure",
+      "id": "r001_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        131,
+        151,
+        734,
+        294
+      ],
+      "image_path": null,
+      "reading_order": 1,
+      "needs_vlm": false,
+      "extracted_text": "Figure 24 illustrates this method. If this method is preferred, it should be so stated in purchasing. The following table gives approximate sizes of hydraulic rams to suit certain conditions.",
+      "flags": {}
+    },
+    {
+      "id": "r002_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        777,
+        149,
+        1381,
+        335
+      ],
+      "image_path": null,
+      "reading_order": 2,
+      "needs_vlm": false,
+      "extracted_text": "There are four separate problems connected with the hydraulic ram. These, with practical examples, are described by W. C. Davidson as follows: (1) Given the fall, lift, and quantity of water desired, find the necessary supply at spring.",
+      "flags": {}
+    },
+    {
+      "id": "r003_figure",
       "kind": "figure",
       "label": "picture",
       "bbox": [
@@ -18,12 +50,95 @@
         1263,
         696
       ],
-      "image_path": "books/chapter_4_5_scanned/pages/p0010/regions/r001_figure.png",
-      "reading_order": 1,
+      "image_path": "books/chapter_4_5_scanned/pages/p0010/regions/r003_figure.png",
+      "reading_order": 3,
+      "needs_vlm": true,
+      "extracted_text": "This is a schematic diagram illustrating a water supply system, specifically a gravity-fed water distribution system used for both turbid water supply and pure water supply.\n\n### Title:\nThe diagram does not have a specific title but is labeled as \"TURBID WATER SUPPLY\" on the left side and \"PURE WATER SUPPLY\" on the right side.\n\n### Components:\n1. **Power Water Level**: The highest point of the water source.\n2. **Turbid Water Supply**: A pipe leading from the power water level to the gravity pipe.\n3. **Gravity Pipe**: A horizontal pipe that carries turbid water from the power water level to the delivery valve.\n4. **Delivery Valve**: A valve controlling the flow of turbid water into the body pipe.\n5. **Body Pipe**: A vertical pipe that transports turbid water from the delivery valve to the check valve.\n6. **Check Valve**: A valve that prevents backflow of turbid water.\n7. **Gate Valve**: A valve used to control the flow of water through the delivery pipe.\n8. **Spring Water Level**: The lowest point of the water source.\n9. **Spring Pipe**: A pipe that carries water from the spring water level to the supply pipe.\n10. **Supply Pipe**: A horizontal pipe that carries water from the spring pipe to the pure water supply outlet.\n11. **Pure Water Supply**: The outlet where the pure water is distributed.\n\n### Arrows:\n- Arrows indicate the direction of water flow:\n  - From the power water level to the gravity pipe.\n  - From the gravity pipe to the delivery valve.\n  - From the delivery valve to the body pipe.\n  - From the body pipe to the check valve.\n  - From the check valve to the gate valve.\n  - From the gate valve to the supply pipe.\n  - From the supply pipe to the pure water supply outlet.\n\n### Inputs and Outputs:\n- **Input**:\n  - Power Water Level: Turbid water supply.\n  - Spring Water Level: Pure water supply.\n- **Output**:\n  - Pure Water Supply Outlet: Pure water supply.\n\n### Technical Purpose:\nThe diagram illustrates how turbid water is separated from pure water using a gravity-fed system. The turbid water flows from the higher power water level to the lower spring water level through a series of pipes and valves, ensuring that the pure water remains undisturbed at the spring water level. This system is designed to maintain the quality of the pure water supply by preventing turbid water",
+      "flags": {},
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
+    },
+    {
+      "id": "r004_text",
+      "kind": "text",
+      "label": "caption",
+      "bbox": [
+        240,
+        694,
+        1271,
+        752
+      ],
+      "image_path": null,
+      "reading_order": 4,
+      "needs_vlm": false,
+      "extracted_text": "ta. 24.-Double acting hydraulic ram, showing method of using a turbid creek supply to pump elen spring water.",
       "flags": {}
     },
     {
-      "id": "r002_table",
+      "id": "r005_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        130,
+        777,
+        734,
+        923
+      ],
+      "image_path": null,
+      "reading_order": 5,
+      "needs_vlm": false,
+      "extracted_text": "(2) Given the lift, quantity of drive water, and quantity of water desired, find the fall required. (3) Given the fall, lift, and quantity of drive water, find the quantity of water supplied to the storage",
+      "flags": {}
+    },
+    {
+      "id": "r006_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        159,
+        947,
+        296,
+        990
+      ],
+      "image_path": null,
+      "reading_order": 6,
+      "needs_vlm": false,
+      "extracted_text": "pumped.",
+      "flags": {}
+    },
+    {
+      "id": "r007_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        776,
+        777,
+        1380,
+        883
+      ],
+      "image_path": null,
+      "reading_order": 7,
+      "needs_vlm": false,
+      "extracted_text": "tank. (4) Given the fall, quantity of drive water, and quantity of water desired, find how high this water can be",
+      "flags": {}
+    },
+    {
+      "id": "r008_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        453,
+        987,
+        1002,
+        1029
+      ],
+      "image_path": null,
+      "reading_order": 8,
+      "needs_vlm": false,
+      "extracted_text": "SIZES OF HYDRAULIC RAMS",
+      "flags": {}
+    },
+    {
+      "id": "r009_table",
       "kind": "table",
       "label": "table",
       "bbox": [
@@ -32,14 +147,91 @@
         1347,
         1418
       ],
-      "image_path": "books/chapter_4_5_scanned/pages/p0010/regions/r002_table.png",
-      "reading_order": 2,
+      "image_path": "books/chapter_4_5_scanned/pages/p0010/regions/r009_table.png",
+      "reading_order": 9,
+      "needs_vlm": true,
+      "extracted_text": "```markdown\n| Number | Dimensions | Size of drive pipe | Size of delivery pipe | Quantity per minute required to operate engine | Least fall recommended |\n|--------|------------|---------------------|-----------------------|------------------------------------------------|-------------------------|\n| 10     | Ft. Ins.   | Ft. Ins.            | Ft. Ins.              | Gallons                                      | Feet                    |\n|        | 2          | 2                   | 10                   | 2-6                                           | 2                       |\n|        |            |                     |                      |                                               |                          |\n| 15     | Ft. Ins.   | Ft. Ins.            | Ft. Ins.              | Gallons                                      | Feet                    |\n|        | 2          | 3                   | 0                    | 6-12                                          | 2                       |\n|        |            |                     |                      |                                               |                          |\n| 20     | Ft. Ins.   | Ft. Ins.            | Ft. Ins.              | Gallons                                      | Feet                    |\n|        | 2          | 3                   | 3                    | 8-18                                          | 2                       |\n|        |            |                     |                      |                                               |                          |\n| 25     | Ft. Ins.   | Ft. Ins.            | Ft. Ins.              | Gallons                                      | Feet                    |\n|        | 2          | 3                   | 4                    | 12-28                                         | 2                       |\n|        |            |                     |                      |                                               |                          |\n| 30     | Ft. Ins.   | Ft. Ins.            | Ft. Ins.              | Gallons                                      | Feet                    |\n|        | 2          | 3                   | 7                    | 20-40                                         | 2                       |\n|        |            |                     |                      |                                               |                          |\n| 40     | Ft. Ins.   | Ft. Ins.            | Ft. Ins.              | Gallons                                      | Feet                    |\n|        | 3          | 4                   | 9                    | 30-75                                         | 2                       |\n```",
+      "flags": {
+        "number_check": {
+          "has_discrepancy": true,
+          "agreement_rate": 0.667,
+          "vlm_number_count": 21,
+          "ocr_number_count": 29,
+          "matched_count": 20,
+          "vlm_only": [
+            "9"
+          ],
+          "ocr_only": [
+            "-9",
+            "0.12",
+            "1",
+            "22",
+            "222222",
+            "23 1/2",
+            "3 11/4",
+            "37",
+            "5"
+          ],
+          "matched": [
+            "-12",
+            "-18",
+            "-28",
+            "-40",
+            "-6",
+            "-75",
+            "0",
+            "10",
+            "12",
+            "15",
+            "2",
+            "20",
+            "25",
+            "3",
+            "30",
+            "4",
+            "40",
+            "6",
+            "7",
+            "8"
+          ]
+        },
+        "discrepancy": true
+      },
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
+    },
+    {
+      "id": "r010_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        129,
+        1478,
+        734,
+        1728
+      ],
+      "image_path": null,
+      "reading_order": 10,
+      "needs_vlm": false,
+      "extracted_text": "The computations which follow are based upon an approximate rule, which is stated as follows: Multiply the fall in feet by the quantity of water supplied to the ram in gallons per minute, divide the product by the height the water is to be raised, and the result will be in gallons per minute. This may be expressed QxH in an equation as follows: q = (\u2014), in which Q = supply of spring in gallons h per minute. H = fall in feet from spring to ram, h\u2014height of storage tank above the ram in feet, quantity of water pumped in gallons per minute. The result should be reduced by about onethird to allow for friction.",
       "flags": {}
     }
   ],
   "reading_order": [
-    "r001_figure",
-    "r002_table"
+    "r001_text",
+    "r002_text",
+    "r003_figure",
+    "r004_text",
+    "r005_text",
+    "r006_text",
+    "r007_text",
+    "r008_text",
+    "r009_table",
+    "r010_text"
   ],
-  "flags": {}
+  "flags": {
+    "has_number_discrepancies": true,
+    "discrepancy_count": 1
+  },
+  "special_crops_count": 2,
+  "vlm_model": "Qwen2.5-VL-7B-Instruct"
 }

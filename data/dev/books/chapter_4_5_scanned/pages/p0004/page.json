@@ -6,7 +6,7 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "extracted",
+  "status": "vlm_extracted",
   "regions": [
     {
       "id": "r001_figure",
@@ -20,11 +20,35 @@
       ],
       "image_path": "books/chapter_4_5_scanned/pages/p0004/regions/r001_figure.png",
       "reading_order": 1,
+      "needs_vlm": true,
+      "extracted_text": "This is a cross-sectional diagram of a hand-operated water pump, specifically a suction pump used for raising water from a well.\n\n**Title/Label:**\nThe diagram does not have a specific title or figure number. However, it clearly illustrates a \"Suction Pump.\"\n\n**Labeled Components:**\n- **Handle:** The lever at the top that is manually operated to pump water.\n- **Force Cylinder:** The main cylindrical chamber where the plunger moves up and down.\n- **Plunger or Force Piston:** The rod that moves up and down within the force cylinder.\n- **Suction Cylinder:** The smaller cylinder below the force cylinder where the water is drawn into the pump.\n- **Suction Valve:** A valve located at the bottom of the suction cylinder that opens to allow water to enter when the pump is lifted.\n- **Suction Wire:** The pipe that connects the suction cylinder to the surface of the water in the well.\n\n**Arrows:**\nThere are no directional arrows explicitly shown in the diagram itself. However, the movement of the plunger upwards is implied by the position of the handle above the force cylinder.\n\n**Inputs and Outputs:**\n- **Input:** Water from the well enters through the suction wire into the suction cylinder.\n- **Output:** Water is pumped out of the pump and into the force cylinder as the plunger moves upwards.\n\n**Technical Purpose:**\nThe purpose of this pump is to lift water from a well using manual effort. When the handle is pulled upwards, the plunger moves down, creating a vacuum in the suction cylinder which draws water up through the suction wire. As the handle is pushed back down, the plunger rises, pushing the water up through the force cylinder and out of the pump.\n\n**Text/Labels:**\n- \"HANDLE\"\n- \"FORCE CYLINDER\"\n- \"PLUNGER OR FORCE PISTON\"\n- \"SUCTION CYLINDER\"\n- \"SUCTION VALVE\"\n- \"SUCTION WIRE\"\n\nThis detailed description should help in accurately identifying and understanding the function of the depicted pump.",
+      "flags": {},
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
+    },
+    {
+      "id": "r002_text",
+      "kind": "text",
+      "label": "caption",
+      "bbox": [
+        137,
+        1466,
+        723,
+        1501
+      ],
+      "image_path": null,
+      "reading_order": 2,
+      "needs_vlm": false,
+      "extracted_text": "Fro. 19.-Force pump with eylunder submerged m shallow well.",
       "flags": {}
     }
   ],
   "reading_order": [
-    "r001_figure"
+    "r001_figure",
+    "r002_text"
   ],
-  "flags": {}
+  "flags": {
+    "has_number_discrepancies": false
+  },
+  "special_crops_count": 1,
+  "vlm_model": "Qwen2.5-VL-7B-Instruct"
 }

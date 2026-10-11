@@ -6,27 +6,184 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "extracted",
+  "status": "vlm_extracted",
   "regions": [
     {
       "id": "r001_text",
       "kind": "text",
-      "label": "full_page",
+      "label": "text",
       "bbox": [
-        0,
-        0,
-        1512,
-        2225
+        127,
+        272,
+        729,
+        409
       ],
-      "image_path": "books/chapter_1_2_3_scanned/pages/p0023/regions/r001_text.png",
+      "image_path": null,
       "reading_order": 1,
-      "flags": {
-        "fallback_full_page": true
-      }
+      "needs_vlm": false,
+      "extracted_text": "Crank Case Explosions in Two-Cycle Engines. \u2014This will be caused by retarded spark or a poor mixture due to carburetor adjustment. Test both of these and see if the trouble is not eliminated.",
+      "flags": {}
+    },
+    {
+      "id": "r002_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        127,
+        424,
+        731,
+        602
+      ],
+      "image_path": null,
+      "reading_order": 2,
+      "needs_vlm": false,
+      "extracted_text": "Smoke.\u2014Black smoke is caused by too much gasoline or too rich a mixture, light colored smoke is caused by an excess of oil fed to the cylinder. Either of these can be remedied by taking care of the carburetor or the oil supply.",
+      "flags": {}
+    },
+    {
+      "id": "r003_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        129,
+        613,
+        730,
+        791
+      ],
+      "image_path": null,
+      "reading_order": 3,
+      "needs_vlm": false,
+      "extracted_text": "Engine Gradually Slows Down and Stops.\u2014 This may be caused by weak or exhausted batteries, poor mixture due to carburetor adjustment, overload on the engine, magneto slipping or governor out of order, or overheated bearings.",
+      "flags": {}
+    },
+    {
+      "id": "r004_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        130,
+        804,
+        731,
+        944
+      ],
+      "image_path": null,
+      "reading_order": 4,
+      "needs_vlm": false,
+      "extracted_text": "Test your batteries. Enrich the mixture. If this does not help, take off some of the load, then try the magneto and see if it is slipping and put hand on the bearings and see if they are hot.",
+      "flags": {}
+    },
+    {
+      "id": "r005_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        130,
+        955,
+        736,
+        1456
+      ],
+      "image_path": null,
+      "reading_order": 5,
+      "needs_vlm": false,
+      "extracted_text": "ExcessiveVibration\u2014Excessive vibration may be caused by poorly balanced engine crank shaft, twisted cam shaft may change valve timing and cause an uneven application of power, or an uneven wear on the cams or push rods may give an uneven application of power, or a defective timer may fire the cylinders at unequal periods, or the carburetor not situated at equal distances from the cylinders may be the cause of the vibration. To correct this inspect the crank shaft and cam shaft especially as to wear. A machinist only can remedy the wear by machining and rebushing. If none of these are the trouble, note the position of the carburetor and change if necessary.",
+      "flags": {}
+    },
+    {
+      "id": "r006_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        772,
+        150,
+        1374,
+        328
+      ],
+      "image_path": null,
+      "reading_order": 6,
+      "needs_vlm": false,
+      "extracted_text": "Cam Shaft Rattle\u2014The cam shaft rattles because of retarded spark, or loose cam shaft bearings or gears, or loose cam rollers or pins. To remedy this, advance the spark, tighten up cam shaft bearings or cam rollers or pins.",
+      "flags": {}
+    },
+    {
+      "id": "r007_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        772,
+        339,
+        1378,
+        736
+      ],
+      "image_path": null,
+      "reading_order": 7,
+      "needs_vlm": false,
+      "extracted_text": "Wheezing and Scraping Sound.\u2014A wheezing and scraping sound will be caused by broken piston rings, dry piston due to lack of oil, vibration of auxiliary air valve on carburetor, tight piston, overheated cylinders, or fly-wheel scraping on metal shields. When a wheezing or scraping sound is heard, the cylinder should be opened and examined well for broken piston rings or lack of oil. Also see discussion for overheated cylinders. See if metal guards and shield are not rubbing on some moving part.",
+      "flags": {}
+    },
+    {
+      "id": "r008_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        775,
+        742,
+        1377,
+        989
+      ],
+      "image_path": null,
+      "reading_order": 8,
+      "needs_vlm": false,
+      "extracted_text": "Knocking and Pounding\u2014Regular\u2014Knocking and pounding will be caused by ignition too far advanced, pre-ignition, overheated cylinders, loose bearings, loose piston rod bearing, loose fly-wheel, loose counterweights, end play in crank shaft, broken valve stem, broken circulating pump, and wear on cam\" shaft and cams.",
+      "flags": {}
+    },
+    {
+      "id": "r009_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        774,
+        1002,
+        1380,
+        1290
+      ],
+      "image_path": null,
+      "reading_order": 9,
+      "needs_vlm": false,
+      "extracted_text": "To remedy this, retard the spark. If this does not remedy the cause an examination of the cylinder should follow, then the bearings. Inspect thoroughly the engine to see if there are any loose parts as indicated, to find any broken valve stems or broken pumps. Inspect also for wear. Tighten all loose parts. Take broken or worn parts to machinist.",
+      "flags": {}
+    },
+    {
+      "id": "r010_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        777,
+        1301,
+        1380,
+        1442
+      ],
+      "image_path": null,
+      "reading_order": 10,
+      "needs_vlm": false,
+      "extracted_text": "Irregular Knock.\u2014An irregular knock is different from a regular and has an entirely different cause. It is usually caused by loose electrical connections, loose piping, pre-ignition caused by same variable faults, or defective commutator or timer.",
+      "flags": {}
     }
   ],
   "reading_order": [
-    "r001_text"
+    "r001_text",
+    "r002_text",
+    "r003_text",
+    "r004_text",
+    "r005_text",
+    "r006_text",
+    "r007_text",
+    "r008_text",
+    "r009_text",
+    "r010_text"
   ],
-  "flags": {}
+  "flags": {
+    "has_number_discrepancies": false
+  },
+  "special_crops_count": 0,
+  "vlm_model": "Qwen2.5-VL-7B-Instruct"
 }

@@ -6,10 +6,42 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "extracted",
+  "status": "vlm_extracted",
   "regions": [
     {
-      "id": "r001_table",
+      "id": "r001_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        133,
+        147,
+        739,
+        686
+      ],
+      "image_path": null,
+      "reading_order": 1,
+      "needs_vlm": false,
+      "extracted_text": "Sewer Plumbing.\u2014The sewer plumbing serves as a drain for the water plumbing. The drainage system should be so constructed as to carry away completely everything emptied into it, and it should be constantly vented, frequently and thoroughly flushed, and have each of its openings into the house securely guarded. All drains, soil pipe, and waste pipe should be water-tight and airtight. The soil pipe or house-drainage main begins at the sewer opening and passes up through the house as nearly vertical as possible and out through the roof for free ventilation. It should be at least 4 inches in diameter, of extra heavy cast iron, and all joints should be tightly calked with lead and oakum. All discharge from the wash basins, sinks, and toilets empties into the soil pipe, and connections should be tightly made. The sewer inside the cellar wall should always be soil pipe; tile should never be used except outside of the wall. A soilpipe trap should be provided at the house foiindation, as shown in Figure 26. Every fixture should have a trap to prevent foul air from coming back through the waste pipe. Vent pipes should be provided on all waste pipes to prevent siphonage and the consequent destroying of the traps. Figure 2% shows a good arrangement of sewer plumbing. Note the traps and vent pipes on each waste pipe. The least sizes of waste and vent pipes are given in the table below.",
+      "flags": {}
+    },
+    {
+      "id": "r002_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        428,
+        717,
+        1081,
+        758
+      ],
+      "image_path": null,
+      "reading_order": 2,
+      "needs_vlm": false,
+      "extracted_text": "SIZES OF WASTE AND VENT PIPES",
+      "flags": {}
+    },
+    {
+      "id": "r003_table",
       "kind": "table",
       "label": "table",
       "bbox": [
@@ -18,13 +50,133 @@
         1352,
         1073
       ],
-      "image_path": "books/chapter_4_5_scanned/pages/p0015/regions/r001_table.png",
-      "reading_order": 1,
+      "image_path": "books/chapter_4_5_scanned/pages/p0015/regions/r003_table.png",
+      "reading_order": 3,
+      "needs_vlm": true,
+      "extracted_text": "```markdown\n| Name of Pipe | Diameter | Inches |\n|--------------|----------|--------|\n| Main and branch soil pipe... | 4 |        |\n| Main waste pipe...          | 2 |        |\n| Branch waste pipes for kitchen sinks | 2 |        |\n| Bath or sink waste pipes... | 1\u00bd-2 |      |\n| Basin waste pipe...         | 1\u00bc-1\u00bd |     |\n| Pantry sink waste pipe...   | 1\u00bd |      |\n| Water-closet trap           | 3\u00bd-4 |    |\n| Wash tubs, 1\u00bd-inch waste pipe to 2-inch trap for 2 tubs... | 1\u00bd-2 |      |\n| Waste pipes for 3 or 4 tubs... | 2 |        |\n| Main vents and long branches | 2 |        |\n| Branch vents for traps over 2 inches... | 2 |        |\n| Branch vents for traps less than 2 inches... | 1\u00bd |      |\n```",
+      "flags": {
+        "number_check": {
+          "has_discrepancy": true,
+          "agreement_rate": 0.455,
+          "vlm_number_count": 5,
+          "ocr_number_count": 11,
+          "matched_count": 5,
+          "vlm_only": [],
+          "ocr_only": [
+            "-11",
+            "11/2",
+            "11/4",
+            "112",
+            "222",
+            "31/2"
+          ],
+          "matched": [
+            "-2",
+            "-4",
+            "2",
+            "3",
+            "4"
+          ]
+        },
+        "discrepancy": true
+      },
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
+    },
+    {
+      "id": "r004_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        131,
+        1095,
+        735,
+        1168
+      ],
+      "image_path": null,
+      "reading_order": 4,
+      "needs_vlm": false,
+      "extracted_text": "All plumbing should be tested by filling with water or smoke to detect leaks.",
+      "flags": {}
+    },
+    {
+      "id": "r005_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        217,
+        1188,
+        643,
+        1227
+      ],
+      "image_path": null,
+      "reading_order": 5,
+      "needs_vlm": false,
+      "extracted_text": "Sewage Purification and Disposal.",
+      "flags": {}
+    },
+    {
+      "id": "r006_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        128,
+        1234,
+        733,
+        1451
+      ],
+      "image_path": null,
+      "reading_order": 6,
+      "needs_vlm": false,
+      "extracted_text": "The problem of the purification and disposal of farm sewage by small private systems, differs somewhat from that of city sewage disposal, owing principally to the extreme fluctuations in flow, small size of the system, and variation in the quality of the sewage.",
+      "flags": {}
+    },
+    {
+      "id": "r007_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        129,
+        1458,
+        732,
+        1568
+      ],
+      "image_path": null,
+      "reading_order": 7,
+      "needs_vlm": false,
+      "extracted_text": "The process of sewage disposal is partly mechanical and partly bacterial, consisting of (1) preliminary or tank treatment and of (2) final treatment, which is application to a natural soil by surface or subsurface distribution or to an especially prepared filter.",
+      "flags": {}
+    },
+    {
+      "id": "r008_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        775,
+        1216,
+        1379,
+        1505
+      ],
+      "image_path": null,
+      "reading_order": 8,
+      "needs_vlm": false,
+      "extracted_text": "Preliminary or Septic-Tank Treatment.\u2014The exact nature of the action which takes place in a septic tank is a subject of dispute among sanitary experts and bacteriologists. Several theories have been advanced, but it is apparent that no definite conclusion has been reached. Some authorities advocate the use of. open ventilated tanks, others advocate the use of air-tight tanks.",
       "flags": {}
     }
   ],
   "reading_order": [
-    "r001_table"
+    "r001_text",
+    "r002_text",
+    "r003_table",
+    "r004_text",
+    "r005_text",
+    "r006_text",
+    "r007_text",
+    "r008_text"
   ],
-  "flags": {}
+  "flags": {
+    "has_number_discrepancies": true,
+    "discrepancy_count": 1
+  },
+  "special_crops_count": 1,
+  "vlm_model": "Qwen2.5-VL-7B-Instruct"
 }

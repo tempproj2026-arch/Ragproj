@@ -6,10 +6,90 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "extracted",
+  "status": "vlm_extracted",
   "regions": [
     {
-      "id": "r001_table",
+      "id": "r001_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        228,
+        177,
+        626,
+        207
+      ],
+      "image_path": null,
+      "reading_order": 1,
+      "needs_vlm": false,
+      "extracted_text": "Equipment of the Power House.",
+      "flags": {}
+    },
+    {
+      "id": "r002_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        1014,
+        172,
+        1132,
+        207
+      ],
+      "image_path": null,
+      "reading_order": 2,
+      "needs_vlm": false,
+      "extracted_text": "Shafting.",
+      "flags": {}
+    },
+    {
+      "id": "r003_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        127,
+        221,
+        731,
+        506
+      ],
+      "image_path": null,
+      "reading_order": 3,
+      "needs_vlm": false,
+      "extracted_text": "After a satisfactory house has been built it should not be expensive to add the equipment and connect up the power with the machines to be used. A good buyer will look around the junk man's iron and steel pile and oftentimes find pieces of shafting and pulleys which he can get for a very small price and which will answer the purpose satisfactorily.",
+      "flags": {}
+    },
+    {
+      "id": "r004_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        774,
+        217,
+        1375,
+        500
+      ],
+      "image_path": null,
+      "reading_order": 4,
+      "needs_vlm": false,
+      "extracted_text": "Cold rolled steel shafting is the best for this purpose. In the table below is given the size of shaft, revolutions per minute, and horse power generated or transmitted. Following this table will be found another table showing the amount of horse power the different widths and thicknesses of belts will transmit with speed of a hundred feet of belt per minute.",
+      "flags": {}
+    },
+    {
+      "id": "r005_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        226,
+        569,
+        1289,
+        608
+      ],
+      "image_path": null,
+      "reading_order": 5,
+      "needs_vlm": false,
+      "extracted_text": "HORSE POWER OF SHAFTS FOR GIVEN DIAMETER AND SPEED.",
+      "flags": {}
+    },
+    {
+      "id": "r006_table",
       "kind": "table",
       "label": "table",
       "bbox": [
@@ -18,12 +98,108 @@
         1343,
         888
       ],
-      "image_path": "books/chapter_1_2_3_scanned/pages/p0016/regions/r001_table.png",
-      "reading_order": 1,
+      "image_path": "books/chapter_1_2_3_scanned/pages/p0016/regions/r006_table.png",
+      "reading_order": 6,
+      "needs_vlm": true,
+      "extracted_text": "```markdown\n| Diameter of Shaft Inches | 100 | 125 | 150 | 175 | 200 | 225 | 250 | 300 | 350 | 400 |\n|--------------------------|-----|-----|------|------|------|------|------|------|------|------|\n| $1\\frac{3}{16}$          | 2.4 | 3.0 | 3.6 | 4.2 | 4.4 | 5.4 | 6.0 | 7.2 | 8.4 | 9.6 |\n| $1\\frac{7}{16}$         | 4.3 | 5.4 | 6.5 | 7.6 | 8.6 | 9.8 | 10.8| 13.0| 15.2| 17.2 |\n| $1\\frac{11}{16}$        | 6.5 | 8.0 | 9.7 | 11.2| 13.0| 14.6| 16.0| 19.4| 22.4| 26.0 |\n| $1\\frac{15}{16}$        | 10.0| 12.5| 15.0| 17.5| 20.0| 22.5| 25.0| 30.0| 35.0| 40.0 |\n| $2\\frac{1}{16}$         | 14.0| 17.8| 21.0| 24.5| 28.0| 31.5| 35.6| 42.0| 49.0| 56.0 |\n```",
+      "flags": {
+        "number_check": {
+          "has_discrepancy": false,
+          "agreement_rate": 0.906,
+          "vlm_number_count": 64,
+          "ocr_number_count": 58,
+          "matched_count": 58,
+          "vlm_only": [
+            "11",
+            "15",
+            "16",
+            "2",
+            "3",
+            "7"
+          ],
+          "ocr_only": [],
+          "matched": [
+            "1",
+            "10.0",
+            "10.8",
+            "100",
+            "11.2",
+            "12.5",
+            "125",
+            "13.0",
+            "14.0",
+            "14.6",
+            "15.0",
+            "15.2",
+            "150",
+            "16.0",
+            "17.2",
+            "17.5",
+            "17.8",
+            "175",
+            "19.4",
+            "2.4",
+            "20.0",
+            "200",
+            "21.0",
+            "22.4",
+            "22.5",
+            "225",
+            "24.5",
+            "25.0",
+            "250",
+            "26.0",
+            "28.0",
+            "3.0",
+            "3.6",
+            "30.0",
+            "300",
+            "31.5",
+            "35.0",
+            "35.6",
+            "350",
+            "4.2",
+            "4.3",
+            "4.4",
+            "40.0",
+            "400",
+            "42.0",
+            "49.0",
+            "5.4",
+            "56.0",
+            "6.0",
+            "6.5",
+            "7.2",
+            "7.6",
+            "8.0",
+            "8.4",
+            "8.6",
+            "9.6",
+            "9.7",
+            "9.8"
+          ]
+        }
+      },
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
+    },
+    {
+      "id": "r007_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        382,
+        921,
+        1112,
+        960
+      ],
+      "image_path": null,
+      "reading_order": 7,
+      "needs_vlm": false,
+      "extracted_text": "HORSE POWER BELTING WILL TRANSMIT.",
       "flags": {}
     },
     {
-      "id": "r002_table",
+      "id": "r008_table",
       "kind": "table",
       "label": "table",
       "bbox": [
@@ -32,14 +208,145 @@
         1345,
         1362
       ],
-      "image_path": "books/chapter_1_2_3_scanned/pages/p0016/regions/r002_table.png",
-      "reading_order": 2,
+      "image_path": "books/chapter_1_2_3_scanned/pages/p0016/regions/r008_table.png",
+      "reading_order": 8,
+      "needs_vlm": true,
+      "extracted_text": "```markdown\n| Width of Belt Inches | H.P. per 100 Feet | Width of Belt Inches | H.P. per 100 Feet | Width of Belt Inches | H.P. per 100 Feet |\n|----------------------|-------------------|----------------------|--------------------|----------------------|--------------------|\n| 1                    | .09               | 9                    | .82                | 20                   | 1.82               |\n| 2                    | .18               | 10                   | .91                | 22                   | 2.00               |\n| 3                    | .27               | 11                   | 1.00               | 24                   | 2.18               |\n| 4                    | .36               | 12                   | 1.09               | 28                   | 2.55               |\n| 5                    | .45               | 14                   | 1.27               | 32                   | 2.91               |\n| 6                    | .55               | 16                   | 1.45               | 36                   | 3.27               |\n| 7                    | .64               | 18                   | 1.64               | 40                   | 3.64               |\n| 8                    | .73               |                     |                    |                      |                    |\n|                       | Double Belt       |                     |                    |                      |                    |\n|                       | .18               |                     |                    |                      |                    |\n|                       | .55               |                     |                    |                      |                    |\n|                       | .91               |                     |                    |                      |                    |\n|                       | 1.09              |                     |                    |                      |                    |\n|                       | 1.27              |                     |                    |                      |                    |\n|                       | 1.45              |                     |                    |                      |                    |\n|                       | 1.64              |                     |                    |                      |                    |\n|                       | 1.46              |                     |                    |                      |                    |\n```",
+      "flags": {
+        "number_check": {
+          "has_discrepancy": true,
+          "agreement_rate": 0.824,
+          "vlm_number_count": 44,
+          "ocr_number_count": 49,
+          "matched_count": 42,
+          "vlm_only": [
+            "2",
+            "3"
+          ],
+          "ocr_only": [
+            "23",
+            "4.00",
+            "4.36",
+            "5.09",
+            "5.82",
+            "6.55",
+            "7.27"
+          ],
+          "matched": [
+            "09",
+            "1",
+            "1.00",
+            "1.09",
+            "1.27",
+            "1.45",
+            "1.46",
+            "1.64",
+            "1.82",
+            "10",
+            "100",
+            "11",
+            "12",
+            "14",
+            "16",
+            "18",
+            "2.00",
+            "2.18",
+            "2.55",
+            "2.91",
+            "20",
+            "22",
+            "24",
+            "27",
+            "28",
+            "3.27",
+            "3.64",
+            "32",
+            "36",
+            "4",
+            "40",
+            "45",
+            "5",
+            "55",
+            "6",
+            "64",
+            "7",
+            "73",
+            "8",
+            "82",
+            "9",
+            "91"
+          ]
+        },
+        "discrepancy": true
+      },
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
+    },
+    {
+      "id": "r009_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        691,
+        1390,
+        822,
+        1435
+      ],
+      "image_path": null,
+      "reading_order": 9,
+      "needs_vlm": false,
+      "extracted_text": "Pulleys.",
+      "flags": {}
+    },
+    {
+      "id": "r010_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        134,
+        1460,
+        736,
+        1642
+      ],
+      "image_path": null,
+      "reading_order": 10,
+      "needs_vlm": false,
+      "extracted_text": "The local hardware man or implement dealer will be able to supply all the materials necessary from stock. If not you can easily order them. Use split wood pulleys, as they are most convenient to take off and put on when changes are necessary.",
+      "flags": {}
+    },
+    {
+      "id": "r011_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        779,
+        1457,
+        1383,
+        1638
+      ],
+      "image_path": null,
+      "reading_order": 11,
+      "needs_vlm": false,
+      "extracted_text": "However, the driving pulleys and any such pulleys as maybe needed near the end of the shaft could be made of cast iron or steel, as these will be easily removable from the end of the shaft, and be more permanent than the wood.",
       "flags": {}
     }
   ],
   "reading_order": [
-    "r001_table",
-    "r002_table"
+    "r001_text",
+    "r002_text",
+    "r003_text",
+    "r004_text",
+    "r005_text",
+    "r006_table",
+    "r007_text",
+    "r008_table",
+    "r009_text",
+    "r010_text",
+    "r011_text"
   ],
-  "flags": {}
+  "flags": {
+    "has_number_discrepancies": true,
+    "discrepancy_count": 1
+  },
+  "special_crops_count": 2,
+  "vlm_model": "Qwen2.5-VL-7B-Instruct"
 }

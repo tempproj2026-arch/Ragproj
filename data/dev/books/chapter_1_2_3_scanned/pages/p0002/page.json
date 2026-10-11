@@ -6,7 +6,7 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "extracted",
+  "status": "vlm_extracted",
   "regions": [
     {
       "id": "r001_figure",
@@ -20,11 +20,18 @@
       ],
       "image_path": "books/chapter_1_2_3_scanned/pages/p0002/regions/r001_figure.png",
       "reading_order": 1,
-      "flags": {}
+      "needs_vlm": true,
+      "extracted_text": "This is **Figure III**, titled \"Simple Carbureter\". The diagram illustrates the basic components of a carburetor used to mix air and fuel for internal combustion engines.\n\nHere's a breakdown of the labeled parts:\n\n- **Air Inlet**: This is the opening where air enters the carburetor.\n- **Needle Valve**: This valve controls the flow of fuel into the air stream.\n- **Fuel Inlet**: This is the point where fuel enters the carburetor.\n- **To Engine**: This indicates the direction the mixture travels after being mixed by the carburetor, ultimately going to the engine.\n\nThe diagram shows the airflow through the carburetor, with arrows indicating the direction of the air as it moves from the inlet towards the engine. The fuel is introduced at the fuel inlet and mixes with the air before being directed to the engine.",
+      "flags": {},
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
     }
   ],
   "reading_order": [
     "r001_figure"
   ],
-  "flags": {}
+  "flags": {
+    "has_number_discrepancies": false
+  },
+  "special_crops_count": 1,
+  "vlm_model": "Qwen2.5-VL-7B-Instruct"
 }

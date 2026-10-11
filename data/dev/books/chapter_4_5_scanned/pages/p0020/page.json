@@ -6,10 +6,58 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "extracted",
+  "status": "vlm_extracted",
   "regions": [
     {
-      "id": "r001_figure",
+      "id": "r001_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        129,
+        152,
+        732,
+        297
+      ],
+      "image_path": null,
+      "reading_order": 1,
+      "needs_vlm": false,
+      "extracted_text": "9 inches per 100 feet. Where the fall from the house to the tank is excessive, it is a good idea to lay the last 100 feet of tile at the minimum grade to break up entrance velocity.",
+      "flags": {}
+    },
+    {
+      "id": "r002_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        774,
+        150,
+        1379,
+        329
+      ],
+      "image_path": null,
+      "reading_order": 2,
+      "needs_vlm": false,
+      "extracted_text": "walls should be 6 or 8 inches thick, the floor 4 to 6 inches thick, and the roof. about 6 inches thick and re-enforced. Some means should be provided at the bottom to aid the cleaning out of settled sludge. Either the",
+      "flags": {}
+    },
+    {
+      "id": "r003_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        129,
+        306,
+        733,
+        377
+      ],
+      "image_path": null,
+      "reading_order": 3,
+      "needs_vlm": false,
+      "extracted_text": "The septic tank should be constructed as nearly water-tight as possible, preferably of concrete. The",
+      "flags": {}
+    },
+    {
+      "id": "r004_figure",
       "kind": "figure",
       "label": "picture",
       "bbox": [
@@ -18,13 +66,108 @@
         1286,
         1092
       ],
-      "image_path": "books/chapter_4_5_scanned/pages/p0020/regions/r001_figure.png",
-      "reading_order": 1,
+      "image_path": "books/chapter_4_5_scanned/pages/p0020/regions/r004_figure.png",
+      "reading_order": 4,
+      "needs_vlm": true,
+      "extracted_text": "This technical diagram appears to illustrate a water storage system, likely for a house. Here's a detailed breakdown:\n\n**Title/Figure Number:** Not explicitly stated within the image itself.\n\n**Labeled Components:**\n- **A:** This section shows two tanks with capacities labeled:\n  - Tank on the left: \"Capacity 400 gal.\"\n  - Tank on the right: \"Capacity 320 gal.\"\n- **B:** This is a cross-sectional view of the water storage system.\n  - **a:** Likely represents the main water inlet pipe from the house.\n  - **b:** A valve or control mechanism.\n  - **c:** The water line level indicator, marked as \"Water line 7\" and \"8:0\".\n  - **d:** Another valve or outlet.\n  - **e:** A smaller tank or chamber, possibly for pressure regulation or additional storage.\n  - **f:** An outlet or drain pipe leading to the \"file\" (likely a waste disposal area).\n- **C:** A close-up view of the valve mechanism at point \"b\" in B.\n\n**Arrows:**\n- There is no directional arrow indicating flow direction within the diagram itself. However, the layout suggests that water flows from the house into the main tank (\"a\") and then through the valves (\"b\") before being directed to the file (\"f\").\n\n**Inputs and Outputs:**\n- **Input:** Water enters the system from the house via pipe \"a\".\n- **Output:** Water exits the system through pipe \"f\" and is directed to the \"file\".\n\n**Technical Purpose:**\nThe diagram illustrates a water storage system designed to manage water supply for a household. It includes two tanks with different capacities to ensure a consistent water supply even when one tank is being filled. The cross-sectional view provides insight into the internal workings of the system, including the water level indicators and the valve mechanisms used to control the flow of water. The smaller tank (\"e\") could serve a secondary function such as pressure regulation or additional storage.\n\n**Text/Labels:**\n- Capacity 400 gal.\n- Capacity 320 gal.\n- Water line 7\n- Water line 8:0\n- From house\n- To file\n\nThis description should help in accurately identifying and searching for this specific technical diagram.",
+      "flags": {},
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
+    },
+    {
+      "id": "r005_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        131,
+        1121,
+        734,
+        1227
+      ],
+      "image_path": null,
+      "reading_order": 5,
+      "needs_vlm": false,
+      "extracted_text": "Fig. 30.\u2014Double chamber septic tank for family of six people, suitable to conditions where outlet fall is",
+      "flags": {}
+    },
+    {
+      "id": "r006_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        164,
+        1236,
+        379,
+        1273
+      ],
+      "image_path": null,
+      "reading_order": 6,
+      "needs_vlm": false,
+      "extracted_text": "difficult to obtain.",
+      "flags": {}
+    },
+    {
+      "id": "r007_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        131,
+        1285,
+        735,
+        1533
+      ],
+      "image_path": null,
+      "reading_order": 7,
+      "needs_vlm": false,
+      "extracted_text": "floor may be sloped toward the inlet end for this purpose or a pipe with a valve may be installed below the tank, as shown respectively in figures 29 and 28. The discharge chamber should be fitted with an outlet set above the siphon which will allow the sewage to escape in case the siphon becomes clogged.",
+      "flags": {}
+    },
+    {
+      "id": "r008_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        131,
+        1545,
+        737,
+        1617
+      ],
+      "image_path": null,
+      "reading_order": 8,
+      "needs_vlm": false,
+      "extracted_text": "A concrete mixture of 1 part cement to 2 or 2% parts sand and 4 or 5 parts of broken stone or gravel should be used in the construction of the tank.",
+      "flags": {}
+    },
+    {
+      "id": "r009_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        776,
+        1201,
+        1382,
+        1663
+      ],
+      "image_path": null,
+      "reading_order": 9,
+      "needs_vlm": false,
+      "extracted_text": "The Automatic Siphon.\u2014The automatic siphon mna  let s nl s rtt  aty seem desirable' Figure 31 shows a 3 or 4 inch automatic siphon installed. The siphon operates as follows: As the liquid enters the discharge chamber its weight increases with increasing depth, and the air between the water surface in the bell and the water inside the \"siphon leg\" is compressed. As the water outside increases in depth the compression inside becomes greater until the water outside reaches the drawing or discharge depth for the siphon. Then the inside pressure is sufficient to force the water in the siphon leg around the bend, instantly relieving the compression. The water from the tank then rushes in to fill up the space which was occupied by the air and starts the siphon, which continues until the outside and inside pressures are again equalized.",
       "flags": {}
     }
   ],
   "reading_order": [
-    "r001_figure"
+    "r001_text",
+    "r002_text",
+    "r003_text",
+    "r004_figure",
+    "r005_text",
+    "r006_text",
+    "r007_text",
+    "r008_text",
+    "r009_text"
   ],
-  "flags": {}
+  "flags": {
+    "has_number_discrepancies": false
+  },
+  "special_crops_count": 1,
+  "vlm_model": "Qwen2.5-VL-7B-Instruct"
 }

@@ -6,27 +6,133 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "extracted",
+  "status": "vlm_extracted",
   "regions": [
     {
       "id": "r001_text",
       "kind": "text",
-      "label": "full_page",
+      "label": "text",
       "bbox": [
-        0,
-        0,
-        1512,
-        2225
+        130,
+        484,
+        732,
+        1233
       ],
-      "image_path": "books/chapter_1_2_3_scanned/pages/p0020/regions/r001_text.png",
+      "image_path": null,
       "reading_order": 1,
-      "flags": {
-        "fallback_full_page": true
-      }
+      "needs_vlm": false,
+      "extracted_text": "If the engine refuses to start, investigate the fuel supply first, then the magneto and battery switch. If these are found all right, see if there is a broken connection, or dirty electrode, or a broken ignitor spring. Test the batteries and magneto for weakness. Take out the spark plug and see if it is clean; there may be a speck of carbon between the two points. Be sure that the electric wires are not short circuited or crossed in some way. The spark coil may be defective, and if it is, it should be taken to an electrician for repairs. Open the timer and see if the contacts are all right. The piston may leak and give low compression. Due to a sudden change in weather or to tinkering, the carburetor may be improperly adjusted and the mixture not properly made. If there are any leaks in the cylinder between the carburetor and the cylinder, these should be closed up, as a certain amount of air will get in. Watch the vibrator. It may be out of order. When the engine is turned over see that the vibrator buzzes.",
+      "flags": {}
+    },
+    {
+      "id": "r002_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        132,
+        1245,
+        733,
+        1494
+      ],
+      "image_path": null,
+      "reading_order": 2,
+      "needs_vlm": false,
+      "extracted_text": "No Power or Loss of Power.\u2014Power loss trouble may be brought about by the fuel valve being partly closed, the air damper closed, compression release cam being left in \"starting\" position, throttle left in \"starting\" position, retarded sparks reducing power, advanced spark causing excessive loss of power and pounding, weak batteries, vibrator adjustment, spark plugs foul, foul ignitor on make and break system, defective timer, clogged muffler, long exhaust pipe or exhaust has short bend, magneto troubles, lack of oil, hot bearings, crank case leakage on two-cycle engines, and carburetor troubles.",
+      "flags": {}
+    },
+    {
+      "id": "r003_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        776,
+        377,
+        1380,
+        801
+      ],
+      "image_path": null,
+      "reading_order": 3,
+      "needs_vlm": false,
+      "extracted_text": "Fuel valves, dampers, etc., may jar shut or out of position. These should be inspected when the power seems to be varying. Note and see if all the adjustments have been changed from starting position to running position. A retarded spark will reduce the power and an advanced spark will cause pounding and also reduction of power. Weak batteries will give a poor spark and reduce the power. Test the vibrator adjustment and see that it is working. Investigate the spark plugs and ignitors and se     t e    t  ad justment or con+ tacts not clean.",
+      "flags": {}
+    },
+    {
+      "id": "r004_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        776,
+        816,
+        1379,
+        1061
+      ],
+      "image_path": null,
+      "reading_order": 4,
+      "needs_vlm": false,
+      "extracted_text": "If the muffler is clogged up with soot or if the exhaust pipe has too many bends, it will reduce power. Test the magneto. Look at the supply of oil. If the bearings are hot, cool them with cold water and add oil. If the crank case leaks in a two-cycle engine, it must be closed. Inspect the carburetor and see if its adjustments are O. K.",
+      "flags": {}
+    },
+    {
+      "id": "r005_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        777,
+        1074,
+        1379,
+        1255
+      ],
+      "image_path": null,
+      "reading_order": 5,
+      "needs_vlm": false,
+      "extracted_text": "Tf there is a leakage in the compression, it may be found by turning the engine over dead center on the compression stroke. If it passes easy, there is a leak. This should be investigated and stopped up by new rings or machining.",
+      "flags": {}
+    },
+    {
+      "id": "r006_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        776,
+        1266,
+        1380,
+        1408
+      ],
+      "image_path": null,
+      "reading_order": 6,
+      "needs_vlm": false,
+      "extracted_text": "Too cold water on the water jacket will reduce the power. For gasoline engines the water should be about 160 degrees, and for kerosene 200 degrees F.",
+      "flags": {}
+    },
+    {
+      "id": "r007_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        810,
+        1415,
+        1308,
+        1454
+      ],
+      "image_path": null,
+      "reading_order": 7,
+      "needs_vlm": false,
+      "extracted_text": "The valves should be inspected for timing.",
+      "flags": {}
     }
   ],
   "reading_order": [
-    "r001_text"
+    "r001_text",
+    "r002_text",
+    "r003_text",
+    "r004_text",
+    "r005_text",
+    "r006_text",
+    "r007_text"
   ],
-  "flags": {}
+  "flags": {
+    "has_number_discrepancies": false
+  },
+  "special_crops_count": 0,
+  "vlm_model": "Qwen2.5-VL-7B-Instruct"
 }

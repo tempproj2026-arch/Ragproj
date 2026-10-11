@@ -6,27 +6,150 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "extracted",
+  "status": "vlm_extracted",
   "regions": [
     {
       "id": "r001_text",
       "kind": "text",
-      "label": "full_page",
+      "label": "section_header",
       "bbox": [
-        0,
-        0,
-        1512,
-        2225
+        294,
+        170,
+        574,
+        203
       ],
-      "image_path": "books/chapter_1_2_3_scanned/pages/p0005/regions/r001_text.png",
+      "image_path": null,
       "reading_order": 1,
-      "flags": {
-        "fallback_full_page": true
-      }
+      "needs_vlm": false,
+      "extracted_text": "THE COMBUSTION.",
+      "flags": {}
+    },
+    {
+      "id": "r002_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        133,
+        215,
+        736,
+        609
+      ],
+      "image_path": null,
+      "reading_order": 2,
+      "needs_vlm": false,
+      "extracted_text": "The air is our chief supply of oxygen. Oxygen is necessary to support combustion. This is why air and the fuel are drawn into the cylinder together. As soon as they are brought into the cylinder, they are compressed, in order to bring the molecules of the oxygen and of the hydrocarbons close together. Then by electric spark or some flame the mixture is ignited and an intense heat occurs as a result of the combustion of all these elements. The carbon and oxygen unite to make carbon dioxide, and the hydrogen unites with the oxygen to make water.",
+      "flags": {}
+    },
+    {
+      "id": "r003_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        129,
+        619,
+        735,
+        1047
+      ],
+      "image_path": null,
+      "reading_order": 3,
+      "needs_vlm": false,
+      "extracted_text": "It would be ideal if only oxygen could be added to the fuel mixture, but it is cheaper to get the oxygen from the air, and since the air contains only 23 percent oxygen, a large quantity of it must be used. It has been theoretically determined that 203 cu. ft. of air are required to burn one pound of gasoline. In practice, from 240 to 260 cu. ft. are drawn into the cylinder for the proper combustion of the pound of fuel. It has been said before that each engine has its own peculiarities. The amount of air and gasoline should be mixed according to its demand.",
+      "flags": {}
+    },
+    {
+      "id": "r004_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        777,
+        152,
+        1382,
+        544
+      ],
+      "image_path": null,
+      "reading_order": 4,
+      "needs_vlm": false,
+      "extracted_text": "bustible parts are contained within the chemical mixture or compound. When set on fire the chemical change takes place without the assistance of any outside influence excepting heat. Now the difference is only this: hydrocarbons of the fuel in the gas engine are mixed physically with the oxygen of the air, while the hydrocarbons in an explosive compound are combined chemically with the oxygen. The explosion is quicker, more certain and reliable. The combustion in the gas engine cylinder is slower!",
+      "flags": {}
+    },
+    {
+      "id": "r005_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        953,
+        564,
+        1207,
+        604
+      ],
+      "image_path": null,
+      "reading_order": 5,
+      "needs_vlm": false,
+      "extracted_text": "Timing the Ignition.",
+      "flags": {}
+    },
+    {
+      "id": "r006_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        776,
+        610,
+        1382,
+        1038
+      ],
+      "image_path": null,
+      "reading_order": 6,
+      "needs_vlm": false,
+      "extracted_text": "The compression does not take place instantly. The ignition of a charge is usually a little bit previous to the time when it is actually needed in order to give the flame a chance to spread throughout the whole mixture. Therefore, the spark is applied to the mixture a little bit before the piston arrives at the compression end of the cylinder. As soon as it has completed its motion, combustion will have been completed, the temperature of the gases raised to the highest point, and the pressure developed so that the piston will be pushed back with maximum speed.",
+      "flags": {}
+    },
+    {
+      "id": "r007_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        259,
+        1067,
+        604,
+        1104
+      ],
+      "image_path": null,
+      "reading_order": 7,
+      "needs_vlm": false,
+      "extracted_text": "Combustion and Explosion.",
+      "flags": {}
+    },
+    {
+      "id": "r008_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        130,
+        1113,
+        734,
+        1364
+      ],
+      "image_path": null,
+      "reading_order": 8,
+      "needs_vlm": false,
+      "extracted_text": "The process of combustion in the engine is oftentimes called an explosion. This needs an explanation. It is very near an explosion, and in one sense it can be said that itis. An explosive compound is a mixture of carbon, hydrogen and oxygen chemically, so that there is no necessity for an outside supply of oxygen, that is, all of the com- To the human senses it appears that combustion takes place instantaneously. However, with accurate instruments it will be found that this is not true. Some fuels will burn faster than others, and the speed is also affected by the volume of the charge, the temperature, and the perfection of the vaporization and proportioning of the air. Atmospheric changes during the year will affect these conditions, and make the starting and working of the engine erratic at times.",
+      "flags": {}
     }
   ],
   "reading_order": [
-    "r001_text"
+    "r001_text",
+    "r002_text",
+    "r003_text",
+    "r004_text",
+    "r005_text",
+    "r006_text",
+    "r007_text",
+    "r008_text"
   ],
-  "flags": {}
+  "flags": {
+    "has_number_discrepancies": false
+  },
+  "special_crops_count": 0,
+  "vlm_model": "Qwen2.5-VL-7B-Instruct"
 }

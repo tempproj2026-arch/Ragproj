@@ -6,40 +6,284 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "extracted",
+  "status": "vlm_extracted",
   "regions": [
     {
-      "id": "r001_formula",
-      "kind": "formula",
-      "label": "formula",
+      "id": "r001_text",
+      "kind": "text",
+      "label": "text",
       "bbox": [
-        852,
-        553,
-        1305,
-        666
+        130,
+        270,
+        731,
+        379
       ],
-      "image_path": "books/chapter_1_2_3_scanned/pages/p0011/regions/r001_formula.png",
+      "image_path": null,
       "reading_order": 1,
+      "needs_vlm": false,
+      "extracted_text": "The unit of measurement of power is defined by James Watt as the rate of doing 33,000 foot-pounds per minute.",
       "flags": {}
     },
     {
-      "id": "r002_formula",
+      "id": "r002_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        163,
+        400,
+        702,
+        467
+      ],
+      "image_path": null,
+      "reading_order": 2,
+      "needs_vlm": false,
+      "extracted_text": "Indicator or Indicated, and Drawbar Horse Power.",
+      "flags": {}
+    },
+    {
+      "id": "r003_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        132,
+        479,
+        732,
+        653
+      ],
+      "image_path": null,
+      "reading_order": 3,
+      "needs_vlm": false,
+      "extracted_text": "Mechanical engineers have a method of measuring the amount of power expended by the burning gases in the cylinder. The instrument they used is called the \"Indicator\" and the horse power determined is the indicated horse power.",
+      "flags": {}
+    },
+    {
+      "id": "r004_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        130,
+        669,
+        733,
+        1021
+      ],
+      "image_path": null,
+      "reading_order": 4,
+      "needs_vlm": false,
+      "extracted_text": "Horse power referred to above is not that which is available for use, so that power is measured again at the fly-wheel. The power developed by the engine and transmitted to the belt is measured by means of a Prony Brake. The Prony Brake is clamped on the fly-wheel much the same as shown in the figure and the bar weighted so as to give the engine a uniform motion consuming the maximum amount of fuel. The calculations are then made giving the amount of horse power delivered.",
+      "flags": {}
+    },
+    {
+      "id": "r005_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        129,
+        1035,
+        733,
+        1142
+      ],
+      "image_path": null,
+      "reading_order": 5,
+      "needs_vlm": false,
+      "extracted_text": "The difference between the last two horse powers will be the mechanical friction of the engine parts.",
+      "flags": {}
+    },
+    {
+      "id": "r006_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        132,
+        1154,
+        733,
+        1292
+      ],
+      "image_path": null,
+      "reading_order": 6,
+      "needs_vlm": false,
+      "extracted_text": "In motor vehicles, such as automobiles, tractors, etc., another kind of horse power is used. This is cal  e'l e dae  o res the pulling power of a tractor or motor vehicle at the draw bar. Usually the draw bar horse power is about half of the brake horse power, that is, half the power is lost in the transmission and friction of gears and bearings.",
+      "flags": {}
+    },
+    {
+      "id": "r007_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        848,
+        316,
+        1306,
+        349
+      ],
+      "image_path": null,
+      "reading_order": 7,
+      "needs_vlm": false,
+      "extracted_text": "Calculating the Engine Horse Power.",
+      "flags": {}
+    },
+    {
+      "id": "r008_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        777,
+        361,
+        1378,
+        537
+      ],
+      "image_path": null,
+      "reading_order": 8,
+      "needs_vlm": false,
+      "extracted_text": "The horse power of engines may be determined by formula, but this method is inexact unless the exact quality of the fuel is known. However, for ordinary use it will give an approximate value. The formula for gasoline burning engines is as follows:",
+      "flags": {}
+    },
+    {
+      "id": "r009_formula",
       "kind": "formula",
       "label": "formula",
       "bbox": [
-        845,
-        742,
-        1312,
-        855
+        850,
+        550,
+        1310,
+        664
       ],
-      "image_path": "books/chapter_1_2_3_scanned/pages/p0011/regions/r002_formula.png",
-      "reading_order": 2,
+      "image_path": "books/chapter_1_2_3_scanned/pages/p0011/regions/r009_formula.png",
+      "reading_order": 9,
+      "needs_vlm": true,
+      "extracted_text": "Here is the LaTeX code for the equation shown in the image:\n\n```latex\n\\documentclass{article}\n\\usepackage{amsmath}\n\n\\begin{document}\n\nHorsepower = $\\frac{\\text{DLN}}{16400} - 0.5$\n\n\\end{document}\n```\n\nIn this LaTeX code:\n- `\\text{DLN}` is used to display \"DLN\" as text within the equation.\n- The fraction is represented using `\\frac{}{}`.\n- The division by 16400 is explicitly written out rather than using a fraction symbol for clarity.\n- The subtraction of 0.5 is directly included after the fraction.\n\nThis will produce the same equation as shown in the image.",
+      "flags": {
+        "number_check": {
+          "has_discrepancy": false,
+          "agreement_rate": 1.0,
+          "vlm_number_count": 2,
+          "ocr_number_count": 2,
+          "matched_count": 2,
+          "vlm_only": [],
+          "ocr_only": [],
+          "matched": [
+            "0.5",
+            "16400"
+          ]
+        }
+      },
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
+    },
+    {
+      "id": "r010_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        810,
+        694,
+        1227,
+        727
+      ],
+      "image_path": null,
+      "reading_order": 10,
+      "needs_vlm": false,
+      "extracted_text": "and for kerosene burning engines is",
+      "flags": {}
+    },
+    {
+      "id": "r011_formula",
+      "kind": "formula",
+      "label": "formula",
+      "bbox": [
+        842,
+        737,
+        1317,
+        853
+      ],
+      "image_path": "books/chapter_1_2_3_scanned/pages/p0011/regions/r011_formula.png",
+      "reading_order": 11,
+      "needs_vlm": true,
+      "extracted_text": "Here is the LaTeX code for the equation:\n\n```latex\n\\documentclass{article}\n\\usepackage{amsmath}\n\n\\begin{document}\n\nHorsepower = \\frac{D^2 \\cdot LN}{21,875} - 0.75\n\n\\end{document}\n```\n\nIn this equation:\n- \\( D \\) represents the diameter.\n- \\( LN \\) likely stands for \"Length to Diameter Ratio\" in the context of engine design, where \\( L \\) could be length and \\( N \\) could be a specific constant or parameter related to the engine's specifications.\n- The fraction \\( \\frac{D^2 \\cdot LN}{21,875} \\) calculates a value based on the diameter squared multiplied by the Length to Diameter Ratio, then divided by 21,875.\n- Subtracting 0.75 from this result gives the Horsepower output.\n\nThis equation is commonly used in engineering to estimate the horsepower of an engine given its diameter and other parameters.",
+      "flags": {
+        "number_check": {
+          "has_discrepancy": false,
+          "agreement_rate": 0.667,
+          "vlm_number_count": 3,
+          "ocr_number_count": 2,
+          "matched_count": 2,
+          "vlm_only": [
+            "2"
+          ],
+          "ocr_only": [],
+          "matched": [
+            "0.75",
+            "21875"
+          ]
+        }
+      },
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
+    },
+    {
+      "id": "r012_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        777,
+        883,
+        1378,
+        1095
+      ],
+      "image_path": null,
+      "reading_order": 12,
+      "needs_vlm": false,
+      "extracted_text": "D is the diameter of the cylinder; L is the length of the stroke; N is the number of revolutions per minute. Diameter and length are measured in inches. This will give the power for a single cylinder engine. When more than one cylinder is used, multiply the results by the number of cylinders.",
+      "flags": {}
+    },
+    {
+      "id": "r013_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        864,
+        1118,
+        1295,
+        1148
+      ],
+      "image_path": null,
+      "reading_order": 13,
+      "needs_vlm": false,
+      "extracted_text": "The Best Way to Get Horse Power.",
+      "flags": {}
+    },
+    {
+      "id": "r014_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        778,
+        1163,
+        1379,
+        1304
+      ],
+      "image_path": null,
+      "reading_order": 14,
+      "needs_vlm": false,
+      "extracted_text": "The only sure way to know the horse power of the engine is to test it. The Prony Brake or drawbar spring either can be used to determine the respective kind of horse power.",
       "flags": {}
     }
   ],
   "reading_order": [
-    "r001_formula",
-    "r002_formula"
+    "r001_text",
+    "r002_text",
+    "r003_text",
+    "r004_text",
+    "r005_text",
+    "r006_text",
+    "r007_text",
+    "r008_text",
+    "r009_formula",
+    "r010_text",
+    "r011_formula",
+    "r012_text",
+    "r013_text",
+    "r014_text"
   ],
-  "flags": {}
+  "flags": {
+    "has_number_discrepancies": false
+  },
+  "special_crops_count": 2,
+  "vlm_model": "Qwen2.5-VL-7B-Instruct"
 }

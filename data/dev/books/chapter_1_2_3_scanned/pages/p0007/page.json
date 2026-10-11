@@ -6,7 +6,7 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "extracted",
+  "status": "vlm_extracted",
   "regions": [
     {
       "id": "r001_figure",
@@ -20,11 +20,35 @@
       ],
       "image_path": "books/chapter_1_2_3_scanned/pages/p0007/regions/r001_figure.png",
       "reading_order": 1,
+      "needs_vlm": true,
+      "extracted_text": "This is **Figure 1** from the referenced source.\n\nThe figure illustrates the **distillation range of petroleum fractions**, specifically detailing the composition of gasoline and its various fractions obtained through fractional distillation.\n\nHere's a breakdown of the labeled components:\n\n- **Gasoline**: The top fraction, representing the lightest and most volatile components.\n- **Naptha C**: A fraction with a lower boiling point than gasoline but higher than Naptha B.\n- **Naptha B**: A fraction with a lower boiling point than Naptha A but higher than Naptha C.\n- **Naptha A**: The heaviest fraction among the naphthas.\n- **Kerosene**: A significant portion of the distillate, with a wide boiling range.\n- **Lubricating Oils**: Fractions that are heavier than kerosene and are used for lubrication purposes.\n- **Tar, Paraffin, etc.**: The heaviest fractions, which are typically not useful as fuel and are often discarded or repurposed.\n\nEach fraction is accompanied by two values:\n- **Amount**: The percentage contribution to the total distillate.\n- **Density**: The temperature range at which the fraction boils, expressed in degrees Fahrenheit.\n\nFor example:\n- **Naptha C**: 10.9%, boiling range 78\u00b0 to 68\u00b0F.\n- **Naptha B**: 2.5%, boiling range 68\u00b0 to 64\u00b0F.\n- **Naptha A**: 2%, boiling range 64\u00b0 to 60\u00b0F.\n- **Kerosene**: 50%, boiling range 56\u00b0 to 32\u00b0F.\n- **Lubricating Oils**: 15%, boiling range 32\u00b0 to 15\u00b0F.\n- **Tar, Paraffin, etc.**: 19%, boiling range 15\u00b0 to 0\u00b0F.\n\nThe figure visually represents the separation of petroleum into different fractions based on their boiling points, which is crucial for understanding the composition of gasoline and other petroleum products.",
+      "flags": {},
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
+    },
+    {
+      "id": "r002_text",
+      "kind": "text",
+      "label": "caption",
+      "bbox": [
+        639,
+        1747,
+        914,
+        1825
+      ],
+      "image_path": null,
+      "reading_order": 2,
+      "needs_vlm": false,
+      "extracted_text": "Figure 4",
       "flags": {}
     }
   ],
   "reading_order": [
-    "r001_figure"
+    "r001_figure",
+    "r002_text"
   ],
-  "flags": {}
+  "flags": {
+    "has_number_discrepancies": false
+  },
+  "special_crops_count": 1,
+  "vlm_model": "Qwen2.5-VL-7B-Instruct"
 }

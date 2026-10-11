@@ -6,10 +6,58 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "extracted",
+  "status": "vlm_extracted",
   "regions": [
     {
-      "id": "r001_figure",
+      "id": "r001_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        133,
+        556,
+        734,
+        661
+      ],
+      "image_path": null,
+      "reading_order": 1,
+      "needs_vlm": false,
+      "extracted_text": "A speedometer or counter should be one of the tools about the power house. This is a convenient piece of apparatus shown in Figure 6.",
+      "flags": {}
+    },
+    {
+      "id": "r002_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        270,
+        684,
+        592,
+        716
+      ],
+      "image_path": null,
+      "reading_order": 2,
+      "needs_vlm": false,
+      "extracted_text": "Pulleys, Speeds and Sizes.",
+      "flags": {}
+    },
+    {
+      "id": "r003_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        131,
+        729,
+        734,
+        1299
+      ],
+      "image_path": null,
+      "reading_order": 3,
+      "needs_vlm": false,
+      "extracted_text": "The calculation of pulleys, speeds and sizes is a very simple matter after the speed of the engine and the speed of the machines are shown. There are two kinds of pulleys, the driving pulley and the driven pulley. The driving pulley is the one at the engine or source of power and the driven pulley is at the machine or where the power is being used. The speed of the pulley will be represented in revolutions per minute (RPM). The diameter of the pulley will be called \"D.\" When it is the driven pulley to have a subscript (m) and when it is the driving pulley it will have the subscript (p); (m) standing for machine and (p) for power. The speed will be indicated by (RPM), subscript used Fig. 6 the same as for diameter of pulleys. Four formule will be given as follows:",
+      "flags": {}
+    },
+    {
+      "id": "r004_figure",
       "kind": "figure",
       "label": "picture",
       "bbox": [
@@ -18,28 +66,144 @@
         1135,
         458
       ],
-      "image_path": "books/chapter_1_2_3_scanned/pages/p0018/regions/r001_figure.png",
-      "reading_order": 1,
-      "flags": {}
+      "image_path": "books/chapter_1_2_3_scanned/pages/p0018/regions/r004_figure.png",
+      "reading_order": 4,
+      "needs_vlm": true,
+      "extracted_text": "This is a technical illustration of a **Pascal's Barometer**.\n\n### Title:\nThe title of the figure is not explicitly stated within the image itself. However, based on the content, it would likely be something like \"Pascal's Barometer\" or \"Historical Barometric Pressure Measurement Device.\"\n\n### Labeled Components:\n1. **Main Body**: The central part of the barometer where the mercury column is contained.\n2. **Mercury Column**: The vertical tube filled with mercury that measures atmospheric pressure.\n3. **Scale**: The circular scale marked with numbers indicating the pressure levels in millimeters of mercury (mmHg).\n4. **Dial**: The circular dial at the top of the main body, which may have additional markings or indicators.\n5. **Cylinders**: Two small cylinders located above the main body, possibly for storing mercury or as part of the mechanism.\n6. **Base**: The bottom part of the device, which supports the entire structure.\n\n### Arrows, Inputs, Outputs:\nThere are no explicit arrows, inputs, or outputs depicted in this diagram. It is a static representation of the barometer without any indication of movement or interaction.\n\n### Technical Purpose:\nThe primary purpose of this device is to measure atmospheric pressure. By observing the height of the mercury column, one can determine the current atmospheric pressure. Higher atmospheric pressure results in a shorter mercury column, while lower atmospheric pressure leads to a taller mercury column. This principle was famously demonstrated by Blaise Pascal in the 17th century, hence the name \"Pascal's Barometer.\"",
+      "flags": {},
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
     },
     {
-      "id": "r002_formula",
+      "id": "r005_formula",
       "kind": "formula",
       "label": "formula",
       "bbox": [
-        853,
-        477,
+        850,
+        471,
         1303,
-        840
+        844
       ],
-      "image_path": "books/chapter_1_2_3_scanned/pages/p0018/regions/r002_formula.png",
-      "reading_order": 2,
+      "image_path": "books/chapter_1_2_3_scanned/pages/p0018/regions/r005_formula.png",
+      "reading_order": 5,
+      "needs_vlm": true,
+      "extracted_text": "Here is the LaTeX code for the equations shown in the image:\n\n```latex\n\\documentclass{article}\n\\usepackage{amsmath}\n\n\\begin{document}\n\n\\begin{enumerate}\n    \\item $D_p = D_m \\frac{(RPM)_m}{(RPM)_p}.$\n    \\item $(RPM)_p = D_m \\frac{(RPM)_m}{D_p}.$\n    \\item $D_m = D_p \\frac{(RPM)_p}{(RPM)_m}.$\n    \\item $(RPM)_m = \\frac{(RPM)_p}{D_m}.$\n\\end{enumerate}\n\n\\end{document}\n```\n\n### Explanation:\n- \\( D_p \\): Diameter at point p.\n- \\( D_m \\): Diameter at midpoint.\n- \\( (RPM)_m \\): Revolutions per minute at midpoint.\n- \\( (RPM)_p \\): Revolutions per minute at point p.\n\nThese formulas relate the diameters and revolutions per minute at different points on a rotating object, likely a gear or a similar mechanical component.",
+      "flags": {
+        "number_check": {
+          "has_discrepancy": true,
+          "agreement_rate": 0.0,
+          "vlm_number_count": 0,
+          "ocr_number_count": 4,
+          "matched_count": 0,
+          "vlm_only": [],
+          "ocr_only": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "matched": []
+        },
+        "discrepancy": true
+      },
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
+    },
+    {
+      "id": "r006_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        929,
+        868,
+        1143,
+        907
+      ],
+      "image_path": null,
+      "reading_order": 6,
+      "needs_vlm": false,
+      "extracted_text": "TROUBLES.",
+      "flags": {}
+    },
+    {
+      "id": "r007_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        808,
+        929,
+        1379,
+        968
+      ],
+      "image_path": null,
+      "reading_order": 7,
+      "needs_vlm": false,
+      "extracted_text": "Gas engines have a reputation for causing",
+      "flags": {}
+    },
+    {
+      "id": "r008_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        776,
+        965,
+        1379,
+        1182
+      ],
+      "image_path": null,
+      "reading_order": 8,
+      "needs_vlm": false,
+      "extracted_text": "trouble, which they are fast overcoming. Many users have little or no complaint to make. Many instruction books list the parts causing trouble instead of the trouble. In this discussion the operator will observe the symptoms of the trouble and find the remedy listed under that heading.",
+      "flags": {}
+    },
+    {
+      "id": "r009_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        944,
+        1204,
+        1213,
+        1236
+      ],
+      "image_path": null,
+      "reading_order": 9,
+      "needs_vlm": false,
+      "extracted_text": "Gas Engine Troubles.",
+      "flags": {}
+    },
+    {
+      "id": "r010_text",
+      "kind": "text",
+      "label": "list_item",
+      "bbox": [
+        777,
+        1247,
+        1378,
+        1426
+      ],
+      "image_path": null,
+      "reading_order": 10,
+      "needs_vlm": false,
+      "extracted_text": "Engine will not crank\u2014engine stuck. 2. Engine will not start. 3. Low power\u2014loss of power. 4. Misfiring. 5. Misfiring in one cylinder. 6. Sudden stop. %. Back-firing. 8. Irregular running. 9. Overheating in cylinder. 10.",
       "flags": {}
     }
   ],
   "reading_order": [
-    "r001_figure",
-    "r002_formula"
+    "r001_text",
+    "r002_text",
+    "r003_text",
+    "r004_figure",
+    "r005_formula",
+    "r006_text",
+    "r007_text",
+    "r008_text",
+    "r009_text",
+    "r010_text"
   ],
-  "flags": {}
+  "flags": {
+    "has_number_discrepancies": true,
+    "discrepancy_count": 1
+  },
+  "special_crops_count": 2,
+  "vlm_model": "Qwen2.5-VL-7B-Instruct"
 }

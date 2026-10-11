@@ -6,10 +6,42 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "extracted",
+  "status": "vlm_extracted",
   "regions": [
     {
-      "id": "r001_figure",
+      "id": "r001_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        125,
+        154,
+        731,
+        439
+      ],
+      "image_path": null,
+      "reading_order": 1,
+      "needs_vlm": false,
+      "extracted_text": "Experience has shown that, in a small sewage disposal system, a dark, airtight tank of sufficient capad  cs  cc s  tcre main in it entirely at rest for a period of from 18 to 24 hours gives the best results and the least annoyance. The solid matter settles out in such a tank and is partially liquefied, deodorized, and destroyed by countless numbers of bacteria, which In such a tank a thick scum forms on the surface of the sewage, which protects the bacteria from the incoming air and is evidence of good bacterial action. The breaking up or disturbance of this scum will destroy the bacterial action for the time being and is likely to, cause considerable annoyance of bad odors.",
+      "flags": {}
+    },
+    {
+      "id": "r002_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        127,
+        449,
+        731,
+        559
+      ],
+      "image_path": null,
+      "reading_order": 2,
+      "needs_vlm": false,
+      "extracted_text": "thrive in filth and live without air. Some authorities assert that these bacteria also slightly affect the dissolved organic matter in raw liquid sewage.",
+      "flags": {}
+    },
+    {
+      "id": "r003_figure",
       "kind": "figure",
       "label": "picture",
       "bbox": [
@@ -18,13 +50,56 @@
         722,
         1759
       ],
-      "image_path": "books/chapter_4_5_scanned/pages/p0016/regions/r001_figure.png",
-      "reading_order": 1,
+      "image_path": "books/chapter_4_5_scanned/pages/p0016/regions/r003_figure.png",
+      "reading_order": 3,
+      "needs_vlm": true,
+      "extracted_text": "This is a detailed diagram illustrating a domestic plumbing system for a multi-story house. The title of the figure is not explicitly stated within the image itself but appears to be part of the larger document it belongs to.\n\n### Labeled Components:\n- **Ventilation**: A pipe extending upwards from the soil pipe, likely for air exchange.\n- **Soil Pipe**: A large vertical pipe running through the house, marked as \"4\" inches in diameter.\n- **2nd Story**: Indicates the second floor level of the house.\n- **Bath Room**: Includes a water closet and a bath tub.\n- **Water Closet**: A toilet.\n- **Bath Tub**: A bathtub.\n- **1st Story**: Indicates the first floor level of the house.\n- **Kitchen**: Includes a sink.\n- **Basement**: Indicates the basement level of the house.\n- **Laundry**: Includes a laundry tray.\n- **Sink**: A kitchen sink.\n- **Laundry Tray**: Likely a drain or collection area for laundry water.\n- **70 Sower**: Likely refers to a connection point to the sewer system, marked as \"4\" inches in diameter.\n\n### Arrows:\nThere are no directional arrows pointing to specific components or indicating flow direction in this diagram.\n\n### Inputs and Outputs:\nThe diagram does not explicitly show inputs or outputs, but the presence of the soil pipe suggests that the system outputs waste water to the sewer system. The ventilation pipe indicates an input for air exchange.\n\n### Technical Purpose:\nThe purpose of this diagram is to illustrate the layout and connections of a domestic plumbing system, specifically the drainage and ventilation systems for a multi-story house. It shows how the pipes connect different areas of the house, including bathrooms, kitchens, and a laundry area, and how they lead to the sewer system. The inclusion of the ventilation pipe highlights the importance of proper air circulation in the plumbing system to prevent odors and ensure proper functioning of the fixtures.",
+      "flags": {},
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
+    },
+    {
+      "id": "r004_text",
+      "kind": "text",
+      "label": "caption",
+      "bbox": [
+        214,
+        1754,
+        615,
+        1792
+      ],
+      "image_path": null,
+      "reading_order": 4,
+      "needs_vlm": false,
+      "extracted_text": "Fio. 27.\u2014Plumbing syatenn for sewaga disporst.",
+      "flags": {}
+    },
+    {
+      "id": "r005_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        772,
+        410,
+        1378,
+        913
+      ],
+      "image_path": null,
+      "reading_order": 5,
+      "needs_vlm": false,
+      "extracted_text": "Final Treatment.\u2014It is found that the septic tank effects only about 40 percent purification. The liquefying action in the tank, however, makes it possible to subject the sewage to a final treatment by filtration or distribution in a natural soil. This final purification is effected by means of bacteria which work in the air. Therefore it is necessary that the sewage be applied to the final disposal system in intermittent doses so that the system may have a chance to air out. If the sewage is applied continuously and in such quantities that 'the system is kept saturated, the filter or disposal area becomes water-logged and \"sewage sick\" and ceases to be effective. It is therefore necessary that the final treatment system be of sufficient capacity to dispose of each sewage quickly.",
       "flags": {}
     }
   ],
   "reading_order": [
-    "r001_figure"
+    "r001_text",
+    "r002_text",
+    "r003_figure",
+    "r004_text",
+    "r005_text"
   ],
-  "flags": {}
+  "flags": {
+    "has_number_discrepancies": false
+  },
+  "special_crops_count": 1,
+  "vlm_model": "Qwen2.5-VL-7B-Instruct"
 }

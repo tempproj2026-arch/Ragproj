@@ -6,27 +6,184 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "extracted",
+  "status": "vlm_extracted",
   "regions": [
     {
       "id": "r001_text",
       "kind": "text",
-      "label": "full_page",
+      "label": "section_header",
       "bbox": [
-        0,
-        0,
-        1512,
-        2225
+        306,
+        244,
+        554,
+        280
       ],
-      "image_path": "books/chapter_1_2_3_scanned/pages/p0006/regions/r001_text.png",
+      "image_path": null,
       "reading_order": 1,
-      "flags": {
-        "fallback_full_page": true
-      }
+      "needs_vlm": false,
+      "extracted_text": "Cooling the Engine.",
+      "flags": {}
+    },
+    {
+      "id": "r002_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        130,
+        289,
+        733,
+        893
+      ],
+      "image_path": null,
+      "reading_order": 2,
+      "needs_vlm": false,
+      "extracted_text": "Almost constant burning of fuel inside the engine, at a high temperature, heats the cylinder up to two thousand to twenty-five hundred degrees F. Therefore it is necessary to provide some means of carrying off this heat. Water and air are the two common mediums for doing this. If these fail to do their duty the cylinder will heat up, and before the electric spark will have a chance to ignite the fuel charge the heat of compression and the heat of the cylinder is likely to discharge it. This occurrence is called pre-ignition or premature ignition and is recognized by a knocking sound. It may be caused by four other reasons: 1st, compression too high; 2nd, glowing carbon or glowing sharp points on the cylinder wall; 3rd, uncertain ignition, and 4th, pockets of burning gas in the combustion chamber. These defects will be discussed later.",
+      "flags": {}
+    },
+    {
+      "id": "r003_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        776,
+        152,
+        1379,
+        329
+      ],
+      "image_path": null,
+      "reading_order": 3,
+      "needs_vlm": false,
+      "extracted_text": "Standing first in America are the petroleum products, such as benzine, naphtha, gasoline, kerosene, distillate, and crude oil. In the next important group are natural gas, illuminating gas, power or producer gas, alcohol, and wood oil.",
+      "flags": {}
+    },
+    {
+      "id": "r004_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        776,
+        342,
+        1381,
+        838
+      ],
+      "image_path": null,
+      "reading_order": 4,
+      "needs_vlm": false,
+      "extracted_text": "The petroleum products are largely obtained from North America. There are large deposits in Russia, and many other countries, but the American fields easily supply half the world. There are two kinds of petroleum by-products in the United States, and ingeneral the Mississippi divides the fields containing the two products. The Eastern field contains the products having a paraffin base, and the Western field contains a product having an asphalt base. Paraffin base means the character of the product left after the gasoline, naphtha, kerosene, and distillate have been driven off by heating. Along the Mississippi Valley the two kinds of oil are mixed.",
+      "flags": {}
+    },
+    {
+      "id": "r005_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        200,
+        916,
+        662,
+        950
+      ],
+      "image_path": null,
+      "reading_order": 5,
+      "needs_vlm": false,
+      "extracted_text": "The Source of Power in Gas Engines.",
+      "flags": {}
+    },
+    {
+      "id": "r006_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        131,
+        963,
+        734,
+        1210
+      ],
+      "image_path": null,
+      "reading_order": 6,
+      "needs_vlm": false,
+      "extracted_text": "The ideal fuel for gas engines is a liquid or solid fuel, which can be easily vaporized and mixed perfectly with air to form a combustible vapor. In burning it should leave no carbon deposit, nor should it give off any smoke or foul gas. This kind of fuel has not been found in practice, although high grades of gasoline approach it very nearly.",
+      "flags": {}
+    },
+    {
+      "id": "r007_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        341,
+        1233,
+        523,
+        1266
+      ],
+      "image_path": null,
+      "reading_order": 7,
+      "needs_vlm": false,
+      "extracted_text": "Kinds of Fuel.",
+      "flags": {}
+    },
+    {
+      "id": "r008_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        132,
+        1279,
+        734,
+        1382
+      ],
+      "image_path": null,
+      "reading_order": 8,
+      "needs_vlm": false,
+      "extracted_text": "The total number of fuels that are available and profitable to use is so large that only the most important and common ones will be mentioned.",
+      "flags": {}
+    },
+    {
+      "id": "r009_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        868,
+        862,
+        1289,
+        895
+      ],
+      "image_path": null,
+      "reading_order": 9,
+      "needs_vlm": false,
+      "extracted_text": "Composition of Crude Petroleum.",
+      "flags": {}
+    },
+    {
+      "id": "r010_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        776,
+        905,
+        1379,
+        1367
+      ],
+      "image_path": null,
+      "reading_order": 10,
+      "needs_vlm": false,
+      "extracted_text": "To the user of a gas engine, the exact composition of crude oil is not of much interest except in its broad economic sense. It will be noticed from what follows that certain parts of the crude oil are more valuable than others. The simple conclusion would be for an engine which could use the most available product to gain by getting the cheap fuel. In Figure 4 is graphically shown the proportion of gasoline, distillate, lubricating oils, asphalt residue and waste from the Western petroleum. Gasoline is seen to be a very small part, and it has therefore become high priced as the demand for it increased. Kerosene, which is about onehalf of the total product, in view of its availability, is cheaper than gasoline. This will help to explain some of the differences between gasoline and kerosene on the market today.",
+      "flags": {}
     }
   ],
   "reading_order": [
-    "r001_text"
+    "r001_text",
+    "r002_text",
+    "r003_text",
+    "r004_text",
+    "r005_text",
+    "r006_text",
+    "r007_text",
+    "r008_text",
+    "r009_text",
+    "r010_text"
   ],
-  "flags": {}
+  "flags": {
+    "has_number_discrepancies": false
+  },
+  "special_crops_count": 0,
+  "vlm_model": "Qwen2.5-VL-7B-Instruct"
 }

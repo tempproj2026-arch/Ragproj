@@ -6,10 +6,42 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "extracted",
+  "status": "vlm_extracted",
   "regions": [
     {
-      "id": "r001_table",
+      "id": "r001_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        130,
+        149,
+        733,
+        296
+      ],
+      "image_path": null,
+      "reading_order": 1,
+      "needs_vlm": false,
+      "extracted_text": "The following table of dimensions of septic tanks, suggests sizes of settling and discharge chambers and the corresponding siphon sizes applying-to various average conditions. The depths of siphon chamber given are the minimum allowable.",
+      "flags": {}
+    },
+    {
+      "id": "r002_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        460,
+        315,
+        1024,
+        360
+      ],
+      "image_path": null,
+      "reading_order": 2,
+      "needs_vlm": false,
+      "extracted_text": "DIMENSIONS OF SEPTIC TANKS",
+      "flags": {}
+    },
+    {
+      "id": "r003_table",
       "kind": "table",
       "label": "table",
       "bbox": [
@@ -18,12 +50,84 @@
         1338,
         823
       ],
-      "image_path": "books/chapter_4_5_scanned/pages/p0018/regions/r001_table.png",
-      "reading_order": 1,
+      "image_path": "books/chapter_4_5_scanned/pages/p0018/regions/r003_table.png",
+      "reading_order": 3,
+      "needs_vlm": true,
+      "extracted_text": "```markdown\n| Number Persons | Settling Chamber | Siphon Chamber | Sand Filter or Heavy Loam Distribution | Sandy or Porous Soil Distribution | Siphon Diameter |\n|----------------|------------------|----------------|---------------------------------------|-----------------------------------|-----------------|\n| Width Inside   | Length Inside     | Depth          | Width Inside                           | Length Inside                     | Minimum Depth    | Width Inside   | Length Inside  | Minimum Depth  | Inches         |\n| 6              | 4                | 6              | 3\u00bd                                    | 4                                 | 2 4                          | 3                | 2              | 4              | 3               |\n| 8              | 4                | 6\u00bd             | 4                                     | 4                                 | 2 4                          | 4                | 2              | 4              | 4               |\n| 12             | 4                | 7              | 5                                     | 4                                 | 2 5                          | 3                | 4              | 5              | 4               |\n| 15             | 4                | 8              | 5                                     | 6                                 | 2 5                          | 3                | 4              | 5              | 4               |\n| 25             | 4                | 10             | 3                                      | 6\u00bd                                | 3 2                          | 3                | 3\u00bd             | 2              | 5               |\n| 35             | 4\u00bd               | 12             | 5                                      | 6\u00bd                                | 3 2                          | 4\u00bd              | 3              | 2              | 5               |\n```",
+      "flags": {
+        "number_check": {
+          "has_discrepancy": true,
+          "agreement_rate": 0.5,
+          "vlm_number_count": 12,
+          "ocr_number_count": 21,
+          "matched_count": 11,
+          "vlm_only": [
+            "35"
+          ],
+          "ocr_only": [
+            "2 1/2",
+            "2223",
+            "35 41/2",
+            "444",
+            "44444",
+            "45",
+            "522",
+            "6 31/2",
+            "61",
+            "9"
+          ],
+          "matched": [
+            "10",
+            "12",
+            "15",
+            "2",
+            "25",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+          ]
+        },
+        "discrepancy": true
+      },
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
+    },
+    {
+      "id": "r004_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        129,
+        854,
+        733,
+        1068
+      ],
+      "image_path": null,
+      "reading_order": 4,
+      "needs_vlm": false,
+      "extracted_text": "The above table is computed on the basis that the inlet and outlet of the settling chamber should be placed with their inverts 12 inches below the roof of the tank, thus making the depth of sewage in both settling and discharge chamber 12 inches less than the mean inside depth.",
       "flags": {}
     },
     {
-      "id": "r002_figure",
+      "id": "r005_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        130,
+        1077,
+        734,
+        1259
+      ],
+      "image_path": null,
+      "reading_order": 5,
+      "needs_vlm": false,
+      "extracted_text": "The tank dimensions given in the above table, it should be remembered, are for average cases only aune  cst turs t  uts t r are subject to such variations to suit local conditions as the farmer's judgment indicates;",
+      "flags": {}
+    },
+    {
+      "id": "r006_figure",
       "kind": "figure",
       "label": "picture",
       "bbox": [
@@ -32,14 +136,43 @@
         1373,
         1312
       ],
-      "image_path": "books/chapter_4_5_scanned/pages/p0018/regions/r002_figure.png",
-      "reading_order": 2,
+      "image_path": "books/chapter_4_5_scanned/pages/p0018/regions/r006_figure.png",
+      "reading_order": 6,
+      "needs_vlm": true,
+      "extracted_text": "This is a technical diagram illustrating a septic tank system layout.\n\n**Title/Label:** The diagram is titled \"PLAN\" at the top and \"ELEVATION\" at the bottom, indicating it shows both a plan view and an elevation of the septic tank system.\n\n**Labeled Components:**\n\n- **Concrete 8\" thick:** This refers to the thickness of the concrete slab that forms the base of the septic tank structure.\n- **Wooden manhole cover:** A circular cover for accessing the septic tank.\n- **Flush tank:** Likely part of the plumbing system connected to the septic tank.\n- **Inlet from house:** The point where household wastewater enters the system.\n- **Settling tank A:** The first compartment of the septic tank where solid waste settles.\n- **Settling tank B:** The second compartment of the septic tank where further settling occurs.\n- **Overflow:** A pipe that allows excess liquid to flow out of the septic tank.\n- **Discharge pipe:** A pipe that carries treated effluent away from the septic tank.\n- **Automatic siphon A pipe:** A pipe that helps maintain a proper water level in the septic tank.\n- **Drain pipe:** A pipe that allows sludge to drain into the ground.\n- **Sludge:** The settled organic matter at the bottom of the septic tank.\n- **Discharge pipe:** Another pipe that carries the treated effluent away from the system.\n\n**Arrows:**\n\n- There are no directional arrows explicitly shown in the diagram itself. However, the flow direction can be inferred based on the placement of the components.\n\n**Inputs and Outputs:**\n\n- **Input:** Wastewater enters the system through the \"Inlet from house.\"\n- **Output:** Treated effluent exits the system through the \"Discharge pipe.\"\n\n**Technical Purpose:**\n\nThe diagram illustrates the basic components and layout of a septic tank system designed to treat household wastewater. It shows how the system separates solids from liquids, allowing the solids to settle and decompose while the liquids are treated and eventually discharged into the environment. The automatic siphon and overflow mechanisms help manage the water levels within the tanks to ensure proper functioning.",
+      "flags": {},
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
+    },
+    {
+      "id": "r007_text",
+      "kind": "text",
+      "label": "caption",
+      "bbox": [
+        777,
+        1309,
+        1379,
+        1354
+      ],
+      "image_path": null,
+      "reading_order": 7,
+      "needs_vlm": false,
+      "extracted_text": "tcuble chamber peptie tank far sis peaple, suited to conditions whero platy ef ou avallable.",
       "flags": {}
     }
   ],
   "reading_order": [
-    "r001_table",
-    "r002_figure"
+    "r001_text",
+    "r002_text",
+    "r003_table",
+    "r004_text",
+    "r005_text",
+    "r006_figure",
+    "r007_text"
   ],
-  "flags": {}
+  "flags": {
+    "has_number_discrepancies": true,
+    "discrepancy_count": 1
+  },
+  "special_crops_count": 2,
+  "vlm_model": "Qwen2.5-VL-7B-Instruct"
 }

@@ -6,10 +6,26 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "extracted",
+  "status": "vlm_extracted",
   "regions": [
     {
-      "id": "r001_table",
+      "id": "r001_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        773,
+        339,
+        1375,
+        411
+      ],
+      "image_path": null,
+      "reading_order": 1,
+      "needs_vlm": false,
+      "extracted_text": "Pumping copacity of a 1,000-gailon air tank, in gallons, under varying internal pressures.",
+      "flags": {}
+    },
+    {
+      "id": "r002_table",
       "kind": "table",
       "label": "table",
       "bbox": [
@@ -18,12 +34,90 @@
         1270,
         878
       ],
-      "image_path": "books/chapter_4_5_scanned/pages/p0003/regions/r001_table.png",
-      "reading_order": 1,
-      "flags": {}
+      "image_path": "books/chapter_4_5_scanned/pages/p0003/regions/r002_table.png",
+      "reading_order": 2,
+      "needs_vlm": true,
+      "extracted_text": "```markdown\n| Work pressure on pump guage. | Total pressure in air tank at start. |\n|---|---|\n| 40 pounds. | 50 pounds. | 60 pounds. | 70 pounds. | 80 pounds. | 90 pounds. | 100 pounds. |\n| Pounds. | Gallons. | Gallons. | Gallons. | Gallons. | Gallons. | Gallons. | Gallons. |\n| 25 | 375 | 259 | 833 | 1,075 | 1,310 | 1,548 | 1,786 |\n| 30 | 221 | 412 | 663 | 884 | 1,105 | 1,326 | 1,548 |\n| 35 | 102 | 306 | 510 | 714 | 924 | 1,123 | 1,327 |\n| 40 | --- | 181 | 374 | 561 | 748 | 938 | 1,123 |\n| 45 | --- | 85 | 255 | 425 | 596 | 765 | 936 |\n| 50 | --- | --- | 153 | 306 | 460 | 612 | 765 |\n| 55 | --- | --- | 68 | 204 | 330 | 476 | 612 |\n| 60 | --- | --- | --- | 119 | 237 | 375 | 476 |\n| 65 | --- | --- | --- | --- | 51 | 153 | 255 |\n| --- | --- | --- | --- | --- | --- | --- | 357 |\n```",
+      "flags": {
+        "number_check": {
+          "has_discrepancy": false,
+          "agreement_rate": 0.803,
+          "vlm_number_count": 55,
+          "ocr_number_count": 55,
+          "matched_count": 49,
+          "vlm_only": [
+            "181",
+            "412",
+            "460",
+            "510",
+            "80",
+            "938"
+          ],
+          "ocr_only": [
+            "0",
+            "187",
+            "4",
+            "442",
+            "519",
+            "935"
+          ],
+          "matched": [
+            "100",
+            "102",
+            "1075",
+            "1105",
+            "1123",
+            "119",
+            "1310",
+            "1326",
+            "1327",
+            "153",
+            "1548",
+            "1786",
+            "204",
+            "221",
+            "237",
+            "25",
+            "255",
+            "259",
+            "30",
+            "306",
+            "330",
+            "35",
+            "357",
+            "374",
+            "375",
+            "40",
+            "425",
+            "45",
+            "476",
+            "50",
+            "51",
+            "55",
+            "561",
+            "596",
+            "60",
+            "612",
+            "65",
+            "663",
+            "68",
+            "70",
+            "714",
+            "748",
+            "765",
+            "833",
+            "85",
+            "884",
+            "90",
+            "924",
+            "936"
+          ]
+        }
+      },
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
     },
     {
-      "id": "r002_figure",
+      "id": "r003_figure",
       "kind": "figure",
       "label": "picture",
       "bbox": [
@@ -32,14 +126,73 @@
         1276,
         1538
       ],
-      "image_path": "books/chapter_4_5_scanned/pages/p0003/regions/r002_figure.png",
-      "reading_order": 2,
+      "image_path": "books/chapter_4_5_scanned/pages/p0003/regions/r003_figure.png",
+      "reading_order": 3,
+      "needs_vlm": true,
+      "extracted_text": "This is **Figure 1**, a detailed illustration of a farm water system utilizing compressed air for various household tasks.\n\n### Labeled Components:\n- **Air Compressor**: Located on the left side of the diagram, depicted as a large tank with a motor and fan.\n- **Autopneumatic Pump**: Two identical pumps shown on the right side of the diagram, labeled \"AUTOPNEUMATIC PUMP.\"\n- **Well Water Pipe**: A pipe connecting the well to the autopneumatic pump.\n- **Cistern Water**: A storage tank for water collected from the cistern.\n- **Compressed Air Pipe**: A pipe connecting the air compressor to the autopneumatic pump.\n- **Farmhouse**: The main structure where the household activities take place.\n- **Bathroom**: A room within the farmhouse.\n- **Kitchen**: Another room within the farmhouse.\n- **Laundry**: A separate room within the farmhouse.\n\n### Inputs and Outputs:\n- **Inputs**:\n  - **Well Water**: Water drawn from the well through the well water pipe.\n  - **Compressed Air**: Air supplied by the air compressor.\n- **Outputs**:\n  - **Water for Various Uses**: Water distributed throughout the farmhouse for different purposes such as bathing, cooking, and laundry.\n\n### Technical Purpose:\nThe figure illustrates how compressed air is used to operate autopneumatic pumps, which in turn supply water to various parts of the farmhouse. This system likely serves multiple functions including:\n- **Water Distribution**: Providing water for daily household needs.\n- **Irrigation**: Possibly used for watering crops or livestock.\n- **Other Agricultural Needs**: Although not explicitly stated, the presence of the air compressor suggests it could be used for other agricultural purposes like powering tools or machinery.\n\n### Table Data:\nThe table at the top of the figure provides data on the total pressure in the air tank at start, measured in pounds per square inch (psi) and gallons of water produced at different pressures:\n\n| Work Pressure on Pump Gauge | 40 pounds | 50 pounds | 60 pounds | 70 pounds | 80 pounds | 90 pounds | 100 pounds |\n|------------------------------|-----------|-----------|-----------|-----------|-----------|-----------|-------------|\n| Pounds                       | 375       | 259       | 833       | 1,075     | 1,310     | 1,548      | 1,78",
+      "flags": {},
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
+    },
+    {
+      "id": "r004_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        135,
+        1570,
+        738,
+        1641
+      ],
+      "image_path": null,
+      "reading_order": 4,
+      "needs_vlm": false,
+      "extracted_text": "Fic. 18.\u2014A pplication of autopnevmatic sysicm to a farm home.",
+      "flags": {}
+    },
+    {
+      "id": "r005_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        134,
+        1651,
+        737,
+        1795
+      ],
+      "image_path": null,
+      "reading_order": 5,
+      "needs_vlm": false,
+      "extracted_text": "For air tanks of other than 1,000-gallon capacity divide the figures in the table by 1,000, move the decimal point three places to the left, and multiply the result by the capacity of the tank in gallons.",
+      "flags": {}
+    },
+    {
+      "id": "r006_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        779,
+        1567,
+        1383,
+        1713
+      ],
+      "image_path": null,
+      "reading_order": 6,
+      "needs_vlm": false,
+      "extracted_text": "Assume, for example, that the height to which the water is to be raised and the pressure required to operate the pump, including friction, make necessary a working pressure of 40 pounds on the pump. Then if the initial pressure in the air tank is 50 pounds, 187 gallons of water can be delivered at the faucets before the pressure in the air tank becomes too low to operate the pump.",
       "flags": {}
     }
   ],
   "reading_order": [
-    "r001_table",
-    "r002_figure"
+    "r001_text",
+    "r002_table",
+    "r003_figure",
+    "r004_text",
+    "r005_text",
+    "r006_text"
   ],
-  "flags": {}
+  "flags": {
+    "has_number_discrepancies": false
+  },
+  "special_crops_count": 2,
+  "vlm_model": "Qwen2.5-VL-7B-Instruct"
 }

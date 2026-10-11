@@ -6,10 +6,58 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "extracted",
+  "status": "vlm_extracted",
   "regions": [
     {
-      "id": "r001_figure",
+      "id": "r001_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        135,
+        146,
+        738,
+        219
+      ],
+      "image_path": null,
+      "reading_order": 1,
+      "needs_vlm": false,
+      "extracted_text": "WATER SUPPLIES, PLUMBING AND SEWAGE 135",
+      "flags": {}
+    },
+    {
+      "id": "r002_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        132,
+        231,
+        737,
+        518
+      ],
+      "image_path": null,
+      "reading_order": 2,
+      "needs_vlm": false,
+      "extracted_text": "All water pipes should have sufficient slant to drain them back into the tank or drainage system. A drain pipe and cock should be provided at the low point in the system, so that in extremely cold weather the system may be drained into the sewer or drainage system to prevent freezing. This necessitates a stop cock on the pressure-tank outlet to prevent draining the tank.",
+      "flags": {}
+    },
+    {
+      "id": "r003_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        131,
+        528,
+        737,
+        705
+      ],
+      "image_path": null,
+      "reading_order": 3,
+      "needs_vlm": false,
+      "extracted_text": "Pipes should be kept from the outer walls to prevent freezing. Also pipes located where they are in any danger whatever of freezing should be boxed in sawdust or some other nonconducting material.",
+      "flags": {}
+    },
+    {
+      "id": "r004_figure",
       "kind": "figure",
       "label": "picture",
       "bbox": [
@@ -18,12 +66,79 @@
         1374,
         452
       ],
-      "image_path": "books/chapter_4_5_scanned/pages/p0014/regions/r001_figure.png",
-      "reading_order": 1,
+      "image_path": "books/chapter_4_5_scanned/pages/p0014/regions/r004_figure.png",
+      "reading_order": 4,
+      "needs_vlm": true,
+      "extracted_text": "This is a cross-sectional diagram of a house drain system, specifically illustrating the main trap and its connection to the sewer and fresh air inlet.\n\n**Title/Label:**\n- **Fresh Air Inlet:** Located at the top left, connected to the main pipe.\n- **Sewer:** The large horizontal pipe on the left side of the diagram.\n- **House Drain:** The vertical pipe that connects the main trap to the sewer.\n- **Main Trap:** The curved U-shaped section at the bottom center of the diagram, which is the focus of the illustration.\n\n**Components:**\n- The **Fresh Air Inlet** is shown as a pipe entering from the top left, curving downward before connecting to the main pipe.\n- The **Sewer** is depicted as a large horizontal pipe extending horizontally across the diagram.\n- The **House Drain** is a vertical pipe that connects the main trap to the sewer.\n- The **Main Trap** is the U-shaped section at the bottom center, designed to prevent sewer gases from entering the house while allowing water to flow through.\n\n**Arrows:**\nThere are no directional arrows explicitly pointing to specific components within the diagram itself. However, the orientation of the pipes suggests the direction of water flow and gas movement.\n\n**Inputs and Outputs:**\n- **Input:** Fresh air enters the system through the Fresh Air Inlet.\n- **Output:** Water flows into the sewer through the House Drain.\n\n**Technical Purpose:**\nThe diagram illustrates the function of a main trap in a house drain system. The main trap is crucial for preventing sewer gases from entering the house while allowing water to flow freely. The fresh air inlet ensures that there is always a supply of fresh air to maintain a positive pressure in the drain system, which helps to prevent backflow of sewer gases into the house.",
+      "flags": {},
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
+    },
+    {
+      "id": "r005_text",
+      "kind": "text",
+      "label": "caption",
+      "bbox": [
+        777,
+        468,
+        1382,
+        544
+      ],
+      "image_path": null,
+      "reading_order": 5,
+      "needs_vlm": false,
+      "extracted_text": "Fic. 25,\u2014Sewer trap at house foundation, showing ventilator",
       "flags": {}
     },
     {
-      "id": "r002_table",
+      "id": "r006_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        777,
+        552,
+        1382,
+        697
+      ],
+      "image_path": null,
+      "reading_order": 6,
+      "needs_vlm": false,
+      "extracted_text": "to a building having one bath-room and to add 30 gallons additional capacity for every extra bathroom. One hundred square inches of water-back heating surface is sufficient for a 40-gallon boiler.",
+      "flags": {}
+    },
+    {
+      "id": "r007_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        128,
+        716,
+        737,
+        967
+      ],
+      "image_path": null,
+      "reading_order": 7,
+      "needs_vlm": false,
+      "extracted_text": "Since a plentiful supply of hot water is convenient and a large quantity retains heat for some time, it is well to provide a fairly large hot-water tank. However, the size of boiler depends on the existing conditions, such as the water supply and the size of building. A safe rule is to allow a 35 or 40 gallon boiler Boilers should be galvanized inside and out, particularly inside. Copper boilers are preferable if properly coated inside with block tin. These are classed as light, heavy, and extra heavy, the latter being tested to 150 pounds water pressure. Ordinary steel or iron boilers are tested to 150 pounds water pressure and extra heavy ones to 250 pounds pressure. The latter should be used when the gauge pressure is more than 40 pounds per square inch. The following table gives standard sizes of galvanized boilers:",
+      "flags": {}
+    },
+    {
+      "id": "r008_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        374,
+        1122,
+        1129,
+        1165
+      ],
+      "image_path": null,
+      "reading_order": 8,
+      "needs_vlm": false,
+      "extracted_text": "STANDARD SIZES OF GALVANIZED BOILERS",
+      "flags": {}
+    },
+    {
+      "id": "r009_table",
       "kind": "table",
       "label": "table",
       "bbox": [
@@ -32,14 +147,84 @@
         1343,
         1546
       ],
-      "image_path": "books/chapter_4_5_scanned/pages/p0014/regions/r002_table.png",
-      "reading_order": 2,
-      "flags": {}
+      "image_path": "books/chapter_4_5_scanned/pages/p0014/regions/r009_table.png",
+      "reading_order": 9,
+      "needs_vlm": true,
+      "extracted_text": "```markdown\n| Capacity | Length | Diam. | Capacity | Length | Diam. | Capacity | Length | Diam. |\n|----------|--------|-------|----------|--------|-------|----------|--------|-------|\n| Gallons | Feet  | Inches | Gallons | Feet  | Inches | Gallons | Feet  | Inches |\n| 18      | 3     | 12    | 36      | 4\u00bd    | 14    | 82      | 5     | 20    |\n| 21      | 3\u00bd    | 12    | 40      | 5     | 14    | 98      | 6     | 20    |\n| 24      | 4     | 12    | 42      | 4     | 16    | 100     | 5     | 22    |\n| 24      | 3     | 14    | 47      | 4\u00bd    | 16    | 120     | 6     | 22    |\n| 27      | 4\u00bd    | 12    | 48      | 6     | 14    | 120     | 5     | 24    |\n| 28      | 3\u00bd    | 14    | 52      | 5     | 16    | 144     | 6     | 24    |\n| 30      | 5     | 12    | 53      | 4     | 18    | 168     | 7     | 24    |\n| 32      | 4     | 14    | 63      | 6     | 16    | 182     | 8     | 24    |\n| 35      | 5     | 13    | 66      | 5     | 18    |         |       |       |\n| 36      | 6     | 12    | 79      | 6     | 18    |         |       |       |\n```",
+      "flags": {
+        "number_check": {
+          "has_discrepancy": true,
+          "agreement_rate": 0.9,
+          "vlm_number_count": 37,
+          "ocr_number_count": 39,
+          "matched_count": 36,
+          "vlm_only": [
+            "21"
+          ],
+          "ocr_only": [
+            "21 31/2",
+            "36 41/2",
+            "4 1/2"
+          ],
+          "matched": [
+            "100",
+            "12",
+            "120",
+            "13",
+            "14",
+            "144",
+            "16",
+            "168",
+            "18",
+            "182",
+            "20",
+            "22",
+            "24",
+            "27",
+            "28",
+            "3",
+            "30",
+            "32",
+            "35",
+            "36",
+            "4",
+            "40",
+            "42",
+            "47",
+            "48",
+            "5",
+            "52",
+            "53",
+            "6",
+            "63",
+            "66",
+            "7",
+            "79",
+            "8",
+            "82",
+            "98"
+          ]
+        },
+        "discrepancy": true
+      },
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
     }
   ],
   "reading_order": [
-    "r001_figure",
-    "r002_table"
+    "r001_text",
+    "r002_text",
+    "r003_text",
+    "r004_figure",
+    "r005_text",
+    "r006_text",
+    "r007_text",
+    "r008_text",
+    "r009_table"
   ],
-  "flags": {}
+  "flags": {
+    "has_number_discrepancies": true,
+    "discrepancy_count": 1
+  },
+  "special_crops_count": 2,
+  "vlm_model": "Qwen2.5-VL-7B-Instruct"
 }

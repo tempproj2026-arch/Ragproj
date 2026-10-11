@@ -6,10 +6,42 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "extracted",
+  "status": "vlm_extracted",
   "regions": [
     {
-      "id": "r001_figure",
+      "id": "r001_text",
+      "kind": "text",
+      "label": "section_header",
+      "bbox": [
+        265,
+        169,
+        606,
+        210
+      ],
+      "image_path": null,
+      "reading_order": 1,
+      "needs_vlm": false,
+      "extracted_text": "The Final Disposal System.",
+      "flags": {}
+    },
+    {
+      "id": "r002_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        133,
+        214,
+        738,
+        360
+      ],
+      "image_path": null,
+      "reading_order": 2,
+      "needs_vlm": false,
+      "extracted_text": "Disposal by Surface or Subsurface Distribution \u2014Where the soil is porous or sandy and there is plenty of area available, which is used for no other purpose, the sewage from the septic tank may be discharged through 4inch distributiontile laid on the surface of the ground in gridiron or herringbone fashion. Four hundred and fifty to 500 square feet of area are necessary for each person served",
+      "flags": {}
+    },
+    {
+      "id": "r003_figure",
       "kind": "figure",
       "label": "picture",
       "bbox": [
@@ -18,13 +50,73 @@
         1235,
         1339
       ],
-      "image_path": "books/chapter_4_5_scanned/pages/p0022/regions/r001_figure.png",
-      "reading_order": 1,
+      "image_path": "books/chapter_4_5_scanned/pages/p0022/regions/r003_figure.png",
+      "reading_order": 3,
+      "needs_vlm": true,
+      "extracted_text": "This is **Figure 32** titled \"Ground plans of tile sewage disposal systems.\"\n\nThe diagram illustrates two different configurations of tile sewage disposal systems:\n\n1. **Top Section: Open Jointed Tile**\n   - **Gate Chamber:** This is the starting point where the sewage enters the system.\n   - **Open Jointed Tile:** The main body of the system consists of open-jointed tiles laid out in a grid pattern. These tiles allow for the passage of water while preventing larger debris from entering the underground pipes.\n\n2. **Bottom Section: 4\" Tile**\n   - **From tank:** This indicates the point where the sewage enters the system from a tank.\n   - **50'** and **15'**: These measurements likely refer to the dimensions of the pipe sections or the distance between certain points within the system.\n   - **4\" Tile:** This refers to the size of the tiles used in the system. The diagram shows a cross-section of the tile, indicating its thickness and the open joints that allow water to flow through but prevent solid waste from entering the pipes below.\n\nThe purpose of these diagrams is to provide a visual representation of how tile sewage disposal systems are designed and laid out. The top section demonstrates a more traditional method using open-jointed tiles, while the bottom section shows a specific configuration with a 4-inch tile. Both aim to manage and dispose of sewage effectively while minimizing the risk of clogs and contamination.",
+      "flags": {},
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
+    },
+    {
+      "id": "r004_text",
+      "kind": "text",
+      "label": "caption",
+      "bbox": [
+        462,
+        1314,
+        1019,
+        1356
+      ],
+      "image_path": null,
+      "reading_order": 4,
+      "needs_vlm": false,
+      "extracted_text": "Fic. 32,\u2014Ground plans of tile sewage disposal systems.",
+      "flags": {}
+    },
+    {
+      "id": "r005_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        128,
+        1381,
+        733,
+        1494
+      ],
+      "image_path": null,
+      "reading_order": 5,
+      "needs_vlm": false,
+      "extracted_text": "if the soil is very porous and sandy, and the soil should either be tile-drained or have natural underdrainage",
+      "flags": {}
+    },
+    {
+      "id": "r006_text",
+      "kind": "text",
+      "label": "text",
+      "bbox": [
+        127,
+        1499,
+        734,
+        1719
+      ],
+      "image_path": null,
+      "reading_order": 6,
+      "needs_vlm": false,
+      "extracted_text": "A better method of disposal is by subsurface distribution. In this method the tile are placed in the ground in herringbone or gridiron fashion, not deeper than 14 or 16 inches from the surface of the soil to the top of the tile. Figure 32 shows ground plans of such systems. In very porous or sandy soils 1 foot of 4-inch tile per gallon of discharge per day is sufficient. In the heavier loam soils 2 feet of 4-inch tile are necessary and sometimes more for every gallon. A rough estimate should be made of the number of gallons of sewage in each discharge from the tank and the number of discharges per day. Not less than 35 feet of 4-inch tile per person should be used in sandy or porous soil and not less than 60 feet per person in very heavy loams. In average loams 300 to 400 feet of tile are sufficient for a family of six or eight:",
       "flags": {}
     }
   ],
   "reading_order": [
-    "r001_figure"
+    "r001_text",
+    "r002_text",
+    "r003_figure",
+    "r004_text",
+    "r005_text",
+    "r006_text"
   ],
-  "flags": {}
+  "flags": {
+    "has_number_discrepancies": false
+  },
+  "special_crops_count": 1,
+  "vlm_model": "Qwen2.5-VL-7B-Instruct"
 }

@@ -6,7 +6,7 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "extracted",
+  "status": "vlm_extracted",
   "regions": [
     {
       "id": "r001_figure",
@@ -20,11 +20,18 @@
       ],
       "image_path": "books/chapter_1_2_3_scanned/pages/p0013/regions/r001_figure.png",
       "reading_order": 1,
-      "flags": {}
+      "needs_vlm": true,
+      "extracted_text": "This is **Figure 5**, a detailed technical illustration of a mechanical device, likely a part of a larger machine or apparatus.\n\n### Labeled Components:\n1. **C** - This appears to be a lever or handle, possibly used for manual operation.\n2. **W** - Likely a weight or load attached to the lever C.\n3. **A** - A dimension marked as \"A\" is shown between two points on the device, indicating a measurement.\n4. **2 x 6\"** - This label specifies the dimensions of a wooden beam or support structure.\n5. **Wing Nut** - A fastener used to secure parts together.\n6. **2 x 1/2\"** - Another dimension, possibly referring to another part's size or thickness.\n7. **Wheel** - A large wheel with multiple holes, likely a pulley or gear wheel, which is connected to other parts of the mechanism.\n\n### Inputs and Outputs:\n- **Input**: The lever C and the weight W suggest that this device might be used to apply force or tension to the wheel.\n- **Output**: The wheel itself could be the output, as it appears to be the main component that would rotate due to the applied force.\n\n### Technical Purpose:\nThe purpose of this device seems to be related to mechanical power transmission or force application. The lever and weight combination suggests that it could be used to apply torque or force to the wheel, which could be part of a larger system such as a winch, a press, or a similar mechanical device requiring manual operation.\n\n### Labels and Text:\n- **C** - Lever\n- **W** - Weight\n- **A** - Dimension \"A\"\n- **2 x 6\"** - Dimensions of a wooden beam\n- **Wing Nut** - Fastener\n- **2 x 1/2\"** - Another dimension\n- **Wheel** - Large wheel with multiple holes\n\nThis figure is likely from a technical manual or patent, given its detailed nature and the presence of measurements and labels.",
+      "flags": {},
+      "vlm_model": "Qwen2.5-VL-7B-Instruct"
     }
   ],
   "reading_order": [
     "r001_figure"
   ],
-  "flags": {}
+  "flags": {
+    "has_number_discrepancies": false
+  },
+  "special_crops_count": 1,
+  "vlm_model": "Qwen2.5-VL-7B-Instruct"
 }
