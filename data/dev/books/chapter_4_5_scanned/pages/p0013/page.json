@@ -6,8 +6,25 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "split",
-  "regions": [],
-  "reading_order": [],
+  "status": "extracted",
+  "regions": [
+    {
+      "id": "r001_table",
+      "kind": "table",
+      "label": "table",
+      "bbox": [
+        149,
+        1174,
+        1328,
+        1467
+      ],
+      "image_path": "books/chapter_4_5_scanned/pages/p0013/regions/r001_table.png",
+      "reading_order": 1,
+      "flags": {}
+    }
+  ],
+  "reading_order": [
+    "r001_table"
+  ],
   "flags": {}
 }

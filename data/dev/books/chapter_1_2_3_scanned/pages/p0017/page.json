@@ -6,8 +6,25 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "split",
-  "regions": [],
-  "reading_order": [],
+  "status": "extracted",
+  "regions": [
+    {
+      "id": "r001_figure",
+      "kind": "figure",
+      "label": "picture",
+      "bbox": [
+        298,
+        562,
+        1214,
+        1042
+      ],
+      "image_path": "books/chapter_1_2_3_scanned/pages/p0017/regions/r001_figure.png",
+      "reading_order": 1,
+      "flags": {}
+    }
+  ],
+  "reading_order": [
+    "r001_figure"
+  ],
   "flags": {}
 }

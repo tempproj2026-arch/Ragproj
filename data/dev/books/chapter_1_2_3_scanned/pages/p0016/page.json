@@ -6,8 +6,40 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "split",
-  "regions": [],
-  "reading_order": [],
+  "status": "extracted",
+  "regions": [
+    {
+      "id": "r001_table",
+      "kind": "table",
+      "label": "table",
+      "bbox": [
+        160,
+        625,
+        1343,
+        888
+      ],
+      "image_path": "books/chapter_1_2_3_scanned/pages/p0016/regions/r001_table.png",
+      "reading_order": 1,
+      "flags": {}
+    },
+    {
+      "id": "r002_table",
+      "kind": "table",
+      "label": "table",
+      "bbox": [
+        160,
+        975,
+        1345,
+        1362
+      ],
+      "image_path": "books/chapter_1_2_3_scanned/pages/p0016/regions/r002_table.png",
+      "reading_order": 2,
+      "flags": {}
+    }
+  ],
+  "reading_order": [
+    "r001_table",
+    "r002_table"
+  ],
   "flags": {}
 }

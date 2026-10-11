@@ -6,8 +6,25 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "split",
-  "regions": [],
-  "reading_order": [],
+  "status": "extracted",
+  "regions": [
+    {
+      "id": "r001_formula",
+      "kind": "formula",
+      "label": "formula",
+      "bbox": [
+        787,
+        1049,
+        1370,
+        1263
+      ],
+      "image_path": "books/chapter_1_2_3_scanned/pages/p0008/regions/r001_formula.png",
+      "reading_order": 1,
+      "flags": {}
+    }
+  ],
+  "reading_order": [
+    "r001_formula"
+  ],
   "flags": {}
 }

@@ -6,8 +6,40 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "split",
-  "regions": [],
-  "reading_order": [],
+  "status": "extracted",
+  "regions": [
+    {
+      "id": "r001_formula",
+      "kind": "formula",
+      "label": "formula",
+      "bbox": [
+        852,
+        553,
+        1305,
+        666
+      ],
+      "image_path": "books/chapter_1_2_3_scanned/pages/p0011/regions/r001_formula.png",
+      "reading_order": 1,
+      "flags": {}
+    },
+    {
+      "id": "r002_formula",
+      "kind": "formula",
+      "label": "formula",
+      "bbox": [
+        845,
+        742,
+        1312,
+        855
+      ],
+      "image_path": "books/chapter_1_2_3_scanned/pages/p0011/regions/r002_formula.png",
+      "reading_order": 2,
+      "flags": {}
+    }
+  ],
+  "reading_order": [
+    "r001_formula",
+    "r002_formula"
+  ],
   "flags": {}
 }

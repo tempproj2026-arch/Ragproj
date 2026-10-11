@@ -6,8 +6,27 @@
   "width": 1512,
   "height": 2225,
   "dpi": 216,
-  "status": "split",
-  "regions": [],
-  "reading_order": [],
+  "status": "extracted",
+  "regions": [
+    {
+      "id": "r001_text",
+      "kind": "text",
+      "label": "full_page",
+      "bbox": [
+        0,
+        0,
+        1512,
+        2225
+      ],
+      "image_path": "books/chapter_1_2_3_scanned/pages/p0022/regions/r001_text.png",
+      "reading_order": 1,
+      "flags": {
+        "fallback_full_page": true
+      }
+    }
+  ],
+  "reading_order": [
+    "r001_text"
+  ],
   "flags": {}
 }
