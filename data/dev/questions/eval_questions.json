@@ -1,0 +1,450 @@
+[
+  {
+    "id": "q1",
+    "question": "Find the diagram of the simple carburetor showing the air inlet, needle valve and fuel inlet.",
+    "expected_figure": "Figure III (Simple Carburetor)",
+    "target_book": "chapter_1_2_3_scanned.pdf",
+    "target_page": 2,
+    "content_type": "figure"
+  },
+  {
+    "id": "q2",
+    "question": "What causes back-firing in a gas engine, and how can it be remedied?",
+    "expected_answer": "A lean mixture (the fuel burns so slowly that flame is still present when the intake valve opens). Remedy: open the needle valve to give more fuel or cut down the amount of air.",
+    "target_book": "chapter_1_2_3_scanned.pdf",
+    "target_page": 3,
+    "content_type": "text"
+  },
+  {
+    "id": "q3",
+    "question": "What does black smoke from the exhaust indicate, and what does blue smoke indicate?",
+    "expected_answer": "Black smoke indicates too rich a mixture; blue smoke is due to over-lubrication.",
+    "target_book": "chapter_1_2_3_scanned.pdf",
+    "target_page": 4,
+    "content_type": "text"
+  },
+  {
+    "id": "q4",
+    "question": "How many cubic feet of air are theoretically required to burn one pound of gasoline, and how many are drawn in during practice?",
+    "expected_answer": "Theoretically 203 cu. ft.; in practice 240 to 260 cu. ft.",
+    "target_book": "chapter_1_2_3_scanned.pdf",
+    "target_page": 5,
+    "content_type": "table"
+  },
+  {
+    "id": "q5",
+    "question": "To what temperature range does almost constant burning of fuel heat the engine cylinder?",
+    "expected_answer": "Two thousand to twenty-five hundred degrees F.",
+    "target_book": "chapter_1_2_3_scanned.pdf",
+    "target_page": 6,
+    "content_type": "table"
+  },
+  {
+    "id": "q6",
+    "question": "Find the chart showing the proportions of gasoline, naphtha, kerosene, lubricating oils and tar/paraffin obtained from Western petroleum.",
+    "expected_figure": "Figure 4",
+    "target_book": "chapter_1_2_3_scanned.pdf",
+    "target_page": 7,
+    "content_type": "figure"
+  },
+  {
+    "id": "q7",
+    "question": "According to Figure 4, what percentage of the Western petroleum is kerosene and what is its density range?",
+    "expected_answer": "50%, density 56° to 32°",
+    "target_book": "chapter_1_2_3_scanned.pdf",
+    "target_page": 7,
+    "content_type": "table"
+  },
+  {
+    "id": "q8",
+    "question": "What are the formulas for converting between Baume gravity and specific gravity?",
+    "expected_answer": "Baume gravity = 140 / specific gravity − 130; Specific gravity = 140 / (Baume gravity + 130)",
+    "target_book": "chapter_1_2_3_scanned.pdf",
+    "target_page": 8,
+    "content_type": "formula"
+  },
+  {
+    "id": "q9",
+    "question": "In the table of approximate weights of petroleum products, what are the specific gravity and the pounds per gallon at 50 degrees Baume?",
+    "expected_answer": "Specific gravity .7777; 6.48 pounds per gallon",
+    "target_book": "chapter_1_2_3_scanned.pdf",
+    "target_page": 9,
+    "content_type": "table"
+  },
+  {
+    "id": "q10",
+    "question": "How did James Watt define the unit of power, and roughly how does drawbar horse power compare with brake horse power?",
+    "expected_answer": "33,000 foot-pounds per minute; drawbar horse power is usually about half the brake horse power.",
+    "target_book": "chapter_1_2_3_scanned.pdf",
+    "target_page": 11,
+    "content_type": "text"
+  },
+  {
+    "id": "q11",
+    "question": "In the engine horsepower formulas, what do the variables D, L and N stand for?",
+    "expected_answer": "D = diameter of the cylinder (inches); L = length of the stroke (inches); N = revolutions per minute. Multiply by the number of cylinders for multi-cylinder engines.",
+    "target_book": "chapter_1_2_3_scanned.pdf",
+    "target_page": 11,
+    "content_type": "formula"
+  },
+  {
+    "id": "q12",
+    "question": "What formula is used to calculate brake horse power from the Prony Brake test, and what do its variables mean?",
+    "expected_answer": "H.P. = (W)(A)(N) / 5252, where W = weight registered on the scales, A = lever arm, N = revolutions per minute.",
+    "target_book": "chapter_1_2_3_scanned.pdf",
+    "target_page": 12,
+    "content_type": "formula"
+  },
+  {
+    "id": "q13",
+    "question": "Find the diagram of the Prony Brake built from lumber and strap iron on an engine fly-wheel.",
+    "expected_figure": "Figure 5",
+    "target_book": "chapter_1_2_3_scanned.pdf",
+    "target_page": 13,
+    "content_type": "figure"
+  },
+  {
+    "id": "q14",
+    "question": "Which farm jobs does the guide say should receive first consideration for engine power?",
+    "expected_answer": "Daily work such as pumping water, feed grinding, washing, churning, cream separating, dish-washing and milking.",
+    "target_book": "chapter_1_2_3_scanned.pdf",
+    "target_page": 14,
+    "content_type": "text"
+  },
+  {
+    "id": "q15",
+    "question": "Find the cutaway illustration of a farm power house with line shafting driving several machines.",
+    "expected_figure": "The Farm Power House",
+    "target_book": "chapter_1_2_3_scanned.pdf",
+    "target_page": 15,
+    "content_type": "figure"
+  },
+  {
+    "id": "q16",
+    "question": "How much horse power can a 1 11/16-inch shaft transmit at 200 revolutions per minute?",
+    "expected_answer": "13.0 horse power",
+    "target_book": "chapter_1_2_3_scanned.pdf",
+    "target_page": 16,
+    "content_type": "table"
+  },
+  {
+    "id": "q17",
+    "question": "How much horse power will a 6-inch wide single belt and a 6-inch wide double belt transmit per 100 feet of belt speed?",
+    "expected_answer": "Single belt .55 H.P.; double belt 1.09 H.P.",
+    "target_book": "chapter_1_2_3_scanned.pdf",
+    "target_page": 16,
+    "content_type": "table"
+  },
+  {
+    "id": "q18",
+    "question": "At what angle should belting run relative to the horizontal, and how far should the machine be from the pulley?",
+    "expected_answer": "About forty-five degrees with the horizontal; the distance should be eight to ten times the diameter of the largest pulley.",
+    "target_book": "chapter_1_2_3_scanned.pdf",
+    "target_page": 17,
+    "content_type": "text"
+  },
+  {
+    "id": "q19",
+    "question": "What is the formula for the diameter of the driving pulley (D_p) given the machine pulley diameter and the two speeds?",
+    "expected_answer": "D_p = D_m × (RPM)_m / (RPM)_p",
+    "target_book": "chapter_1_2_3_scanned.pdf",
+    "target_page": 18,
+    "content_type": "formula"
+  },
+  {
+    "id": "q20",
+    "question": "What water jacket temperatures are recommended for gasoline engines and for kerosene engines?",
+    "expected_answer": "About 160 degrees F for gasoline engines and 200 degrees F for kerosene engines.",
+    "target_book": "chapter_1_2_3_scanned.pdf",
+    "target_page": 20,
+    "content_type": "table"
+  },
+  {
+    "id": "q21",
+    "question": "What causes crank case explosions in two-cycle engines?",
+    "expected_answer": "A retarded spark or a poor mixture due to carburetor adjustment.",
+    "target_book": "chapter_1_2_3_scanned.pdf",
+    "target_page": 22,
+    "content_type": "text"
+  },
+  {
+    "id": "q22",
+    "question": "Describe how to grind a worn, leaking valve.",
+    "expected_answer": "Oil the valve seat and the valve, sprinkle on some flour emery, turn the valve back and forth with a brace and screw-driver while occasionally lifting it and adding fresh oil and emery, until it is smooth and bright; then wipe clean and replace.",
+    "target_book": "chapter_1_2_3_scanned.pdf",
+    "target_page": 24,
+    "content_type": "text"
+  },
+  {
+    "id": "q23",
+    "question": "What are the steps in the routine for starting an engine?",
+    "expected_answer": "1) See that the engine is clean and nuts tight; 2) examine fuel supply; 3) oil and adjust every part; 4) test the battery switch and close it; 5) turn engine over slowly checking valves and piston; 6) admit cooling water; 7) crank two or three sharp turns with ignition closed.",
+    "target_book": "chapter_1_2_3_scanned.pdf",
+    "target_page": 25,
+    "content_type": "text"
+  },
+  {
+    "id": "q24",
+    "question": "Why does an autopneumatic water system not need a water storage tank?",
+    "expected_answer": "Nothing is stored but compressed air; the pump delivers fresh water directly from the well when a faucet is opened.",
+    "target_book": "chapter_4_5_scanned.pdf",
+    "target_page": 1,
+    "content_type": "text"
+  },
+  {
+    "id": "q25",
+    "question": "Find the figure showing the working parts of an autopneumatic pumping system in a bored or cased well.",
+    "expected_figure": "Figure 17",
+    "target_book": "chapter_4_5_scanned.pdf",
+    "target_page": 2,
+    "content_type": "figure"
+  },
+  {
+    "id": "q26",
+    "question": "In the 1,000-gallon air tank capacity table, how many gallons can be drawn at 40 pounds working pressure with a starting tank pressure of 70 pounds?",
+    "expected_answer": "561 gallons",
+    "target_book": "chapter_4_5_scanned.pdf",
+    "target_page": 3,
+    "content_type": "table"
+  },
+  {
+    "id": "q27",
+    "question": "Find the diagram of a force pump with its cylinder submerged in a shallow well.",
+    "expected_figure": "Figure 19",
+    "target_book": "chapter_4_5_scanned.pdf",
+    "target_page": 4,
+    "content_type": "figure"
+  },
+  {
+    "id": "q28",
+    "question": "What is the limiting practical suction lift of a pump?",
+    "expected_answer": "About 20 feet (varying with elevation above sea level).",
+    "target_book": "chapter_4_5_scanned.pdf",
+    "target_page": 5,
+    "content_type": "text"
+  },
+  {
+    "id": "q29",
+    "question": "In the table of pump capacities, what is the capacity per stroke in gallons of a 3-inch diameter cylinder with a 10-inch stroke?",
+    "expected_answer": "0.306 gallons",
+    "target_book": "chapter_4_5_scanned.pdf",
+    "target_page": 5,
+    "content_type": "table"
+  },
+  {
+    "id": "q30",
+    "question": "How is the horsepower needed for pumping computed from the gallons per minute and total lift?",
+    "expected_answer": "Gallons per minute ÷ 7.48 = cubic feet per minute; × 62.5 lb = weight per minute; × total lift = foot-pounds per minute; ÷ 33,000 = horsepower; then double it because the outfit is only about 50% efficient.",
+    "target_book": "chapter_4_5_scanned.pdf",
+    "target_page": 6,
+    "content_type": "formula"
+  },
+  {
+    "id": "q31",
+    "question": "What is the friction loss in feet per 100 feet of clean iron pipe for a 1¼-inch pipe discharging 20 gallons per minute?",
+    "expected_answer": "9.5 feet",
+    "target_book": "chapter_4_5_scanned.pdf",
+    "target_page": 6,
+    "content_type": "table"
+  },
+  {
+    "id": "q32",
+    "question": "Find the illustration of a pumping jack that can be used for deep or shallow well pumping.",
+    "expected_figure": "Figure 20",
+    "target_book": "chapter_4_5_scanned.pdf",
+    "target_page": 7,
+    "content_type": "figure"
+  },
+  {
+    "id": "q33",
+    "question": "Find the cross-section drawing of a simple hydraulic ram.",
+    "expected_figure": "Figure 22",
+    "target_book": "chapter_4_5_scanned.pdf",
+    "target_page": 8,
+    "content_type": "figure"
+  },
+  {
+    "id": "q34",
+    "question": "What is the minimum flow of a spring suitable for operating a hydraulic ram?",
+    "expected_answer": "Not less than one-half gallon per minute.",
+    "target_book": "chapter_4_5_scanned.pdf",
+    "target_page": 8,
+    "content_type": "text"
+  },
+  {
+    "id": "q35",
+    "question": "How long should the drive pipe of a hydraulic ram be relative to the height of fall, and how large should its diameter be?",
+    "expected_answer": "About 7 times the height of fall (range 5 to 10); its diameter is usually twice that of the discharge pipe.",
+    "target_book": "chapter_4_5_scanned.pdf",
+    "target_page": 9,
+    "content_type": "text"
+  },
+  {
+    "id": "q36",
+    "question": "In the table of sizes of hydraulic rams, what are the drive pipe size, delivery pipe size and operating quantity range for ram No. 20?",
+    "expected_answer": "Drive pipe 2 inches, delivery pipe 1 inch, 8–18 gallons per minute.",
+    "target_book": "chapter_4_5_scanned.pdf",
+    "target_page": 10,
+    "content_type": "table"
+  },
+  {
+    "id": "q37",
+    "question": "What approximate rule gives the quantity of water a hydraulic ram can pump, and how should the result be adjusted?",
+    "expected_answer": "q = (Q × H) / h, where Q = spring supply (gpm), H = fall in feet from spring to ram, h = height of storage tank above ram; reduce the result by about one-third for friction.",
+    "target_book": "chapter_4_5_scanned.pdf",
+    "target_page": 10,
+    "content_type": "formula"
+  },
+  {
+    "id": "q38",
+    "question": "In Example 1, how much drive water is needed to raise 8 gallons per minute to 60 feet with an 8-foot fall, and what is the final figure?",
+    "expected_answer": "Q = (h × q) / H = 8 × 60 / 8 = 60 gallons per minute; adding one-third for friction makes about 80 gallons.",
+    "target_book": "chapter_4_5_scanned.pdf",
+    "target_page": 11,
+    "content_type": "formula"
+  },
+  {
+    "id": "q39",
+    "question": "According to the capacity note under the hydraulic ram table, how many gallons per day are delivered by a supply of 6 gpm with 10 feet fall and 40 feet elevation?",
+    "expected_answer": "1,512 gallons per day",
+    "target_book": "chapter_4_5_scanned.pdf",
+    "target_page": 11,
+    "content_type": "table"
+  },
+  {
+    "id": "q40",
+    "question": "In Example 4, how high can 1 gallon per minute be pumped with a 4 gpm drive water supply and a 15-foot fall?",
+    "expected_answer": "h = (Q × H)/q = 4 × 15 / 1 = 60 feet; after deducting one-third for friction, about 40 feet.",
+    "target_book": "chapter_4_5_scanned.pdf",
+    "target_page": 12,
+    "content_type": "text"
+  },
+  {
+    "id": "q41",
+    "question": "Find the figure showing two methods of securing the necessary fall for the drive pipe of a hydraulic ram.",
+    "expected_figure": "Figure 25",
+    "target_book": "chapter_4_5_scanned.pdf",
+    "target_page": 12,
+    "content_type": "figure"
+  },
+  {
+    "id": "q42",
+    "question": "In the table of water pipe sizes in buildings, what size pipe is used for bath cocks under low pressure?",
+    "expected_answer": "¾ to 1 inch",
+    "target_book": "chapter_4_5_scanned.pdf",
+    "target_page": 13,
+    "content_type": "table"
+  },
+  {
+    "id": "q43",
+    "question": "In the table of standard galvanized boiler sizes, what are the length and diameter of the 40-gallon boiler?",
+    "expected_answer": "5 feet long and 14 inches in diameter",
+    "target_book": "chapter_4_5_scanned.pdf",
+    "target_page": 14,
+    "content_type": "table"
+  },
+  {
+    "id": "q44",
+    "question": "How large a hot-water boiler should be allowed for a building with one bath-room, and how much extra for each additional bath-room?",
+    "expected_answer": "A 35 or 40 gallon boiler; add 30 gallons for every extra bath-room.",
+    "target_book": "chapter_4_5_scanned.pdf",
+    "target_page": 14,
+    "content_type": "text"
+  },
+  {
+    "id": "q45",
+    "question": "In the table of waste and vent pipe sizes, what diameter is required for main and branch soil pipe?",
+    "expected_answer": "4 inches",
+    "target_book": "chapter_4_5_scanned.pdf",
+    "target_page": 15,
+    "content_type": "table"
+  },
+  {
+    "id": "q46",
+    "question": "Find the diagram of a plumbing system for sewage disposal showing the bath room, kitchen, basement laundry and soil pipe.",
+    "expected_figure": "Figure 27",
+    "target_book": "chapter_4_5_scanned.pdf",
+    "target_page": 16,
+    "content_type": "figure"
+  },
+  {
+    "id": "q47",
+    "question": "What capacity should the settling chamber of a small septic tank have per person?",
+    "expected_answer": "From 5 to 15 cubic feet, or 40 to 80 gallons, per person in the family.",
+    "target_book": "chapter_4_5_scanned.pdf",
+    "target_page": 17,
+    "content_type": "text"
+  },
+  {
+    "id": "q48",
+    "question": "In the table of septic tank dimensions, what are the settling chamber width, length and depth and the siphon diameter for 12 persons?",
+    "expected_answer": "Width 4 ft, length 7 ft, depth 5 ft; siphon diameter 4 inches.",
+    "target_book": "chapter_4_5_scanned.pdf",
+    "target_page": 18,
+    "content_type": "table"
+  },
+  {
+    "id": "q49",
+    "question": "Find the diagram of a double chamber septic tank for eight people.",
+    "expected_figure": "Figure 29",
+    "target_book": "chapter_4_5_scanned.pdf",
+    "target_page": 19,
+    "content_type": "figure"
+  },
+  {
+    "id": "q50",
+    "question": "Find the double-chamber septic tank design for six persons suited to flat ground where outlet fall is difficult to obtain.",
+    "expected_figure": "Figure 30",
+    "target_book": "chapter_4_5_scanned.pdf",
+    "target_page": 20,
+    "content_type": "figure"
+  },
+  {
+    "id": "q51",
+    "question": "What concrete mixture is recommended for building a septic tank?",
+    "expected_answer": "1 part cement to 2 or 2½ parts sand and 4 or 5 parts broken stone or gravel.",
+    "target_book": "chapter_4_5_scanned.pdf",
+    "target_page": 20,
+    "content_type": "text"
+  },
+  {
+    "id": "q52",
+    "question": "In the table of dimensions for automatic siphons, what is the average discharge per second of a 4-inch siphon and the diameter of its bell?",
+    "expected_answer": "0.35 cubic feet per second; bell diameter 12 inches.",
+    "target_book": "chapter_4_5_scanned.pdf",
+    "target_page": 21,
+    "content_type": "table"
+  },
+  {
+    "id": "q53",
+    "question": "How much surface area is needed per person for surface disposal of septic tank effluent in very porous, sandy soil?",
+    "expected_answer": "450 to 500 square feet per person.",
+    "target_book": "chapter_4_5_scanned.pdf",
+    "target_page": 22,
+    "content_type": "table"
+  },
+  {
+    "id": "q54",
+    "question": "What is the minimum length of 4-inch disposal tile per person in very heavy loams, and how much filter area per person for an intermittent sand filter?",
+    "expected_answer": "Not less than 60 feet of tile per person in very heavy loams; about 45 square feet of sand filter per person.",
+    "target_book": "chapter_4_5_scanned.pdf",
+    "target_page": 23,
+    "content_type": "table"
+  },
+  {
+    "id": "q55",
+    "question": "What changes are required for a single-chamber septic tank system compared with a double-chamber system?",
+    "expected_answer": "The disposal system must be divided into at least two divisions for intermittent application (with a diverting gate), and its capacity should be 10 to 15 per cent larger.",
+    "target_book": "chapter_4_5_scanned.pdf",
+    "target_page": 24,
+    "content_type": "text"
+  },
+  {
+    "id": "q56",
+    "question": "Find the plan and partial section of a sand filter for eight people with diverting manhole and underdrains.",
+    "expected_figure": "Figure 35",
+    "target_book": "chapter_4_5_scanned.pdf",
+    "target_page": 25,
+    "content_type": "figure"
+  }
+]
