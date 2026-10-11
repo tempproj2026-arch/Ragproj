@@ -1,0 +1,9 @@
+[project]
+name = "rag-project"
+version = "0.1.0"
+description = "RAG over Scanned Books - Workspace root"
+requires-python = "==3.11.*"
+dependencies = []
+
+[tool.uv.workspace]
+members = ["packages/*"]

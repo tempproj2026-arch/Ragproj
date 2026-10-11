@@ -1,0 +1,21 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: rag_postgres_dev
+    env_file:
+      - ../.env
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-supersecretpassword}
+      POSTGRES_DB: ${DB_NAME:-rag_dev}
+    ports:
+      - "${DB_PORT:-5432}:5432"
+    volumes:
+      - ../data/pgdata:/var/lib/postgresql/data
+      - ./initdb:/docker-entrypoint-initdb.d
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d ${DB_NAME:-rag_dev}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5

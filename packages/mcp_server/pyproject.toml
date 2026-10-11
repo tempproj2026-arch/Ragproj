@@ -1,0 +1,19 @@
+[project]
+name = "mcp_server"
+version = "0.1.0"
+description = "MCP server for RAG over Scanned Books"
+requires-python = "==3.11.*"
+dependencies = [
+    "ragcore",
+    "mcp"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+mcp-server = "mcp_server.server:main"
+
+[tool.uv.sources]
+ragcore = { workspace = true }

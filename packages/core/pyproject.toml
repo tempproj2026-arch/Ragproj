@@ -1,0 +1,15 @@
+[project]
+name = "ragcore"
+version = "0.1.0"
+description = "Core schema, DB, and models for RAG over Scanned Books"
+requires-python = "==3.11.*"
+dependencies = [
+    "pydantic",
+    "psycopg[binary,pool]",
+    "pgvector",
+    "pydantic-settings>=2.15.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
