@@ -1,0 +1,13 @@
+{
+  "page_number": 5,
+  "book_slug": "chapter_1_2_3_scanned",
+  "page_hash": "e9bfad23b6e9bd3e0f9b292656ebd9db5f5403ddfd5179066a11fe0dd90b59c5",
+  "image_path": "books/chapter_1_2_3_scanned/pages/p0005/page.png",
+  "width": 1512,
+  "height": 2225,
+  "dpi": 216,
+  "status": "split",
+  "regions": [],
+  "reading_order": [],
+  "flags": {}
+}
