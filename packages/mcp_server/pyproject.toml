@@ -5,7 +5,7 @@ description = "MCP server for RAG over Scanned Books"
 requires-python = "==3.11.*"
 dependencies = [
     "ragcore",
-    "mcp"
+    "mcp>=2,<3"
 ]
 
 [build-system]
