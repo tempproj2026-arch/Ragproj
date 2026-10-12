@@ -8,6 +8,8 @@ dependencies = [
     "psycopg[binary,pool]",
     "pgvector",
     "pydantic-settings>=2.15.0",
+    "pillow",
+    "requests",
 ]
 
 [build-system]
