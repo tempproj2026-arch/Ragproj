@@ -55,6 +55,9 @@ def embed_texts(texts: List[str], batch_size: int = 32) -> List[List[float]]:
     # Local production offline execution
     global _text_model
     if _text_model is None:
+        import os
+        os.environ["HF_HUB_OFFLINE"] = "1"
+        os.environ["TRANSFORMERS_OFFLINE"] = "1"
         from sentence_transformers import SentenceTransformer
         logger.info(f"Loading local offline BGE-M3 model from {settings.bge_m3_path}...")
         _text_model = SentenceTransformer(
@@ -112,6 +115,9 @@ def embed_figures(image_paths: List[Union[str, Path]], batch_size: int = 16) -> 
     # Local production offline execution
     global _siglip_model, _siglip_processor
     if _siglip_model is None:
+        import os
+        os.environ["HF_HUB_OFFLINE"] = "1"
+        os.environ["TRANSFORMERS_OFFLINE"] = "1"
         import torch
         from transformers import AutoProcessor, AutoModel
         logger.info(f"Loading local offline SigLIP model from {settings.siglip_path}...")

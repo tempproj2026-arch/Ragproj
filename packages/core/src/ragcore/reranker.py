@@ -59,6 +59,9 @@ def rerank_documents(
     # Production offline mode
     global _local_reranker
     if _local_reranker is None:
+        import os
+        os.environ["HF_HUB_OFFLINE"] = "1"
+        os.environ["TRANSFORMERS_OFFLINE"] = "1"
         from sentence_transformers import CrossEncoder
         logger.info(f"Loading local offline CrossEncoder from {settings.reranker_path}...")
         _local_reranker = CrossEncoder(

@@ -1,10 +1,13 @@
 {
   "mcpServers": {
-    "rag-technical-books": {
+    "scanned-books": {
       "command": "D:\\Ragproj\\.venv\\Scripts\\python.exe",
       "args": [
         "D:\\Ragproj\\run_mcp.py"
-      ]
+      ],
+      "env": {
+        "PYTHONPATH": "D:\\Ragproj\\packages\\core\\src;D:\\Ragproj\\packages\\ingestion\\src;D:\\Ragproj\\packages\\mcp_server\\src"
+      }
     }
   }
 }

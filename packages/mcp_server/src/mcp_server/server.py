@@ -22,6 +22,12 @@ mcp.tool()(get_page)
 mcp.tool()(search_figures)
 mcp.tool()(list_books)
 
+# Register resources with MCP
+@mcp.resource("book://{book_slug}/pages/{page_number}")
+def page_resource(book_slug: str, page_number: int) -> str:
+    """Full markdown content and visual element layout of a specific page."""
+    return get_page(book_slug, int(page_number))
+
 def main():
     """Starts the FastMCP server with STDIO transport for LM Studio / Claude Desktop."""
     transport = "stdio"

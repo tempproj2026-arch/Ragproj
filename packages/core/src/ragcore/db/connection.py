@@ -21,11 +21,11 @@ class Database:
 
     @classmethod
     @contextmanager
-    def get_connection(cls):
+    def get_connection(cls, timeout: float = 5.0):
         if cls._pool is None:
             cls.init_pool()
         # Acquire a connection from the pool
-        with cls._pool.connection() as conn:
+        with cls._pool.connection(timeout=timeout) as conn:
             # Register pgvector types for this connection
             register_vector(conn)
             yield conn

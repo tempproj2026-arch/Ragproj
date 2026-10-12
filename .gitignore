@@ -1,2 +1,8 @@
 .env
-offline_bundle
+offline_bundle/
+.venv/
+data/pgdata/
+data/backups/
+__pycache__/
+*.pyc
+*.log

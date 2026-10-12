@@ -1,6 +1,8 @@
 import os
+import base64
 from pathlib import Path
 from typing import Optional, List, Dict, Any
+import mcp.types as mcp_types
 
 from ragcore.config import settings
 from ragcore.logging import get_logger
@@ -58,32 +60,40 @@ def get_page(book_slug: str, page_number: int) -> str:
     with open(page_md_path, "r", encoding="utf-8") as f:
         page_content = f.read()
 
-    # Query database for visual regions on this page
+    # Query database for visual regions on this page (if DB available)
     elements_summary = []
-    with Database.get_connection() as conn:
-        with conn.cursor() as cur:
-            cur.execute("""
-                SELECT r.kind, r.reading_order, r.image_path, c.content_type, c.section
-                FROM regions r
-                JOIN pages p ON r.page_id = p.id
-                JOIN documents d ON p.document_id = d.id
-                LEFT JOIN chunks c ON c.region_id = r.id
-                WHERE d.slug = %s AND p.page_number = %s
-                ORDER BY r.reading_order;
-            """, (book_slug, page_number))
-            rows = cur.fetchall()
-            for r in rows:
-                kind, order, img, ctype, section = r
-                item = f"- **Order {order} [{kind.upper()}]**"
-                if section:
-                    item += f" Section: *{section}*"
-                if img:
-                    item += f" | Crop: `{img}`"
-                elements_summary.append(item)
+    try:
+        with Database.get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute("""
+                    SELECT r.kind, r.reading_order, r.image_path, c.content_type, c.section
+                    FROM regions r
+                    JOIN pages p ON r.page_id = p.id
+                    JOIN documents d ON p.document_id = d.id
+                    LEFT JOIN chunks c ON c.region_id = r.id
+                    WHERE d.slug = %s AND p.page_number = %s
+                    ORDER BY r.reading_order;
+                """, (book_slug, page_number))
+                rows = cur.fetchall()
+                for r in rows:
+                    kind, order, img, ctype, section = r
+                    item = f"- **Order {order} [{kind.upper()}]**"
+                    if section:
+                        item += f" Section: *{section}*"
+                    if img:
+                        item += f" | Crop: `{img}`"
+                    elements_summary.append(item)
+    except Exception as e:
+        logger.debug(f"Could not fetch DB regions for page {page_number}: {e}")
 
     summary_text = "\n".join(elements_summary) if elements_summary else "No structured sub-regions recorded."
+    page_png = (page_folder / "page.png").resolve()
+    page_resource_uri = f"book://{book_slug}/pages/{page_number}"
 
     return f"""# Book: `{book_slug}` | Page: {page_number}
+**Page Resource URI:** `{page_resource_uri}`
+**Page Image File:** `file:///{page_png.as_posix()}`
+**Page Markdown File:** `file:///{page_md_path.resolve().as_posix()}`
 
 ## Full Page Content
 {page_content}
@@ -93,9 +103,10 @@ def get_page(book_slug: str, page_number: int) -> str:
 {summary_text}
 """
 
-def search_figures(query: str, top_k: int = 3) -> str:
+def search_figures(query: str, top_k: int = 3) -> list:
     """
     Visual diagram search tool. Use ONLY when the user explicitly asks to SEE, view, or find a technical diagram, schematic drawing, or visual illustration.
+    Returns native MCP image blocks and text breakdowns for visual display.
     
     Args:
         query: Description or name of the visual diagram (e.g. 'carburetor diagram', 'distillation chart', 'flywheel schematic').
@@ -103,7 +114,39 @@ def search_figures(query: str, top_k: int = 3) -> str:
     """
     top_k = min(max(1, top_k), 10)
     results = retriever.search_figures(query=query, top_k=top_k)
-    return format_figure_results(results)
+    if not results:
+        return [mcp_types.TextContent(type="text", text="No relevant technical figures found matching the query.")]
+
+    content_blocks = []
+    for idx, f in enumerate(results, start=1):
+        abs_p = (Path(settings.data_root) / f.image_path).resolve()
+        caption = f.caption or f"Figure {idx}"
+
+        # 1. Native MCP ImageContent for UI visual display
+        if abs_p.exists():
+            try:
+                with open(abs_p, "rb") as img_file:
+                    b64_data = base64.b64encode(img_file.read()).decode("utf-8")
+                content_blocks.append(
+                    mcp_types.ImageContent(type="image", data=b64_data, mimeType="image/png")
+                )
+            except Exception as e:
+                logger.warning(f"Could not read image file {abs_p}: {e}")
+
+        # 2. Accompaniment TextContent for the model context
+        page_folder = (Path(settings.data_root) / "books" / f.document_slug / "pages" / f"p{f.page_number:04d}").resolve()
+        page_png = page_folder / "page.png"
+        text_info = f"### [Figure {idx}] Book: `{f.document_slug}` | Page: {f.page_number} (Similarity: {f.score})\n"
+        text_info += f"**Caption:** {caption}\n"
+        text_info += f"**Figure Crop File:** `{abs_p}`\n"
+        text_info += f"**Source Page Image File:** `{page_png}`\n"
+        text_info += f"**Page Resource URI:** `book://{f.document_slug}/pages/{f.page_number}`\n"
+        if f.description:
+            text_info += f"\n**Detailed Breakdown:**\n{f.description}\n"
+        text_info += "\n---\n"
+        content_blocks.append(mcp_types.TextContent(type="text", text=text_info))
+
+    return content_blocks
 
 def list_books() -> str:
     """
